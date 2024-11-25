@@ -1,0 +1,32 @@
+<div class="zoom-container">
+  <button (click)="createMeeting()" [disabled]="loading">
+    Create Zoom Meeting
+  </button>
+
+  <!-- Loading Spinner -->
+  <div *ngIf="loading">Creating meeting...</div>
+
+  <!-- Error Message -->
+  <div *ngIf="error" class="error">{{ error }}</div>
+
+  <!-- Meeting Details -->
+  <div *ngIf="meetingResponse" class="meeting-details">
+    <h3>Meeting Created Successfully</h3>
+    <p><strong>Topic:</strong> {{ meetingResponse.topic }}</p>
+    <p><strong>Start Time:</strong> {{ meetingResponse.start_time }}</p>
+    <p>
+      <strong>Start URL:</strong>
+      <a [href]="meetingResponse.start_url" target="_blank">Start Meeting</a>
+    </p>
+    <p>
+      <strong>Join URL:</strong>
+      <a [href]="meetingResponse.join_url" target="_blank">Join Meeting</a>
+    </p>
+  </div>
+</div>
+
+<!-- <div>
+  @if (loading) {
+  <app-loder class="loader-backdrop"></app-loder>
+  }
+</div> -->

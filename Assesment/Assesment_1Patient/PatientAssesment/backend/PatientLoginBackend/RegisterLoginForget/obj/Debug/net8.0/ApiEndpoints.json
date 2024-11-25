@@ -1,0 +1,82 @@
+[
+  {
+    "ContainingType": "RegisterLoginForget.Controllers.LoginController",
+    "Method": "GetCustomerById",
+    "RelativePath": "api/Login/getemail/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RegisterLoginForget.Controllers.LoginController",
+    "Method": "ChangePassword",
+    "RelativePath": "ChangePassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_changePasswordDtP",
+        "Type": "Domain.ModelDto.ChangePasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RegisterLoginForget.Controllers.LoginController",
+    "Method": "ForgetPassword",
+    "RelativePath": "ForgetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_resetPasswordDTO",
+        "Type": "Domain.Model.ResetPasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RegisterLoginForget.Controllers.LoginController",
+    "Method": "LoginUser",
+    "RelativePath": "loginuser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Domain.ModelDto.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RegisterLoginForget.Controllers.LoginController",
+    "Method": "RegisterUser",
+    "RelativePath": "Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Domain.Model.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

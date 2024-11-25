@@ -1,0 +1,1315 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\app.core\\apps\\query\\userloginquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\app.core\\apps\\query\\validateotpquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11372A5C-EC04-4207-9CA5-46A421AFDD93}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\infrastructure\\service\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\app.core\\app.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11372A5C-EC04-4207-9CA5-46A421AFDD93}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\app.core\\interface\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11372A5C-EC04-4207-9CA5-46A421AFDD93}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\infrastructure\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7462753-080F-409F-B5E8-56A2F8E0B465}|..\\Domain\\Domain.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\domain\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7462753-080F-409F-B5E8-56A2F8E0B465}|..\\Domain\\Domain.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\domain\\entity\\otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\app.core\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11372A5C-EC04-4207-9CA5-46A421AFDD93}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\infrastructure\\service\\zoomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11372A5C-EC04-4207-9CA5-46A421AFDD93}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\infrastructure\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\app.core\\apps\\command\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\backend\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\app.core\\generateotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11372A5C-EC04-4207-9CA5-46A421AFDD93}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\infrastructure\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11372A5C-EC04-4207-9CA5-46A421AFDD93}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\infrastructure\\service\\opentokservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IJwtService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\app.core\\interface\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\OpenTokService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\backend\\controllers\\opentok\\opentokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:controllers\\opentok\\opentokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Migrations\\20241118043654_intialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\DependancyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\backend\\controllers\\zoomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:controllers\\zoomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\backend\\controllers\\otp\\otpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:controllers\\otp\\otpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\Apps\\Query\\UserLoginQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Domain\\Entity\\Otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayurramdham\\desktop\\mayur\\dotnetassesmentmain\\assesment3_authvideo\\backendauthzoom\\backendfolderzip\\backendfolder\\backend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Infrastructure\\Migrations\\20241115065032_initial-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\Apps\\Command\\CreateStudentCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\Database\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\DependancyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\Interface\\IAppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\DependancyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Domain\\Domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\App.Core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\Apps\\Command\\SendEmailCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Domain\\Model\\UserDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Domain\\Entity\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Domain\\Model\\LoginDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\Apps\\Command\\CreateUserCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Infrastructure\\Service\\JwtService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Infrastructure\\Service\\EmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Infrastructure\\Database\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Infrastructure\\DependancyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\DependancyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\Interface\\IEmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\GenerateOtp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\Interface\\IJwtService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\App.Core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Infrastructure\\Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Domain\\Domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\ZoomService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IZoomService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\EmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Model\\ZoomTokenResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\OpenTokService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\DependancyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\ICallService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\App.Core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IAppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IJwtService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IEmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Model\\UserDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Model\\ValidateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Apps\\Query\\ValidateOtpQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Entity\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Apps\\Command\\SendEmailCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Entity\\Otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Apps\\Query\\UserLoginQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Model\\LoginDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IAppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\DependancyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IZoomService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\ICallService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\ZoomService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Infrastructure",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "..\\Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-23T09:13:39.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.Core",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\App.Core.csproj",
+              "RelativeDocumentMoniker": "..\\App.Core\\App.Core.csproj",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\App.Core.csproj",
+              "RelativeToolTip": "..\\App.Core\\App.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-23T08:53:09.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\JwtService.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Service\\JwtService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\JwtService.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Service\\JwtService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T05:06:03.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserLoginQuery.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T12:34:06.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ValidateOtpQuery.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Apps\\Query\\ValidateOtpQuery.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\Query\\ValidateOtpQuery.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Apps\\Query\\ValidateOtpQuery.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\Query\\ValidateOtpQuery.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwCYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T05:04:58.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-15T04:39:58.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:20:43.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:01:08.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IJwtService.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Interface\\IJwtService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IJwtService.cs",
+              "RelativeToolTip": "..\\App.Core\\Interface\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T09:25:41.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Database\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Database\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Database\\AppDbContext.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Database\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T09:16:25.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Otp.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Domain\\Entity\\Otp.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entity\\Otp.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Domain\\Entity\\Otp.cs",
+              "RelativeToolTip": "..\\Domain\\Entity\\Otp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T09:16:15.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\DependancyInjection.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\DependancyInjection.cs",
+              "RelativeToolTip": "..\\App.Core\\DependancyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T09:16:00.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\DependancyInjection.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\DependancyInjection.cs",
+              "RelativeToolTip": "..\\Infrastructure\\DependancyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T09:15:50.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Domain\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entity\\User.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Domain\\Entity\\User.cs",
+              "RelativeToolTip": "..\\Domain\\Entity\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:39:10.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ZoomService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\ZoomService.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Service\\ZoomService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\ZoomService.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Service\\ZoomService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T05:06:34.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Apps\\Command\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\Command\\CreateUserCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Apps\\Command\\CreateUserCommand.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\Command\\CreateUserCommand.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwFUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:38:08.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OpenTokService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\OpenTokService.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Service\\OpenTokService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\OpenTokService.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Service\\OpenTokService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T05:06:17.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GenerateOtp.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\GenerateOtp.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\GenerateOtp.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\GenerateOtp.cs",
+              "RelativeToolTip": "..\\App.Core\\GenerateOtp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T05:07:07.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T05:07:15.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\EmailService.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Service\\EmailService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\EmailService.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Service\\EmailService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T12:32:23.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IEmailService.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Interface\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IEmailService.cs",
+              "RelativeToolTip": "..\\App.Core\\Interface\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T12:33:18.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IJwtService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IJwtService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IJwtService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T07:03:23.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "IAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IAppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IAppDbContext.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IAppDbContext.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IAppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T07:03:14.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OpenTokService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\OpenTokService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\OpenTokService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\OpenTokService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\OpenTokService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T04:40:56.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\DependancyInjection.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\DependancyInjection.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\DependancyInjection.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T04:34:20.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "IZoomService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IZoomService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IZoomService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IZoomService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IZoomService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T06:25:37.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "IZoomService.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IZoomService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IZoomService.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IZoomService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IZoomService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T14:27:29.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "ICallService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\ICallService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\ICallService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\ICallService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\backendAuthZoom\\backendFolderzip\\backendFolder\\App.Core\\Interface\\ICallService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T04:40:29.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "ZoomService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\ZoomService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\ZoomService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\ZoomService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\ZoomService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwDkAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T06:29:43.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OpenTokController.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\Controllers\\OpenTok\\OpenTokController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OpenTok\\OpenTokController.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\Controllers\\OpenTok\\OpenTokController.cs",
+              "RelativeToolTip": "Controllers\\OpenTok\\OpenTokController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T10:25:26.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ZoomService.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\ZoomService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\ZoomService.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\ZoomService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\ZoomService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T14:28:06.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20241118043654_intialmigration.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Migrations\\20241118043654_intialmigration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Migrations\\20241118043654_intialmigration.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Migrations\\20241118043654_intialmigration.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Migrations\\20241118043654_intialmigration.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T04:36:54.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ZoomController.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\Controllers\\ZoomController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ZoomController.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\Controllers\\ZoomController.cs",
+              "RelativeToolTip": "Controllers\\ZoomController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T14:34:04.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\EmailService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\EmailService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\EmailService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T11:08:38.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\DependancyInjection.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\DependancyInjection.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\DependancyInjection.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:06:49.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OtpController.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\Controllers\\Otp\\OtpController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Otp\\OtpController.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\Controllers\\Otp\\OtpController.cs",
+              "RelativeToolTip": "Controllers\\Otp\\OtpController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T08:48:46.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ZoomTokenResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Model\\ZoomTokenResponse.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Model\\ZoomTokenResponse.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Model\\ZoomTokenResponse.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Model\\ZoomTokenResponse.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T14:31:11.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "OpenTokService.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\OpenTokService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\OpenTokService.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\OpenTokService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\Service\\OpenTokService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T10:28:52.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Backend.csproj",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\Backend.csproj",
+              "RelativeDocumentMoniker": "Backend.csproj",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\Backend.csproj",
+              "RelativeToolTip": "Backend.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-15T06:24:27.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Infrastructure\\Infrastructure.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-17T10:36:18.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\DependancyInjection.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\DependancyInjection.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\DependancyInjection.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:06:36.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ICallService.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\ICallService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\ICallService.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\ICallService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\ICallService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T10:34:33.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "App.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\App.Core.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\App.Core.csproj",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\App.Core.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\App.Core.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-17T11:59:46.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "IAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IAppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IAppDbContext.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IAppDbContext.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IAppDbContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:01:44.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IJwtService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IJwtService.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IJwtService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IJwtService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:01:47.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IEmailService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IEmailService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Interface\\IEmailService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:01:50.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Model\\UserDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Model\\UserDto.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Model\\UserDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Model\\UserDto.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:53:50.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "ValidateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Model\\ValidateDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Model\\ValidateDto.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Model\\ValidateDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Model\\ValidateDto.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T04:30:32.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ValidateOtpQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Apps\\Query\\ValidateOtpQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Apps\\Query\\ValidateOtpQuery.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Apps\\Query\\ValidateOtpQuery.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Apps\\Query\\ValidateOtpQuery.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:51:08.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Entity\\User.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Entity\\User.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Entity\\User.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T11:19:44.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "SendEmailCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Apps\\Command\\SendEmailCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Apps\\Command\\SendEmailCommand.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Apps\\Command\\SendEmailCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Apps\\Command\\SendEmailCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T09:52:56.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Otp.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Domain\\Entity\\Otp.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\Domain\\Entity\\Otp.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Domain\\Entity\\Otp.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\Domain\\Entity\\Otp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T08:40:57.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Otp.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Entity\\Otp.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Entity\\Otp.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Entity\\Otp.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Entity\\Otp.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:53:35.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserLoginQuery.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:53:02.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "UserLoginQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T09:59:31.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Model\\LoginDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Model\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Model\\LoginDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_2\\backendFolderzip\\backendFolder\\Domain\\Model\\LoginDto.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:53:48.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Domain\\Model\\UserDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\Domain\\Model\\UserDto.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Domain\\Model\\UserDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\Domain\\Model\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:12:12.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Domain\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\Domain\\Entity\\User.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Domain\\Entity\\User.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\Domain\\Entity\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:10:02.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Domain\\Model\\LoginDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\Domain\\Model\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Domain\\Model\\LoginDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\Domain\\Model\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:10:54.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\Apps\\Command\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\App.Core\\Apps\\Command\\CreateUserCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\Apps\\Command\\CreateUserCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\App.Core\\Apps\\Command\\CreateUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:09:09.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "SendEmailCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\Apps\\Command\\SendEmailCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\App.Core\\Apps\\Command\\SendEmailCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\Apps\\Command\\SendEmailCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\App.Core\\Apps\\Command\\SendEmailCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T08:18:17.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Infrastructure\\Service\\JwtService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\Infrastructure\\Service\\JwtService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Infrastructure\\Service\\JwtService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\Infrastructure\\Service\\JwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:57:51.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Infrastructure\\Service\\EmailService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\Infrastructure\\Service\\EmailService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Infrastructure\\Service\\EmailService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\Infrastructure\\Service\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T08:11:29.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Infrastructure\\Database\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\Infrastructure\\Database\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Infrastructure\\Database\\AppDbContext.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\Infrastructure\\Database\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:38:59.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Infrastructure\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\Infrastructure\\DependancyInjection.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Infrastructure\\DependancyInjection.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\Infrastructure\\DependancyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:22:46.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\App.Core\\DependancyInjection.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\DependancyInjection.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\App.Core\\DependancyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:01:10.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\Interface\\IEmailService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\App.Core\\Interface\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\Interface\\IEmailService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\App.Core\\Interface\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T08:10:34.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "GenerateOtp.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\GenerateOtp.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\App.Core\\GenerateOtp.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\GenerateOtp.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\App.Core\\GenerateOtp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T08:26:47.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\Interface\\IJwtService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\App.Core\\Interface\\IJwtService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\Interface\\IJwtService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\App.Core\\Interface\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:58:35.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:51:59.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "App.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\App.Core.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\App.Core\\App.Core.csproj",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\App.Core.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\App.Core\\App.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-15T06:13:37.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-15T06:24:04.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20241115065032_initial-migration.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Infrastructure\\Migrations\\20241115065032_initial-migration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\Infrastructure\\Migrations\\20241115065032_initial-migration.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Infrastructure\\Migrations\\20241115065032_initial-migration.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\Infrastructure\\Migrations\\20241115065032_initial-migration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:50:32.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Domain\\Domain.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\backendFolder\\Domain\\Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-15T06:25:41.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\Infrastructure\\DependancyInjection.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\DependancyInjection.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\Infrastructure\\DependancyInjection.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T05:00:59.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\Interface\\IAppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\App.Core\\Interface\\IAppDbContext.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\Interface\\IAppDbContext.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\App.Core\\Interface\\IAppDbContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T04:49:17.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CreateStudentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\Apps\\Command\\CreateStudentCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\App.Core\\Apps\\Command\\CreateStudentCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\Apps\\Command\\CreateStudentCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\App.Core\\Apps\\Command\\CreateStudentCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T04:48:11.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\Database\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\Infrastructure\\Database\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\Database\\AppDbContext.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\Infrastructure\\Database\\AppDbContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T04:39:46.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\Infrastructure\\Infrastructure.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-15T04:39:13.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\App.Core\\DependancyInjection.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\DependancyInjection.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\App.Core\\DependancyInjection.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T04:38:46.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Domain\\Domain.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\Domain\\Domain.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-15T04:21:36.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "App.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\App.Core.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Asssesment_2\\App.Core\\App.Core.csproj",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\App.Core.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Asssesment_2\\App.Core\\App.Core.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-15T04:20:43.356Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 751,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 751,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
