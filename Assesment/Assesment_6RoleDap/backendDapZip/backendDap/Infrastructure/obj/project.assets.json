@@ -4103,11 +4103,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\mayurramdham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mayurramdham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4125,11 +4125,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\App.Core\\App.Core.csproj": {
-              "projectPath": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\App.Core\\App.Core.csproj"
+            "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\App.Core\\App.Core.csproj": {
+              "projectPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\App.Core\\App.Core.csproj"
             },
-            "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\Domain\\Domain.csproj"
+            "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Domain\\Domain.csproj"
             }
           }
         }

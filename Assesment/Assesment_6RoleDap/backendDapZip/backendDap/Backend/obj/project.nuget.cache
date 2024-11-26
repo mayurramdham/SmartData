@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5QBg650ogvg=",
+  "dgSpecHash": "CGhT4aUwP7I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\Backend\\Backend.csproj",
+  "projectFilePath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Backend\\Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mayurramdham\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\mayurramdham\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

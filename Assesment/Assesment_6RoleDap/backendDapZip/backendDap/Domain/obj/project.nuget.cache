@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QvKNHdigvJE=",
+  "dgSpecHash": "gx1xf29zAzU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mayurramdham\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512"
   ],

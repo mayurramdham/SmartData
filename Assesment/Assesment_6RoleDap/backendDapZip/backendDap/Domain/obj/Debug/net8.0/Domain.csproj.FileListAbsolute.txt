@@ -46,3 +46,16 @@ C:\Users\mayurramdham\Desktop\Mayur\DotNetAssesmentMain\Assesment_6\backendDapZi
 C:\Users\mayurramdham\Desktop\Mayur\DotNetAssesmentMain\Assesment_6\backendDapZip\backendDap\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\mayurramdham\Desktop\Mayur\DotNetAssesmentMain\Assesment_6\backendDapZip\backendDap\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\mayurramdham\Desktop\Mayur\DotNetAssesmentMain\Assesment_6\backendDapZip\backendDap\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_6RoleDap\backendDapZip\backendDap\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_6RoleDap\backendDapZip\backendDap\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_6RoleDap\backendDapZip\backendDap\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_6RoleDap\backendDapZip\backendDap\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_6RoleDap\backendDapZip\backendDap\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_6RoleDap\backendDapZip\backendDap\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_6RoleDap\backendDapZip\backendDap\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_6RoleDap\backendDapZip\backendDap\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_6RoleDap\backendDapZip\backendDap\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_6RoleDap\backendDapZip\backendDap\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_6RoleDap\backendDapZip\backendDap\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_6RoleDap\backendDapZip\backendDap\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_6RoleDap\backendDapZip\backendDap\Domain\obj\Debug\net8.0\ref\Domain.dll

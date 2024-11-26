@@ -12,6 +12,7 @@ namespace App.Core.Apps.Query
 {
     public class getAllUserQuery:IRequest<object>
     {
+
     }
     public class getAllUserQueryHandler:IRequestHandler<getAllUserQuery,object> 
     {
@@ -23,6 +24,7 @@ namespace App.Core.Apps.Query
 
         public async Task<object> Handle(getAllUserQuery request, CancellationToken cancellationToken)
         {
+            
    
             var allUser= await _appDbContext.Set<Domain.Entity.User>().ToListAsync(cancellationToken);
             var response = new

@@ -53,11 +53,11 @@ namespace Backend.Controllers
             return Ok(userLogin);
         }
 
-        [HttpGet]
-        [Authorize(Roles = "admin")]
-        public async Task<IActionResult> GetUsers()
+        [HttpGet("getPage/{pageSize}/{pageNumber}")]
+        //[Authorize(Roles = "admin")]
+        public async Task<IActionResult> GetUsers(int pageSize, int pageNumber)
         {
-            var users = await _mediator.Send(new getUserQuery());
+            var users = await _mediator.Send(new getUserQuery { PageNumber=pageNumber,PageSize=pageSize});
             return Ok(users);
         }
 

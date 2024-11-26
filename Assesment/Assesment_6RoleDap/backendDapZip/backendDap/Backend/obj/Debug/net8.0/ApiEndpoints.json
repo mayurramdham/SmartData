@@ -1,16 +1,6 @@
 [
   {
     "ContainingType": "Backend.Controllers.UserController",
-    "Method": "GetUsers",
-    "RelativePath": "api/User",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Backend.Controllers.UserController",
     "Method": "DeletePatientById",
     "RelativePath": "api/User/{id}",
     "HttpMethod": "DELETE",
@@ -70,6 +60,27 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.UserController",
+    "Method": "GetUsers",
+    "RelativePath": "api/User/getPage/{pageSize}/{pageNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
