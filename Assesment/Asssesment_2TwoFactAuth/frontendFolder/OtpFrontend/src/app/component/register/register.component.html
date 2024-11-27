@@ -1,0 +1,58 @@
+<div
+  class="d-flex align-items-center justify-content-center"
+  style="height: 100vh"
+>
+  <div class="wrapper">
+    <div class="title"><span>Register Form</span></div>
+    <form [formGroup]="userData">
+      <div class="row">
+        <i class="fas fa-user"></i>
+        <input
+          type="text"
+          placeholder="FirstName"
+          formControlName="firstName"
+          name="firstName"
+          required
+        />
+      </div>
+      <div class="row">
+        <i class="fas fa-user"></i>
+        <input
+          type="text"
+          placeholder="LastName"
+          formControlName="lastName"
+          name="lastName"
+          required
+        />
+      </div>
+      <div class="row">
+        <i class="fas fa-user"></i>
+        <input
+          type="email"
+          value="@gmail.com"
+          formControlName="email"
+          name="email"
+          placeholder="Email"
+          required
+        />
+      </div>
+      <div class="row">
+        <i class="fas fa-lock"></i>
+        <input
+          type="password"
+          formControlName="password"
+          name="password"
+          placeholder="Password"
+          required
+        />
+      </div>
+      <div class="pass"><a href="#">Forgot password?</a></div>
+      <div class="row button">
+        <input type="submit" value="Signup" (click)="AddUser()" />
+      </div>
+      <div class="signup-link">
+        Already a member? <a [routerLink]="['/login']">Login now</a>
+      </div>
+    </form>
+  </div>
+</div>
