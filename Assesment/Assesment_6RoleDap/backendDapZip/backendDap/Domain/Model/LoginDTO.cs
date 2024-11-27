@@ -10,6 +10,6 @@ namespace Domain.Model
     {
         public string UserEmail { get; set; }
         public string Password { get; set; }
-        public string Roles { get; set; }
+        //public string Roles { get; set; }
     }
 }

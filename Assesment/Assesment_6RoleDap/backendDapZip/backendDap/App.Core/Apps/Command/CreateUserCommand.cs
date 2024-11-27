@@ -31,7 +31,7 @@ namespace App.Core.Apps.Command
         {
             var user = request.UserDTO;
 
-            var existingUser = await _appDbContext.Set<Domain.Entity.User>().FirstOrDefaultAsync(u => u.UserEmail == user.UserEmail);
+            var existingUser = await _appDbContext.Set<Domain.Entity.User>().FirstOrDefaultAsync(u => u.UserEmail == user.UserEmail && u.isDeleted==false);
             if (existingUser != null)
             {
                 return "User Already Exists";

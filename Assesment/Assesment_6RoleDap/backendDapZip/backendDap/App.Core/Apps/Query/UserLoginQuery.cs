@@ -28,7 +28,7 @@ namespace App.Core.Apps.Query
         {
             var user = request.loginDTO;
 
-            var userCheck = await _appDbContext.Set<User>().FirstOrDefaultAsync(u => u.UserEmail == user.UserEmail && u.Roles==user.Roles);
+            var userCheck = await _appDbContext.Set<User>().FirstOrDefaultAsync(u => u.UserEmail == user.UserEmail);
             if (userCheck == null || !BCrypt.Net.BCrypt.Verify(user.Password, userCheck.Password) || userCheck.isDeleted == true )
             {
                 return new

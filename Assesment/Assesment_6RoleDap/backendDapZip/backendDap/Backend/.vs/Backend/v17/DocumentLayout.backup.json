@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\smartdata\\assesment\\assesment_6roledap\\backenddapzip\\backenddap\\app.core\\apps\\query\\getuserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\smartdata\\assesment\\assesment_6roledap\\backenddapzip\\backenddap\\app.core\\apps\\query\\userloginquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\smartdata\\assesment\\assesment_6roledap\\backenddapzip\\backenddap\\app.core\\apps\\query\\userloginquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\smartdata\\assesment\\assesment_6roledap\\backenddapzip\\backenddap\\app.core\\apps\\command\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\smartdata\\assesment\\assesment_6roledap\\backenddapzip\\backenddap\\app.core\\apps\\command\\deleteusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\smartdata\\assesment\\assesment_6roledap\\backenddapzip\\backenddap\\app.core\\apps\\command\\updateusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayurramdham\\desktop\\smartdata\\assesment\\assesment_6roledap\\backenddapzip\\backenddap\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\smartdata\\assesment\\assesment_6roledap\\backenddapzip\\backenddap\\app.core\\apps\\query\\getalluserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7462753-080F-409F-B5E8-56A2F8E0B465}|..\\Domain\\Domain.csproj|c:\\users\\mayurramdham\\desktop\\smartdata\\assesment\\assesment_6roledap\\backenddapzip\\backenddap\\domain\\model\\validationdto\\logindtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\smartdata\\assesment\\assesment_6roledap\\backenddapzip\\backenddap\\app.core\\apps\\command\\deleteusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7462753-080F-409F-B5E8-56A2F8E0B465}|..\\Domain\\Domain.csproj|c:\\users\\mayurramdham\\desktop\\smartdata\\assesment\\assesment_6roledap\\backenddapzip\\backenddap\\domain\\model\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayurramdham\\desktop\\smartdata\\assesment\\assesment_6roledap\\backenddapzip\\backenddap\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\smartdata\\assesment\\assesment_6roledap\\backenddapzip\\backenddap\\app.core\\apps\\query\\getuserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\smartdata\\assesment\\assesment_6roledap\\backenddapzip\\backenddap\\app.core\\apps\\query\\getalluserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7462753-080F-409F-B5E8-56A2F8E0B465}|..\\Domain\\Domain.csproj|c:\\users\\mayurramdham\\desktop\\smartdata\\assesment\\assesment_6roledap\\backenddapzip\\backenddap\\domain\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -39,10 +55,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayurramdham\\desktop\\smartdata\\assesment\\assesment_6roledap\\backenddapzip\\backenddap\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayurramdham\\desktop\\smartdata\\assesment\\assesment_6roledap\\backenddapzip\\backenddap\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\App.Core\\Apps\\Query\\getUserByIdQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -245,70 +257,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "getUserQuery.cs",
-              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\App.Core\\Apps\\Query\\getUserQuery.cs",
-              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\Query\\getUserQuery.cs",
-              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\App.Core\\Apps\\Query\\getUserQuery.cs*",
-              "RelativeToolTip": "..\\App.Core\\Apps\\Query\\getUserQuery.cs*",
-              "ViewState": "AgIAABYAAAAAAAAAAAA0wCgAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T12:18:17.417Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserLoginQuery.cs",
-              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
-              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
-              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
-              "RelativeToolTip": "..\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwBUAAABYAAAAAAAAAA==",
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\App.Core\\Apps\\Command\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\Command\\CreateUserCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\App.Core\\Apps\\Command\\CreateUserCommand.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\Command\\CreateUserCommand.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowC8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T12:06:49.865Z",
+              "WhenOpened": "2024-11-27T06:02:31.781Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DependancyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\App.Core\\DependancyInjection.cs",
-              "RelativeDocumentMoniker": "..\\App.Core\\DependancyInjection.cs",
-              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\App.Core\\DependancyInjection.cs",
-              "RelativeToolTip": "..\\App.Core\\DependancyInjection.cs",
+              "DocumentIndex": 5,
+              "Title": "LoginDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Domain\\Model\\ValidationDTO\\LoginDtoValidator.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Model\\ValidationDTO\\LoginDtoValidator.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Domain\\Model\\ValidationDTO\\LoginDtoValidator.cs",
+              "RelativeToolTip": "..\\Domain\\Model\\ValidationDTO\\LoginDtoValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T12:02:05.977Z",
+              "WhenOpened": "2024-11-27T05:25:48.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
-              "Title": "getAllUserQuery.cs",
-              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\App.Core\\Apps\\Query\\getAllUserQuery.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\App.Core\\Apps\\Query\\getAllUserQuery.cs",
-              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\App.Core\\Apps\\Query\\getAllUserQuery.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\App.Core\\Apps\\Query\\getAllUserQuery.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T10:25:23.484Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 74,
               "Title": "DependancyInjection.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\Infrastructure\\DependancyInjection.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\Infrastructure\\DependancyInjection.cs",
@@ -320,20 +303,88 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Backend\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Backend\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAwDgAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAA0wBoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T09:00:30.719Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "deleteUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\App.Core\\Apps\\Command\\deleteUserCommand.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\Command\\deleteUserCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\App.Core\\Apps\\Command\\deleteUserCommand.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\Command\\deleteUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T12:09:01.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserLoginQuery.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T12:06:49.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "UpdateUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\App.Core\\Apps\\Command\\UpdateUserCommand.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\Command\\UpdateUserCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\App.Core\\Apps\\Command\\UpdateUserCommand.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\Command\\UpdateUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T06:04:24.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "getAllUserQuery.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\App.Core\\Apps\\Query\\getAllUserQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\App.Core\\Apps\\Query\\getAllUserQuery.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\App.Core\\Apps\\Query\\getAllUserQuery.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\App.Core\\Apps\\Query\\getAllUserQuery.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T10:25:23.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Domain\\Model\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Model\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Domain\\Model\\LoginDTO.cs",
+              "RelativeToolTip": "..\\Domain\\Model\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T05:25:08.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "getAllUserQuery.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\App.Core\\Apps\\Query\\getAllUserQuery.cs",
               "RelativeDocumentMoniker": "..\\App.Core\\Apps\\Query\\getAllUserQuery.cs",
@@ -341,12 +392,49 @@
               "RelativeToolTip": "..\\App.Core\\Apps\\Query\\getAllUserQuery.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAqwBoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T12:14:47.186Z",
+              "WhenOpened": "2024-11-26T12:14:47.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-15T04:39:58.455Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\App.Core\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\DependancyInjection.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\App.Core\\DependancyInjection.cs",
+              "RelativeToolTip": "..\\App.Core\\DependancyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T12:02:05.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "getUserQuery.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\App.Core\\Apps\\Query\\getUserQuery.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\Query\\getUserQuery.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\App.Core\\Apps\\Query\\getUserQuery.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\Query\\getUserQuery.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwDkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T12:18:17.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Domain\\Entity\\User.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entity\\User.cs",
@@ -354,12 +442,11 @@
               "RelativeToolTip": "..\\Domain\\Entity\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T12:08:42.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T12:08:42.456Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\Domain\\Model\\LoginDTO.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\Domain\\Model\\LoginDTO.cs",
@@ -370,20 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "deleteUserCommand.cs",
-              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\App.Core\\Apps\\Command\\deleteUserCommand.cs",
-              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\Command\\deleteUserCommand.cs",
-              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\App.Core\\Apps\\Command\\deleteUserCommand.cs",
-              "RelativeToolTip": "..\\App.Core\\Apps\\Command\\deleteUserCommand.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T12:09:01.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\Domain\\Model\\UserDTO.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\Domain\\Model\\UserDTO.cs",
@@ -394,7 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "getUserByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\App.Core\\Apps\\Query\\getUserByIdQuery.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\App.Core\\Apps\\Query\\getUserByIdQuery.cs",
@@ -405,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "getUserQuery.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\App.Core\\Apps\\Query\\getUserQuery.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\App.Core\\Apps\\Query\\getUserQuery.cs",
@@ -416,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 75,
               "Title": "deleteUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\App.Core\\Apps\\Command\\deleteUserCommand.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\App.Core\\Apps\\Command\\deleteUserCommand.cs",
@@ -428,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 76,
               "Title": "UpdateUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\App.Core\\Apps\\Command\\UpdateUserCommand.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\App.Core\\Apps\\Command\\UpdateUserCommand.cs",
@@ -440,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 77,
               "Title": "UserLoginQuery.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
@@ -452,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 78,
               "Title": "UserDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs",
@@ -464,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 79,
               "Title": "CreateUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\App.Core\\Apps\\Command\\CreateUserCommand.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Assesment_6\\backendDapZip\\backendDap\\App.Core\\Apps\\Command\\CreateUserCommand.cs",
@@ -476,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\Domain\\Model\\UserDTO.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\Domain\\Model\\UserDTO.cs",
@@ -487,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "UpdateUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\App.Core\\Apps\\Command\\UpdateUserCommand.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\App.Core\\Apps\\Command\\UpdateUserCommand.cs",
@@ -498,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "getUserByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\App.Core\\Apps\\Query\\getUserByIdQuery.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\App.Core\\Apps\\Query\\getUserByIdQuery.cs",
@@ -509,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 63,
               "Title": "deleteUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\App.Core\\Apps\\Command\\deleteUserCommand.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\App.Core\\Apps\\Command\\deleteUserCommand.cs",
@@ -521,19 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Backend\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Backend\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-15T04:39:58.455Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Backend\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -545,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 62,
               "Title": "updateUserDto.cs",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\Domain\\Model\\updateUserDto.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\Domain\\Model\\updateUserDto.cs",
@@ -557,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 64,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\Domain\\Entity\\User.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\Domain\\Entity\\User.cs",
@@ -569,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 65,
               "Title": "App.Core.csproj",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\App.Core\\App.Core.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\App.Core\\App.Core.csproj",
@@ -581,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 66,
               "Title": "JwtService.cs",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\Infrastructure\\Service\\JwtService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\Infrastructure\\Service\\JwtService.cs",
@@ -593,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 67,
               "Title": "getUserQuery.cs",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\App.Core\\Apps\\Query\\getUserQuery.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\App.Core\\Apps\\Query\\getUserQuery.cs",
@@ -605,7 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 68,
               "Title": "Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\Infrastructure\\Infrastructure.csproj",
@@ -617,7 +679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "ChatHub.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Backend\\Hub\\ChatHub.cs",
               "RelativeDocumentMoniker": "Hub\\ChatHub.cs",
@@ -629,7 +691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Backend\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -641,7 +703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 69,
               "Title": "DependancyInjection.cs",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\Infrastructure\\DependancyInjection.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\Infrastructure\\DependancyInjection.cs",
@@ -653,7 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "Backend.csproj",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Backend\\Backend.csproj",
               "RelativeDocumentMoniker": "Backend.csproj",
@@ -665,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "App.Core.csproj",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\App.Core\\App.Core.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\App.Core\\App.Core.csproj",
@@ -676,7 +738,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 59,
               "Title": "Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\Infrastructure\\Infrastructure.csproj",
@@ -687,7 +749,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 70,
               "Title": "LoginDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\Domain\\Model\\ValidationDTO\\LoginDtoValidator.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\Domain\\Model\\ValidationDTO\\LoginDtoValidator.cs",
@@ -699,7 +761,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 71,
               "Title": "UserDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs",
@@ -711,7 +773,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 72,
               "Title": "UserLoginQuery.cs",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\backendDap\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
@@ -723,7 +785,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "DependancyInjection.cs",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\Infrastructure\\DependancyInjection.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\Infrastructure\\DependancyInjection.cs",
@@ -734,7 +796,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "getUserQuery.cs",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\App.Core\\Apps\\Query\\getUserQuery.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\App.Core\\Apps\\Query\\getUserQuery.cs",
@@ -745,7 +807,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "getUserByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\App.Core\\Apps\\Query\\getUserByIdQuery.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\App.Core\\Apps\\Query\\getUserByIdQuery.cs",
@@ -756,7 +818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 58,
               "Title": "UserLoginQuery.cs",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
@@ -767,7 +829,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\Domain\\Entity\\User.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\Domain\\Entity\\User.cs",
@@ -778,7 +840,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 60,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\Domain\\Model\\UserDTO.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\Domain\\Model\\UserDTO.cs",
@@ -789,7 +851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "20241123172405_initialmigration.cs",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\Infrastructure\\Migrations\\20241123172405_initialmigration.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\Infrastructure\\Migrations\\20241123172405_initialmigration.cs",
@@ -800,7 +862,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "20241123172802_initialmigration.cs",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\Infrastructure\\Migrations\\20241123172802_initialmigration.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\Infrastructure\\Migrations\\20241123172802_initialmigration.cs",
@@ -811,7 +873,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 61,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\Domain\\Model\\LoginDTO.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\SmartData\\DotNetTest\\Assesment_6\\Domain\\Model\\LoginDTO.cs",
@@ -822,7 +884,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "LoginDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\ValidationDTO\\LoginDtoValidator.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\ValidationDTO\\LoginDtoValidator.cs",
@@ -833,7 +895,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 44,
               "Title": "CreateUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Apps\\Command\\CreateUserCommand.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Apps\\Command\\CreateUserCommand.cs",
@@ -845,7 +907,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\LoginDTO.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\LoginDTO.cs",
@@ -856,7 +918,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 45,
               "Title": "UserDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs",
@@ -867,7 +929,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 46,
               "Title": "Domain.csproj",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Domain.csproj",
@@ -878,7 +940,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 47,
               "Title": "App.Core.csproj",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\App.Core.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\App.Core.csproj",
@@ -889,7 +951,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 48,
               "Title": "UserLoginQuery.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
@@ -901,7 +963,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 49,
               "Title": "JwtService.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Service\\JwtService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Service\\JwtService.cs",
@@ -912,7 +974,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 50,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\UserDTO.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\UserDTO.cs",
@@ -923,7 +985,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 51,
               "Title": "DependancyInjection.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\DependancyInjection.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\DependancyInjection.cs",
@@ -934,7 +996,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 52,
               "Title": "getAllUserQuery.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Apps\\Query\\getAllUserQuery.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Apps\\Query\\getAllUserQuery.cs",
@@ -945,7 +1007,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 53,
               "Title": "DependancyInjection.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\DependancyInjection.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\DependancyInjection.cs",
@@ -956,7 +1018,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 54,
               "Title": "IJwtService.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Interface\\IJwtService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Interface\\IJwtService.cs",
@@ -967,7 +1029,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 55,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Entity\\User.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Entity\\User.cs",
@@ -978,7 +1040,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 56,
               "Title": "Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Infrastructure.csproj",
@@ -989,7 +1051,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "20241123091715_usermigration.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Migrations\\20241123091715_usermigration.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Migrations\\20241123091715_usermigration.cs",
@@ -1000,7 +1062,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "20241123091518_usermigration.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Migrations\\20241123091518_usermigration.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Migrations\\20241123091518_usermigration.cs",
@@ -1011,7 +1073,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 57,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Database\\AppDbContext.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Database\\AppDbContext.cs",
@@ -1022,7 +1084,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "Backend.http",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_6RoleDap\\backendDapZip\\backendDap\\Backend\\Backend.http",
               "RelativeDocumentMoniker": "Backend.http",
@@ -1034,7 +1096,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "DependancyInjection.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\BackendStructure\\Infrastructure\\DependancyInjection.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\BackendStructure\\Infrastructure\\DependancyInjection.cs",
@@ -1045,7 +1107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "DependancyInjection.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\DependancyInjection.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\DependancyInjection.cs",
@@ -1056,7 +1118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "IAppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\Interface\\IAppDbContext.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\Interface\\IAppDbContext.cs",
@@ -1067,7 +1129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "CreateStudentCommand.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\Apps\\Command\\CreateStudentCommand.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\Apps\\Command\\CreateStudentCommand.cs",
@@ -1078,7 +1140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\Database\\AppDbContext.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\Database\\AppDbContext.cs",
@@ -1089,7 +1151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\Infrastructure.csproj",
@@ -1100,7 +1162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "DependancyInjection.cs",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\DependancyInjection.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\DependancyInjection.cs",
@@ -1111,7 +1173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "Domain.csproj",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Domain\\Domain.csproj",
@@ -1122,7 +1184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "App.Core.csproj",
               "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\App.Core.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\App.Core.csproj",

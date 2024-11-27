@@ -1,0 +1,18 @@
+.card {
+  border-radius: 10px;
+}
+.card-header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.img-thumbnail {
+  border: 2px solid #ddd;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.text-primary {
+  font-weight: bold;
+}
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}

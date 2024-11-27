@@ -37,8 +37,8 @@ namespace App.Core.Apps.Query
             //                         .Take(pageSize).ToList();
 
             const string sql = @"
-    SELECT * FROM [User]
-    WHERE isDeleted = 0
+              SELECT * FROM [User]
+       WHERE isDeleted = 0
     ORDER BY [Id]
     OFFSET @Offset ROWS
     FETCH NEXT @PageSize ROWS ONLY";
