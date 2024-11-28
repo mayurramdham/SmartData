@@ -1,0 +1,40 @@
+<div class="container">
+
+
+
+    <h1 class="text-center">Template-Driven Form</h1>
+    <a routerLink="/reactive" class="btn btn-link">Switch to Reactive Form</a>
+    
+    <form #userForm="ngForm" (ngSubmit)="onSubmit(userForm)" class="mt-4">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name:</label>
+        <input type="text" id="test" name="test" class="form-control" [(ngModel)]="userData.name" required>
+      </div>
+    
+      <div class="mb-3">
+        <label for="email" class="form-label">Email:</label>
+        <input type="email" id="email" name="email" class="form-control" [(ngModel)]="userData.email" required>
+      </div>
+    
+      <div class="mb-3">
+        <label for="age" class="form-label">Age:</label>
+        <input type="number" id="age" name="age" class="form-control" [(ngModel)]="userData.age">
+      </div>
+    
+      <!-- <button (click)="onSubmit(userForm)" type="submit" class="btn btn-primary" >Submit</button> -->
+      <button  type="submit" class="btn btn-primary" [disabled]="!userForm.valid">Submit</button>
+    </form>
+    
+    <div *ngIf="submitted" class="mt-4">
+      <h3>Form Submitted!</h3>
+      <p><strong>Name:</strong> {{ userData.name }}</p>
+      <p><strong>Email:</strong> {{ userData.email }}</p>
+      <p><strong>Age:</strong> {{ userData.age }}</p>
+    </div>
+    </div>
+
+
+
+
+
+    

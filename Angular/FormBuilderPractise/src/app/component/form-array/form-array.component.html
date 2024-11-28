@@ -1,0 +1,44 @@
+<p>form-array works!</p>
+<div class="container mt-5">
+  <form [formGroup]="developerForm">
+    <div class="mb-3">
+      <label for="">You Are</label>
+      <select name="" id="" formControlName="developer">
+        <option value="Frontend Developer">Frontend Developer</option>
+        <option value="Backend Developer">Backend Developer</option>
+        <option value="Full Stack Developer">Full Stack Developer</option>
+      </select>
+    </div>
+    <h4>
+      Skills:<button class="btn btn-sm btn-success" (click)="addSkills()">
+        <i class="bx bx-plus-circle bx-sm">Add</i>
+      </button>
+    </h4>
+    <div class="flex mb-3" formArrayName="skills">
+      @for (skill of skills().controls; track skill;let i=$index ) {
+      <div class="row mb-2">
+        <div class="col lg-6">
+          <select name="skills" class="form-select">
+            <option value="">Select</option>
+            <option *ngFor="let skill of skillSet" [value]="skill">
+              {{ skill }}
+            </option>
+          </select>
+        </div>
+        <div class="col lg-3">
+          <input type="number" class="form-control" placeholder="experiance" />
+        </div>
+        <div class="col lg-1">
+          <button class="btn btn-danger" (click)="removeSkills(i)">
+            Remove
+            <i class="bx bx-sm bx-minus"></i>
+          </button>
+        </div>
+      </div>
+      }
+    </div>
+    <button type="submit" class="btn btn-success" (click)="onsubmitForm()">
+      Save Changes
+    </button>
+  </form>
+</div>

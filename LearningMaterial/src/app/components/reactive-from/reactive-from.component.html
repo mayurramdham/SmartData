@@ -1,0 +1,36 @@
+<div class="container">
+
+    <h1 class="text-center">Reactive Form</h1>
+    <a routerLink="/template" class="btn btn-link">Switch to Template Form</a>
+    
+    <form [formGroup]="userForm" (ngSubmit)="onSubmit()" class="mt-4">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name:</label>
+        <input id="name" formControlName="name" class="form-control" required>
+      </div>
+    
+      <div class="mb-3">
+        <label for="email" class="form-label">Email:</label>
+        <input id="email" formControlName="email" type="email" class="form-control" required>
+      </div>
+    
+      <div class="mb-3">
+        <label for="age" class="form-label">Age:</label>
+        <input id="age" formControlName="age" type="number" class="form-control">
+      </div>
+    
+      <button type="submit" class="btn btn-primary" [disabled]="userForm.invalid">Submit</button>
+    </form>
+    <!-- <button type="button" (click)="set()" class="btn btn-primary" >set</button> -->
+    
+    
+    <div *ngIf="submitted" class="mt-4">
+      <h3>Form Submitted!</h3>
+      <p><strong>Name:</strong> {{ formData.name }}</p>
+      <p><strong>Email:</strong> {{ formData.email }}</p>
+      <p><strong>Age:</strong> {{ formData.age }}</p>
+    </div>
+    </div>
+
+<app-lifecycle-hooks [myInputProperty]="parentValue"></app-lifecycle-hooks>
+<app-observavals-promises (emitted)="received($event)"></app-observavals-promises>

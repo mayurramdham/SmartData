@@ -1,0 +1,24 @@
+.background {
+  background: linear-gradient(
+    to right,
+    rgba(132, 250, 176, 0.5),
+    rgba(143, 211, 244, 0.5)
+  );
+  color: #333; /* Use a darker color for text to ensure readability */
+}
+
+table {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+table thead {
+  color: white;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}

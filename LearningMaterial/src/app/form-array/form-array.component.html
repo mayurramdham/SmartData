@@ -1,0 +1,24 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div>
+      <label for="name">Name</label>
+      <input id="name" formControlName="name">
+    </div>
+  
+    <div formArrayName="phoneNumbers">
+      <div *ngFor="let phone of phoneNumbers.controls; let i = index">
+        <div [formGroupName]="i">
+          <label for="phone{{i}}">Phone {{ i + 1 }}</label>
+          <input id="phone{{i}}" formControlName="phone">
+          <button type="button" (click)="removePhoneNumber(i)">Remove</button>
+        </div>
+      </div>
+    </div>
+  
+    <button type="button" (click)="addPhoneNumber()">Add Phone Number</button>
+    <button type="submit" [disabled]="form.invalid">Submit</button>
+  </form>
+  <button (click)="show()">show</button>
+  <button (click)="setPhoneNumbers(phoneData)">Set </button>
+
+  
+  
