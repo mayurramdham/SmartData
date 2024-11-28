@@ -1,0 +1,364 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BFFDD4BB-AC80-4604-978C-23CC4FBDC365}|Domain\\Domain.csproj|c:\\users\\mayur ramdham\\desktop\\smartdata\\smartdata\\assesment\\asssesment_7\\backend\\ecomapplication\\domain\\entity\\register\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFFDD4BB-AC80-4604-978C-23CC4FBDC365}|Domain\\Domain.csproj|solutionrelative:domain\\entity\\register\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFFDD4BB-AC80-4604-978C-23CC4FBDC365}|Domain\\Domain.csproj|c:\\users\\mayur ramdham\\desktop\\smartdata\\smartdata\\assesment\\asssesment_7\\backend\\ecomapplication\\domain\\entity\\register\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFFDD4BB-AC80-4604-978C-23CC4FBDC365}|Domain\\Domain.csproj|solutionrelative:domain\\entity\\register\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6487ED45-A29A-4C3D-ABE0-FB9DEFD80612}|App.core\\App.core.csproj|c:\\users\\mayur ramdham\\desktop\\smartdata\\smartdata\\assesment\\asssesment_7\\backend\\ecomapplication\\app.core\\app\\user\\command\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6487ED45-A29A-4C3D-ABE0-FB9DEFD80612}|App.core\\App.core.csproj|solutionrelative:app.core\\app\\user\\command\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6487ED45-A29A-4C3D-ABE0-FB9DEFD80612}|App.core\\App.core.csproj|c:\\users\\mayur ramdham\\desktop\\smartdata\\smartdata\\assesment\\asssesment_7\\backend\\ecomapplication\\app.core\\model\\register\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6487ED45-A29A-4C3D-ABE0-FB9DEFD80612}|App.core\\App.core.csproj|solutionrelative:app.core\\model\\register\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3693AAC-6FD0-4E9A-8D6A-7B5058239EEC}|EComApplication\\EComApplication.csproj|c:\\users\\mayur ramdham\\desktop\\smartdata\\smartdata\\assesment\\asssesment_7\\backend\\ecomapplication\\ecomapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3693AAC-6FD0-4E9A-8D6A-7B5058239EEC}|EComApplication\\EComApplication.csproj|solutionrelative:ecomapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904C8298-37D2-4049-9B04-C58A68BCD076}|Infrastructure\\Infrastructure.csproj|c:\\users\\mayur ramdham\\desktop\\smartdata\\smartdata\\assesment\\asssesment_7\\backend\\ecomapplication\\infrastructure\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{904C8298-37D2-4049-9B04-C58A68BCD076}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\Migrations\\20241128194633_user-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20241128194633_user-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904C8298-37D2-4049-9B04-C58A68BCD076}|Infrastructure\\Infrastructure.csproj|c:\\users\\mayur ramdham\\desktop\\smartdata\\smartdata\\assesment\\asssesment_7\\backend\\ecomapplication\\infrastructure\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{904C8298-37D2-4049-9B04-C58A68BCD076}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3693AAC-6FD0-4E9A-8D6A-7B5058239EEC}|EComApplication\\EComApplication.csproj|c:\\users\\mayur ramdham\\desktop\\smartdata\\smartdata\\assesment\\asssesment_7\\backend\\ecomapplication\\ecomapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3693AAC-6FD0-4E9A-8D6A-7B5058239EEC}|EComApplication\\EComApplication.csproj|solutionrelative:ecomapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6487ED45-A29A-4C3D-ABE0-FB9DEFD80612}|App.core\\App.core.csproj|c:\\users\\mayur ramdham\\desktop\\smartdata\\smartdata\\assesment\\asssesment_7\\backend\\ecomapplication\\app.core\\app\\user\\command\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6487ED45-A29A-4C3D-ABE0-FB9DEFD80612}|App.core\\App.core.csproj|solutionrelative:app.core\\app\\user\\command\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFFDD4BB-AC80-4604-978C-23CC4FBDC365}|Domain\\Domain.csproj|c:\\users\\mayur ramdham\\desktop\\smartdata\\smartdata\\assesment\\asssesment_7\\backend\\ecomapplication\\domain\\entity\\register\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFFDD4BB-AC80-4604-978C-23CC4FBDC365}|Domain\\Domain.csproj|solutionrelative:domain\\entity\\register\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\Migrations\\20241128185915_user-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20241128185915_user-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904C8298-37D2-4049-9B04-C58A68BCD076}|Infrastructure\\Infrastructure.csproj|c:\\users\\mayur ramdham\\desktop\\smartdata\\smartdata\\assesment\\asssesment_7\\backend\\ecomapplication\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{904C8298-37D2-4049-9B04-C58A68BCD076}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFFDD4BB-AC80-4604-978C-23CC4FBDC365}|Domain\\Domain.csproj|c:\\users\\mayur ramdham\\desktop\\smartdata\\smartdata\\assesment\\asssesment_7\\backend\\ecomapplication\\domain\\entity\\register\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFFDD4BB-AC80-4604-978C-23CC4FBDC365}|Domain\\Domain.csproj|solutionrelative:domain\\entity\\register\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3693AAC-6FD0-4E9A-8D6A-7B5058239EEC}|EComApplication\\EComApplication.csproj|c:\\users\\mayur ramdham\\desktop\\smartdata\\smartdata\\assesment\\asssesment_7\\backend\\ecomapplication\\ecomapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E3693AAC-6FD0-4E9A-8D6A-7B5058239EEC}|EComApplication\\EComApplication.csproj|solutionrelative:ecomapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3693AAC-6FD0-4E9A-8D6A-7B5058239EEC}|EComApplication\\EComApplication.csproj|c:\\users\\mayur ramdham\\desktop\\smartdata\\smartdata\\assesment\\asssesment_7\\backend\\ecomapplication\\ecomapplication\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3693AAC-6FD0-4E9A-8D6A-7B5058239EEC}|EComApplication\\EComApplication.csproj|solutionrelative:ecomapplication\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6487ED45-A29A-4C3D-ABE0-FB9DEFD80612}|App.core\\App.core.csproj|c:\\users\\mayur ramdham\\desktop\\smartdata\\smartdata\\assesment\\asssesment_7\\backend\\ecomapplication\\app.core\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6487ED45-A29A-4C3D-ABE0-FB9DEFD80612}|App.core\\App.core.csproj|solutionrelative:app.core\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3693AAC-6FD0-4E9A-8D6A-7B5058239EEC}|EComApplication\\EComApplication.csproj|c:\\users\\mayur ramdham\\desktop\\smartdata\\smartdata\\assesment\\asssesment_7\\backend\\ecomapplication\\ecomapplication\\ecomapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E3693AAC-6FD0-4E9A-8D6A-7B5058239EEC}|EComApplication\\EComApplication.csproj|solutionrelative:ecomapplication\\ecomapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6487ED45-A29A-4C3D-ABE0-FB9DEFD80612}|App.core\\App.core.csproj|c:\\users\\mayur ramdham\\desktop\\smartdata\\smartdata\\assesment\\asssesment_7\\backend\\ecomapplication\\app.core\\app.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6487ED45-A29A-4C3D-ABE0-FB9DEFD80612}|App.core\\App.core.csproj|solutionrelative:app.core\\app.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6487ED45-A29A-4C3D-ABE0-FB9DEFD80612}|App.core\\App.core.csproj|c:\\users\\mayur ramdham\\desktop\\smartdata\\smartdata\\assesment\\asssesment_7\\backend\\ecomapplication\\app.core\\interface\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6487ED45-A29A-4C3D-ABE0-FB9DEFD80612}|App.core\\App.core.csproj|solutionrelative:app.core\\interface\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Entity\\Register\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entity\\Register\\User.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Entity\\Register\\User.cs",
+              "RelativeToolTip": "Domain\\Entity\\Register\\User.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAzwBMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T16:30:11.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App\\User\\Command\\RegisterUserCommand.cs",
+              "RelativeDocumentMoniker": "App.core\\App\\User\\Command\\RegisterUserCommand.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App\\User\\Command\\RegisterUserCommand.cs",
+              "RelativeToolTip": "App.core\\App\\User\\Command\\RegisterUserCommand.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T17:34:16.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\Program.cs",
+              "RelativeDocumentMoniker": "EComApplication\\Program.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\Program.cs",
+              "RelativeToolTip": "EComApplication\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T17:50:05.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\Model\\Register\\UserDto.cs",
+              "RelativeDocumentMoniker": "App.core\\Model\\Register\\UserDto.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\Model\\Register\\UserDto.cs",
+              "RelativeToolTip": "App.core\\Model\\Register\\UserDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T19:02:13.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Entity\\Register\\Country.cs",
+              "RelativeDocumentMoniker": "Domain\\Entity\\Register\\Country.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Entity\\Register\\Country.cs",
+              "RelativeToolTip": "Domain\\Entity\\Register\\Country.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T16:46:14.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\Database\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Database\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\Database\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Database\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T17:51:51.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "EComApplication\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\Controllers\\UserController.cs",
+              "RelativeToolTip": "EComApplication\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T19:35:00.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserType.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Entity\\Register\\UserType.cs",
+              "RelativeDocumentMoniker": "Domain\\Entity\\Register\\UserType.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Entity\\Register\\UserType.cs",
+              "RelativeToolTip": "Domain\\Entity\\Register\\UserType.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T16:50:26.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20241128194633_user-migration.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\Migrations\\20241128194633_user-migration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241128194633_user-migration.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\Migrations\\20241128194633_user-migration.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241128194633_user-migration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T19:46:33.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20241128185915_user-migration.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\Migrations\\20241128185915_user-migration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241128185915_user-migration.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\Migrations\\20241128185915_user-migration.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241128185915_user-migration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T18:59:16.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependancyInjection.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\DependancyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependancyInjection.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T17:36:00.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App\\User\\Command\\LoginUserCommand.cs",
+              "RelativeDocumentMoniker": "App.core\\App\\User\\Command\\LoginUserCommand.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App\\User\\Command\\LoginUserCommand.cs",
+              "RelativeToolTip": "App.core\\App\\User\\Command\\LoginUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T17:34:40.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Infrastructure",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-28T17:39:40.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "State.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Entity\\Register\\State.cs",
+              "RelativeDocumentMoniker": "Domain\\Entity\\Register\\State.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Entity\\Register\\State.cs",
+              "RelativeToolTip": "Domain\\Entity\\Register\\State.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T16:47:28.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "EComApplication\\appsettings.json",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\appsettings.json",
+              "RelativeToolTip": "EComApplication\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-28T18:24:12.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "EComApplication\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\WeatherForecast.cs",
+              "RelativeToolTip": "EComApplication\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T18:36:49.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "App.core\\DependancyInjection.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\DependancyInjection.cs",
+              "RelativeToolTip": "App.core\\DependancyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T18:26:47.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EComApplication",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\EComApplication.csproj",
+              "RelativeDocumentMoniker": "EComApplication\\EComApplication.csproj",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\EComApplication.csproj",
+              "RelativeToolTip": "EComApplication\\EComApplication.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-28T17:46:28.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "App.core",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App.core.csproj",
+              "RelativeDocumentMoniker": "App.core\\App.core.csproj",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App.core.csproj",
+              "RelativeToolTip": "App.core\\App.core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-28T17:47:35.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\Interface\\IAppDbContext.cs",
+              "RelativeDocumentMoniker": "App.core\\Interface\\IAppDbContext.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\Interface\\IAppDbContext.cs",
+              "RelativeToolTip": "App.core\\Interface\\IAppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T17:53:03.902Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
