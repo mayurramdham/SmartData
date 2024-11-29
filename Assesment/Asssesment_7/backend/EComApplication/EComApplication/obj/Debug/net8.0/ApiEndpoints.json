@@ -19,10 +19,16 @@
     "ContainingType": "EComApplication.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IEnumerable\u00601[[EComApplication.WeatherForecast, EComApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",

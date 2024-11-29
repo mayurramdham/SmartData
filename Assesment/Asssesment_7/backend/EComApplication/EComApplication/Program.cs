@@ -1,5 +1,7 @@
 using App.core;
 using Infrastructure;
+using Microsoft.AspNetCore.DataProtection;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.OpenApi.Models;
 
 namespace EComApplication
@@ -26,6 +28,10 @@ namespace EComApplication
 
             builder.Services.AddApplication();
             builder.Services.AddInfraStructure(configuration);
+            builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+            builder.Services.AddDataProtection().PersistKeysToFileSystem(new DirectoryInfo("../"))
+.SetApplicationName("EcomApplication");
 
             // Add Swagger
             builder.Services.AddSwaggerGen(options =>
@@ -38,6 +44,12 @@ namespace EComApplication
             });
 
             var app = builder.Build();
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                FileProvider = new PhysicalFileProvider(
+    Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Images")),
+                RequestPath = "/wwwroot/Images"
+            });
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())

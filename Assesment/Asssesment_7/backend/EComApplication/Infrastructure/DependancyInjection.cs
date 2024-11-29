@@ -1,13 +1,11 @@
 ﻿using App.core.Interface;
+using Core.Services;
 using Infrastructure.Database;
+using Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Infrastructure
 {
@@ -16,6 +14,9 @@ namespace Infrastructure
         public static IServiceCollection AddInfraStructure(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddScoped<IAppDbContext, AppDbContext>();
+            services.AddScoped<IEmailService, EmailService>();
+            services.AddScoped<UploadHandler>();
+            services.AddHttpContextAccessor();
             //services.AddScoped<IJwtService, JwtService>();
             services.AddDbContext<AppDbContext>((provider, options) =>
             {

@@ -22,19 +22,11 @@ namespace Domain.Entity.Register
         public string Address { get; set; }
         public int Zipcode { get; set; }
         public string ProfileImage { get; set; }
-        
+        public bool isDeleted { get; set; }
         public int UserTypeId { get; set; }
-
-        [ForeignKey("UserTypeId")]
-        public UserType UserType { get; set; }
-
-       
         public int StateId { get; set; }
-        [ForeignKey("StateId")]
-        public string State { get; set; }
-        [ForeignKey("CountryId")]
         public int CountryId { get; set; }
-        public Country Country { get; set; }
+       
 
     }
 }
