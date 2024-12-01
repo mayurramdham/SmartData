@@ -13,6 +13,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Net.WebRequestMethods;
+using App.core.Model;
 
 namespace App.core.App.User.Command
 {
@@ -27,11 +28,14 @@ namespace App.core.App.User.Command
         private readonly IAppDbContext _appDbContext;
         private readonly IDataProtector _dataProtectionProvider;
         private readonly IEmailService _emailService;
-        public RegisterUserCommandHandler(IAppDbContext appDbContext,IDataProtectionProvider provider, IConfiguration configuration, IEmailService emailService)
+        private readonly IImageService _imageService;
+        
+        public RegisterUserCommandHandler(IAppDbContext appDbContext,IDataProtectionProvider provider, IConfiguration configuration, IEmailService emailService,IImageService imageService)                       
         {
             _appDbContext = appDbContext;
             _dataProtectionProvider = provider.CreateProtector(configuration["DataProtector:EnCryptionKey"]);
             _emailService = emailService;   
+            _imageService = imageService;
         }
         public async  Task<object> Handle(RegisterUserCommand request, CancellationToken cancellationToken)
         {
@@ -48,7 +52,14 @@ namespace App.core.App.User.Command
                 return responses;
             }
 
-          
+            //add image in the handler
+            var imageUploadResult = await _imageService.Upload(user.ProfileImage);
+            if (imageUploadResult is ResponseDto uploadResponse && uploadResponse.Status != 200)
+            {
+                return uploadResponse;
+            }
+
+            string uploadedImageUrl = (imageUploadResult as ResponseDto)?.Data?.ToString();
 
             var name = GenerateUsername(user.FirstName, user.LastName, user.DOB);
             string plainPassword = GenerateRandomPassword();
@@ -57,6 +68,7 @@ namespace App.core.App.User.Command
             // newUser.UserName = _dataProtectionProvider.Protect(name);
             var hashPassword = BCrypt.Net.BCrypt.HashPassword(plainPassword, 13);
             newUser.Password=hashPassword;
+            newUser.ProfileImage = uploadedImageUrl;
 
             var text = $"Hello,\n\nYour account has been successfully created. Below are your login details:\n\n" +
            $"Username: {name}\n" +

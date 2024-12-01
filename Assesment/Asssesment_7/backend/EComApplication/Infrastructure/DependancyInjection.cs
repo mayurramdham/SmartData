@@ -15,8 +15,9 @@ namespace Infrastructure
         {
             services.AddScoped<IAppDbContext, AppDbContext>();
             services.AddScoped<IEmailService, EmailService>();
-            services.AddScoped<UploadHandler>();
-            services.AddHttpContextAccessor();
+            services.AddScoped<IJwtService, JwtService>();
+            services.AddScoped<IImageService ,ImageService>();
+            //services.AddHttpContextAccessor();
             //services.AddScoped<IJwtService, JwtService>();
             services.AddDbContext<AppDbContext>((provider, options) =>
             {

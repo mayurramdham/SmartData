@@ -1,10 +1,10 @@
--- Select * from Countries
---SET IDENTITY_INSERT Countries ON 
+-- Select * from Country
+--SET IDENTITY_INSERT Country ON 
 
 
 
 
-INSERT INTO Countries(CountryId, Shortname, CountryName, PhoneCode) VALUES
+INSERT INTO Country(CountryId, Shortname, CountryName, PhoneCode) VALUES
 (1, 'AF', 'Afghanistan', 93),
 (2, 'AL', 'Albania', 355),
 (3, 'DZ', 'Algeria', 213),

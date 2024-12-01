@@ -1,70 +1,99 @@
-﻿//using Microsoft.AspNetCore.Http;
-//using Microsoft.AspNetCore.Hosting;
+﻿
+using Microsoft.AspNetCore.Http;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Threading.Tasks;
+using App.core.Model;
+using Infrastructure.Services;
+using Microsoft.AspNetCore.Hosting;
+using App.core.Interface;
 
-//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using System.Threading.Tasks;
+namespace Core.Services
+{
+    public class ImageService: IImageService
+    {
+        private readonly IWebHostEnvironment _environment;
+        private readonly IHttpContextAccessor _httpContextAccessor;
+      
 
-//namespace Infrastructure.Services
-//{
-//    public class ImageService
-//    {
-//        private readonly IWebHostEnvironment _environment;
-//        private readonly IHttpContextAccessor _httpContextAccessor;
-       
-//        public ImageService(IWebHostEnvironment environment, IHttpContextAccessor httpContextAccessor)
-//        {
-//            _environment = environment;
-//            _httpContextAccessor = httpContextAccessor;
-//        }
+        public ImageService(IWebHostEnvironment environment, IHttpContextAccessor httpContextAccessor)
+        {
+            _environment = environment;
+            _httpContextAccessor = httpContextAccessor;
+        }
 
+        public async Task<object> Upload(IFormFile file)
+        {
+            // Validate that file is provided
+            if (file == null)
+            {
+                return new ResponseDto
+                {
+                    Status = 400,
+                    Message = "No file provided",
+                    Data = ""
+                };
+            }
 
+            // Valid extensions
+            List<string> validExtensions = new List<string> { ".jpg", ".png", ".jpeg" };
+            string extension = Path.GetExtension(file.FileName).ToLower(); // Normalize the extension to lowercase
 
-//        public async Task<string> Upload(IFormFile file)
-//        {
+            if (!validExtensions.Contains(extension))
+            {
+                return new ResponseDto
+                {
+                    Status = 400,
+                    Message = "Extension Not Valid",
+                    Data = ""
+                };
+            }
 
-//            // Valid extensions
-//            List<string> validExtensions = new List<string>() { ".jpg", ".png", ".jpeg" };
-//            string extension = Path.GetExtension(file.FileName);
-//            if (!validExtensions.Contains(extension))
-//            {
-//                return  $"Extensions Not Valid {string.Join(',', validExtensions)}";
-//            }
+            // Size check: 5MB max
+            long size = file.Length;
+            if (size > (5 * 1024 * 1024))
+            {
+                return new ResponseDto
+                {
+                    Status = 400,
+                    Message = "Maximum size can be 5Mb",
+                    Data = ""
+                };
+            }
 
-//            // Size check
-//            long size = file.Length;
-//            if (size > (5 * 1024 * 1024))
-//            {
-//                return "Maximum size can be 5Mb";
-//            }
+            // Change file name to ensure uniqueness
+            string filename = Guid.NewGuid().ToString() + extension;
 
-//            // Change file name
-//            string filename = Guid.NewGuid().ToString() + extension;
-//            string uploadPath = Path.Combine(_environment.ContentRootPath, "wwwroot/Images");
+            // Determine the upload path (ensure the path exists)
+            string uploadPath = Path.Combine(_environment.WebRootPath, "Images");
 
-//            if (!Directory.Exists(uploadPath))
-//            {
-//                Directory.CreateDirectory(uploadPath);
-//            }
+            if (!Directory.Exists(uploadPath))
+            {
+                Directory.CreateDirectory(uploadPath);
+            }
 
-//            using (FileStream stream = new FileStream(Path.Combine(uploadPath, filename), FileMode.Create))
-//            {
-//                file.CopyTo(stream)
-//;
-//            }
+            // Write the file to the server
+            string filePath = Path.Combine(uploadPath, filename);
+            using (FileStream stream = new FileStream(filePath, FileMode.Create))
+            {
+                await file.CopyToAsync(stream);
+            }
 
-//            // Get the host and scheme from HttpContext
-//            var request = _httpContextAccessor.HttpContext.Request;
-//            string scheme = request.Scheme;
-//            string host = request.Host.Value;
+            // Get the scheme and host from HttpContext
+            var request = _httpContextAccessor.HttpContext.Request;
+            string scheme = request.Scheme;
+            string host = request.Host.Value;
 
-//            // Generate the full URL
-//            string fileUrl = $"{scheme}://{host}/wwwroot/Images/{filename}";
+            // Generate the full URL for the uploaded file
+            string fileUrl = $"{scheme}://{host}/Images/{filename}";
 
-//            return $"{ fileUrl} File Saved Successfully";
-//        }
-//    }
-//}
-
+            return new ResponseDto
+            {
+                Status = 200,
+                Message = "File Stored Successfully",
+                Data = fileUrl
+            };
+        }
+    }
+}

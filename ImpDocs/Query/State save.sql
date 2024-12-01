@@ -1,7 +1,7 @@
---SET IDENTITY_INSERT States ON
---select * from states
+--SET IDENTITY_INSERT State ON
+--select * from State
 /*
-CREATE TABLE  states (
+CREATE TABLE  State (
   StateId int primary key ,
   StateName varchar(30) NOT NULL,
   CountryId int NOT NULL,
@@ -9,7 +9,7 @@ CREATE TABLE  states (
 )
 */
 
-INSERT INTO States (StateId, StateName, CountryId) VALUES
+INSERT INTO State (StateId, StateName, CountryId) VALUES
 (1, 'Andaman and Nicobar Islands', 101),
 (2, 'Andhra Pradesh', 101),
 (3, 'Arunachal Pradesh', 101),
@@ -511,7 +511,7 @@ INSERT INTO States (StateId, StateName, CountryId) VALUES
 (499, 'Kgalagadi South', 28),
 (500, 'Kgatleng', 28)
 
-INSERT INTO States (StateId, StateName, CountryId) VALUES
+INSERT INTO State (StateId, StateName, CountryId) VALUES
 (501, 'Kweneng', 28),
 (502, 'Lobatse', 28),
 (503, 'Ngamiland', 28),
@@ -1005,7 +1005,7 @@ INSERT INTO States (StateId, StateName, CountryId) VALUES
 (999, 'Puerto Plata', 61),
 (1000, 'Salcedo', 61)
 
-INSERT INTO States (StateId, StateName, CountryId) VALUES
+INSERT INTO State (StateId, StateName, CountryId) VALUES
 (1001, 'Samana', 61),
 (1002, 'San Cristobal', 61),
 (1003, 'San Juan', 61),
@@ -2005,7 +2005,7 @@ INSERT INTO States (StateId, StateName, CountryId) VALUES
 (1998, 'Mankistau', 112),
 (1999, 'Ontustik Kazakstan', 112)
 
-INSERT INTO States (StateId, StateName, CountryId) VALUES
+INSERT INTO State (StateId, StateName, CountryId) VALUES
 (2000, 'Pavlodar', 112),
 (2001, 'Sigis Kazakstan', 112),
 (2002, 'Soltustik Kazakstan', 112),
@@ -2189,7 +2189,7 @@ INSERT INTO States (StateId, StateName, CountryId) VALUES
 (2180, 'Sinoe', 123),
 (2181, 'Ajdabiya', 124);
 
-INSERT INTO States (StateId, StateName, CountryId) VALUES
+INSERT INTO State (StateId, StateName, CountryId) VALUES
 (2182, 'Fezzan', 124),
 (2183, 'Banghazi', 124),
 (2184, 'Darnah', 124),
@@ -3010,7 +3010,7 @@ INSERT INTO States (StateId, StateName, CountryId) VALUES
 (2999, 'Ingusetija', 181),
 (3000, 'Irkutsk', 181)
 
-INSERT INTO States (StateId, StateName, CountryId) VALUES
+INSERT INTO State (StateId, StateName, CountryId) VALUES
 (3001, 'Ivanovo', 181),
 (3002, 'Jamalo-Nenets', 181),
 (3003, 'Jaroslavl', 181),
@@ -3969,7 +3969,7 @@ INSERT INTO States (StateId, StateName, CountryId) VALUES
 (3976, 'West Virginia', 231),
 (3977, 'Wisconsin', 231),
 (3978, 'Wyoming', 231),
-(3979, 'United States Minor Outlying I', 232),
+(3979, 'United State Minor Outlying I', 232),
 (3980, 'Artigas', 233),
 (3981, 'Canelones', 233),
 (3982, 'Cerro Largo', 233),
@@ -3992,7 +3992,7 @@ INSERT INTO States (StateId, StateName, CountryId) VALUES
 (3999, 'Andijon', 234),
 (4000, 'Buhoro', 234)
 
-INSERT INTO States (StateId, StateName, CountryId) VALUES
+INSERT INTO State (StateId, StateName, CountryId) VALUES
 (4001, 'Buxoro Viloyati', 234),
 (4002, 'Cizah', 234),
 (4003, 'Fargona', 234),

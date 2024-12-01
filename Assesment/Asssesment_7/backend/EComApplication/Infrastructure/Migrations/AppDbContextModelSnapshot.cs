@@ -22,6 +22,195 @@ namespace Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Domain.Entity.Products.Card", b =>
+                {
+                    b.Property<int>("CardId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CardId"));
+
+                    b.Property<string>("CardNumber")
+                        .IsRequired()
+                        .HasMaxLength(16)
+                        .HasColumnType("nvarchar(16)");
+
+                    b.Property<string>("Cvv")
+                        .IsRequired()
+                        .HasMaxLength(3)
+                        .HasColumnType("nvarchar(3)");
+
+                    b.Property<string>("ExpiryDate")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CardId");
+
+                    b.ToTable("Card");
+                });
+
+            modelBuilder.Entity("Domain.Entity.Products.CartDetails", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CartId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PrId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CartId");
+
+                    b.HasIndex("PrId");
+
+                    b.ToTable("CartDetails");
+                });
+
+            modelBuilder.Entity("Domain.Entity.Products.CartMaster", b =>
+                {
+                    b.Property<int>("CartId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CartId"));
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("CartId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("CartMaster");
+                });
+
+            modelBuilder.Entity("Domain.Entity.Products.Product", b =>
+                {
+                    b.Property<int>("PrId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PrId"));
+
+                    b.Property<string>("PrBrand")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PrCategory")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PrCode")
+                        .HasColumnType("int");
+
+                    b.Property<string>("PrImage")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PrName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("PurchaseDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("PurchasePrice")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SellingPrice")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Stock")
+                        .HasColumnType("int");
+
+                    b.HasKey("PrId");
+
+                    b.ToTable("Product");
+                });
+
+            modelBuilder.Entity("Domain.Entity.Products.SalesDetails", b =>
+                {
+                    b.Property<int>("SalesId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SalesId"));
+
+                    b.Property<int>("InvoiceId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PrId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ProductCode")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("SalesQty")
+                        .HasColumnType("int");
+
+                    b.Property<float>("SellingPrice")
+                        .HasColumnType("real");
+
+                    b.HasKey("SalesId");
+
+                    b.HasIndex("InvoiceId");
+
+                    b.HasIndex("PrId");
+
+                    b.ToTable("SalesDetails");
+                });
+
+            modelBuilder.Entity("Domain.Entity.Products.SalesMaster", b =>
+                {
+                    b.Property<int>("SalesId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SalesId"));
+
+                    b.Property<string>("DeliveryAddress")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("DeliveryCode")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DeliveryState")
+                        .HasColumnType("int");
+
+                    b.Property<string>("DeliveryZipCode")
+                        .IsRequired()
+                        .HasMaxLength(6)
+                        .HasColumnType("nvarchar(6)");
+
+                    b.Property<string>("InvoiceId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("OrderDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<double>("TotalAmount")
+                        .HasColumnType("float");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("SalesId");
+
+                    b.ToTable("SalesMaster");
+                });
+
             modelBuilder.Entity("Domain.Entity.Register.Country", b =>
                 {
                     b.Property<int>("CountryId")
@@ -45,6 +234,33 @@ namespace Infrastructure.Migrations
                     b.HasKey("CountryId");
 
                     b.ToTable("Country");
+                });
+
+            modelBuilder.Entity("Domain.Entity.Register.Otp", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("Expiration")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("OtpCode")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Otp");
                 });
 
             modelBuilder.Entity("Domain.Entity.Register.State", b =>
@@ -111,10 +327,6 @@ namespace Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("State")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int>("StateId")
                         .HasColumnType("int");
 
@@ -128,11 +340,10 @@ namespace Infrastructure.Migrations
                     b.Property<int>("Zipcode")
                         .HasColumnType("int");
 
+                    b.Property<bool>("isDeleted")
+                        .HasColumnType("bit");
+
                     b.HasKey("UserId");
-
-                    b.HasIndex("CountryId");
-
-                    b.HasIndex("UserTypeId");
 
                     b.ToTable("User");
                 });
@@ -154,6 +365,55 @@ namespace Infrastructure.Migrations
                     b.ToTable("UserType");
                 });
 
+            modelBuilder.Entity("Domain.Entity.Products.CartDetails", b =>
+                {
+                    b.HasOne("Domain.Entity.Products.CartMaster", "CartMaster")
+                        .WithMany()
+                        .HasForeignKey("CartId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entity.Products.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("PrId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CartMaster");
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("Domain.Entity.Products.CartMaster", b =>
+                {
+                    b.HasOne("Domain.Entity.Register.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Domain.Entity.Products.SalesDetails", b =>
+                {
+                    b.HasOne("Domain.Entity.Products.SalesMaster", "SalesMaster")
+                        .WithMany()
+                        .HasForeignKey("InvoiceId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entity.Products.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("PrId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("SalesMaster");
+                });
+
             modelBuilder.Entity("Domain.Entity.Register.State", b =>
                 {
                     b.HasOne("Domain.Entity.Register.Country", "Country")
@@ -165,33 +425,9 @@ namespace Infrastructure.Migrations
                     b.Navigation("Country");
                 });
 
-            modelBuilder.Entity("Domain.Entity.Register.User", b =>
-                {
-                    b.HasOne("Domain.Entity.Register.Country", "Country")
-                        .WithMany()
-                        .HasForeignKey("CountryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Domain.Entity.Register.UserType", "UserType")
-                        .WithMany("User")
-                        .HasForeignKey("UserTypeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Country");
-
-                    b.Navigation("UserType");
-                });
-
             modelBuilder.Entity("Domain.Entity.Register.Country", b =>
                 {
                     b.Navigation("State");
-                });
-
-            modelBuilder.Entity("Domain.Entity.Register.UserType", b =>
-                {
-                    b.Navigation("User");
                 });
 #pragma warning restore 612, 618
         }

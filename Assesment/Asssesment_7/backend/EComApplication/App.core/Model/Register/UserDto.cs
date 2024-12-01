@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,9 +17,9 @@ namespace App.core.Model.Register
         public string Address { get; set; }
       
         public int Zipcode { get; set; }
-        public string ProfileImage { get; set; }
-        public int UserType { get; set; }   
-        public int State { get; set; }
-        public int Country { get; set; }
+        public IFormFile ProfileImage { get; set; }
+        public int UserTypeId { get; set; }   
+        public int StateId { get; set; }
+        public int CountryId { get; set; }
     }
 }

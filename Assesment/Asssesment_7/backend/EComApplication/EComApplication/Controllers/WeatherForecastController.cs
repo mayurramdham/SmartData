@@ -1,3 +1,5 @@
+using Domain.Entity.Register;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EComApplication.Controllers
@@ -19,7 +21,8 @@ namespace EComApplication.Controllers
         }
 
         [HttpPost(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get(IFormFile file)
+        [Authorize(Roles = "user")]
+        public IEnumerable<WeatherForecast> Get()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {

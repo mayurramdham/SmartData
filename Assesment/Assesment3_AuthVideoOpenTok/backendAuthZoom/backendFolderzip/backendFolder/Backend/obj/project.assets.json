@@ -7769,19 +7769,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mayurramdham\\.nuget\\packages\\": {}
+    "C:\\Users\\Mayur Ramdham\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\Backend.csproj",
+      "projectUniqueName": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment3_AuthVideoOpenTok\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\Backend.csproj",
       "projectName": "Backend",
-      "projectPath": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\Backend.csproj",
-      "packagesPath": "C:\\Users\\mayurramdham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\obj\\",
+      "projectPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment3_AuthVideoOpenTok\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\Backend.csproj",
+      "packagesPath": "C:\\Users\\Mayur Ramdham\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment3_AuthVideoOpenTok\\backendAuthZoom\\backendFolderzip\\backendFolder\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mayurramdham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mayur Ramdham\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7796,8 +7796,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Assesment3_AuthVideo\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment3_AuthVideoOpenTok\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment3_AuthVideoOpenTok\\backendAuthZoom\\backendFolderzip\\backendFolder\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

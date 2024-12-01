@@ -4527,19 +4527,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mayurramdham\\.nuget\\packages\\": {}
+    "C:\\Users\\Mayur Ramdham\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_2TwoFactAuth\\backendFolder\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Infrastructure\\Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\mayurramdham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_2TwoFactAuth\\backendFolder\\Infrastructure\\Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Mayur Ramdham\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_2TwoFactAuth\\backendFolder\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mayurramdham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mayur Ramdham\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4554,11 +4554,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\App.Core.csproj": {
-              "projectPath": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\App.Core\\App.Core.csproj"
+            "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_2TwoFactAuth\\backendFolder\\App.Core\\App.Core.csproj": {
+              "projectPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_2TwoFactAuth\\backendFolder\\App.Core\\App.Core.csproj"
             },
-            "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\backendFolder\\Domain\\Domain.csproj"
+            "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_2TwoFactAuth\\backendFolder\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_2TwoFactAuth\\backendFolder\\Domain\\Domain.csproj"
             }
           }
         }

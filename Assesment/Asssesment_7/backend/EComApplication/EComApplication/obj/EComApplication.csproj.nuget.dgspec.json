@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\EComApplication.csproj": {}
+    "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\EComApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App.core.csproj": {
+    "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App.core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App.core.csproj",
+        "projectUniqueName": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App.core.csproj",
         "projectName": "App.core",
-        "projectPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App.core.csproj",
-        "packagesPath": "C:\\Users\\mayurramdham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\obj\\",
+        "projectPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App.core.csproj",
+        "packagesPath": "C:\\Users\\Mayur Ramdham\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mayurramdham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mayur Ramdham\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Domain.csproj"
+              "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Domain.csproj"
               }
             }
           }
@@ -61,6 +61,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.4.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
             },
             "Microsoft.AspNetCore.DataProtection.Abstractions": {
               "target": "Package",
@@ -95,17 +99,17 @@
         }
       }
     },
-    "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Domain.csproj": {
+    "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\mayurramdham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Mayur Ramdham\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mayurramdham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mayur Ramdham\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -156,17 +160,17 @@
         }
       }
     },
-    "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\EComApplication.csproj": {
+    "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\EComApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\EComApplication.csproj",
+        "projectUniqueName": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\EComApplication.csproj",
         "projectName": "EComApplication",
-        "projectPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\EComApplication.csproj",
-        "packagesPath": "C:\\Users\\mayurramdham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\obj\\",
+        "projectPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\EComApplication.csproj",
+        "packagesPath": "C:\\Users\\Mayur Ramdham\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mayurramdham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mayur Ramdham\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -181,11 +185,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App.core.csproj": {
-                "projectPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App.core.csproj"
+              "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App.core.csproj": {
+                "projectPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App.core.csproj"
               },
-              "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -239,17 +243,17 @@
         }
       }
     },
-    "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\mayurramdham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Mayur Ramdham\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mayurramdham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mayur Ramdham\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -264,11 +268,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App.core.csproj": {
-                "projectPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App.core.csproj"
+              "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App.core.csproj": {
+                "projectPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App.core.csproj"
               },
-              "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Domain.csproj"
+              "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Domain.csproj"
               }
             }
           }
@@ -294,17 +298,17 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[9.0.0, )"
             },
             "SendGrid": {
               "target": "Package",
@@ -323,6 +327,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

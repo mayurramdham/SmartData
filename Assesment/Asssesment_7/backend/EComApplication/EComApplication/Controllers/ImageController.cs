@@ -1,6 +1,7 @@
 ﻿using Core.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Hosting;
 
 namespace EComApplication.Controllers
 {
@@ -18,10 +19,10 @@ namespace EComApplication.Controllers
         }
 
         [HttpPost("[action]")]
-        public IActionResult UploadFile(IFormFile file)
+        public async Task<IActionResult> UploadFile(IFormFile file)
         {
-            var uploadHandler = new UploadHandler(_environment, _httpContextAccessor);
-            var result = uploadHandler.Upload(file);
+            var uploadHandler = new ImageService(_environment, _httpContextAccessor);
+            var result = await uploadHandler.Upload(file);
             return Ok(result);
         }
     }

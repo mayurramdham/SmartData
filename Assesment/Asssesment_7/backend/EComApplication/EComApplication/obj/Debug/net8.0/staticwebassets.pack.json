@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\1a8e714d-22d7-48a7-8cbc-49ac6a320ef8.jpg",
+      "PackagePath": "staticwebassets\\Images\\1a8e714d-22d7-48a7-8cbc-49ac6a320ef8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\58836916-9134-4e33-bc84-f866f4623f01.jpg",
+      "PackagePath": "staticwebassets\\Images\\58836916-9134-4e33-bc84-f866f4623f01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\767b6c9f-f328-4453-ab05-58346fc04045.jpg",
+      "PackagePath": "staticwebassets\\Images\\767b6c9f-f328-4453-ab05-58346fc04045.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\8fd6a86e-4595-4cc2-952f-7bce18ffb5a2.jpg",
+      "PackagePath": "staticwebassets\\Images\\8fd6a86e-4595-4cc2-952f-7bce18ffb5a2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\a5293d86-c9d0-49bd-bbd3-fb738213547a.jpg",
+      "PackagePath": "staticwebassets\\Images\\a5293d86-c9d0-49bd-bbd3-fb738213547a.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EComApplication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.EComApplication.props",
+      "PackagePath": "build\\EComApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.EComApplication.props",
+      "PackagePath": "buildMultiTargeting\\EComApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.EComApplication.props",
+      "PackagePath": "buildTransitive\\EComApplication.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
