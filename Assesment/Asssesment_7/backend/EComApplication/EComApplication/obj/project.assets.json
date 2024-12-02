@@ -5308,11 +5308,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\EComApplication.csproj",
+      "projectUniqueName": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\EComApplication.csproj",
       "projectName": "EComApplication",
-      "projectPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\EComApplication.csproj",
+      "projectPath": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\EComApplication.csproj",
       "packagesPath": "C:\\Users\\Mayur Ramdham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\obj\\",
+      "outputPath": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mayur Ramdham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5330,11 +5330,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App.core.csproj": {
-              "projectPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App.core.csproj"
+            "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\App.core\\App.core.csproj": {
+              "projectPath": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\App.core\\App.core.csproj"
             },
-            "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

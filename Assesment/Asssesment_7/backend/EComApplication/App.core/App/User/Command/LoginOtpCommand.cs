@@ -28,7 +28,7 @@ namespace App.core.App.User.Command
         {
             var otpData = request.otpDto;
             var otp = await _appDbContext.Set<Domain.Entity.Register.Otp>()
-                      .FirstOrDefaultAsync(o => o.email == otpData.Email && o.OtpCode == otpData.OtpCode);
+                      .FirstOrDefaultAsync(o => o.UserName == otpData.UserName && o.OtpCode == otpData.OtpCode);
 
             if (otp == null)
             {
@@ -48,7 +48,7 @@ namespace App.core.App.User.Command
                     message = "OTP has expired"
                 };
             }
-            var user = await _appDbContext.Set<Domain.Entity.Register.User>().FirstOrDefaultAsync(u=>u.Email==otpData.Email);
+            var user = await _appDbContext.Set<Domain.Entity.Register.User>().FirstOrDefaultAsync(u=>u.UserName==otpData.UserName);
             
             if (user == null)
             {

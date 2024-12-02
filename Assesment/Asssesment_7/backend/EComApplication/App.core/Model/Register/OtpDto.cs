@@ -8,7 +8,8 @@ namespace App.core.Model.Register
 {
     public class OtpDto
     {
-        public string Email { get; set; }
+        public string UserName { get; set; }
         public int OtpCode { get; set; }
+        public int UserId { get; set; }
     }
 }

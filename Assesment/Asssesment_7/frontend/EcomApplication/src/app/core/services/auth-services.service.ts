@@ -13,12 +13,15 @@ export class AuthServicesService {
       data
     );
   }
-  getAllCoutries(): Observable<any> {
-    return this.http.get('https://localhost:7227/api/Dropdown/GetCountries');
+  loginData(data: any): Observable<any> {
+    return this.http.post<any>('https://localhost:7227/api/User/Otp', data);
   }
-  getAllStateByCountryId(countryId: number): Observable<any> {
-    return this.http.get(
-      `https://localhost:7227/api/Dropdown/GetStatesByCountry${countryId}`
+  verfiOtp(data: any): Observable<any> {
+    return this.http.post<any>('https://localhost:7227/api/User/login', data);
+  }
+  getUserById(userId: any): Observable<any> {
+    return this.http.get<any>(
+      `https://localhost:7227/api/User/getUserById/${userId}`
     );
   }
 }

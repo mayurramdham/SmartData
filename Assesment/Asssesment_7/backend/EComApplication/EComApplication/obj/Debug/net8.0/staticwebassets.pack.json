@@ -1,24 +1,92 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\1a8e714d-22d7-48a7-8cbc-49ac6a320ef8.jpg",
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\0798a63d-472a-4b41-95d8-08f1595882ee.jpg",
+      "PackagePath": "staticwebassets\\Images\\0798a63d-472a-4b41-95d8-08f1595882ee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\0a236c9d-ce11-49b9-a4f8-8aece03e21b1.png",
+      "PackagePath": "staticwebassets\\Images\\0a236c9d-ce11-49b9-a4f8-8aece03e21b1.png"
+    },
+    {
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\1a8e714d-22d7-48a7-8cbc-49ac6a320ef8.jpg",
       "PackagePath": "staticwebassets\\Images\\1a8e714d-22d7-48a7-8cbc-49ac6a320ef8.jpg"
     },
     {
-      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\58836916-9134-4e33-bc84-f866f4623f01.jpg",
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\1e440c6c-7ce0-4ba4-ab31-3e00c6fe3b4c.jpg",
+      "PackagePath": "staticwebassets\\Images\\1e440c6c-7ce0-4ba4-ab31-3e00c6fe3b4c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\40e83aab-9f57-485f-a0b7-01b41268c218.png",
+      "PackagePath": "staticwebassets\\Images\\40e83aab-9f57-485f-a0b7-01b41268c218.png"
+    },
+    {
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\4497ecc5-1ee3-4e60-94f3-65304d735be4.jpg",
+      "PackagePath": "staticwebassets\\Images\\4497ecc5-1ee3-4e60-94f3-65304d735be4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\5700381f-e435-4516-977a-9d204da3c9d8.png",
+      "PackagePath": "staticwebassets\\Images\\5700381f-e435-4516-977a-9d204da3c9d8.png"
+    },
+    {
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\58836916-9134-4e33-bc84-f866f4623f01.jpg",
       "PackagePath": "staticwebassets\\Images\\58836916-9134-4e33-bc84-f866f4623f01.jpg"
     },
     {
-      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\767b6c9f-f328-4453-ab05-58346fc04045.jpg",
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\73c40640-0321-445a-b4b6-32bdeee27485.png",
+      "PackagePath": "staticwebassets\\Images\\73c40640-0321-445a-b4b6-32bdeee27485.png"
+    },
+    {
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\767b6c9f-f328-4453-ab05-58346fc04045.jpg",
       "PackagePath": "staticwebassets\\Images\\767b6c9f-f328-4453-ab05-58346fc04045.jpg"
     },
     {
-      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\8fd6a86e-4595-4cc2-952f-7bce18ffb5a2.jpg",
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\7c1c3f9d-0e50-42f0-bd23-6edc25ef14ad.jpg",
+      "PackagePath": "staticwebassets\\Images\\7c1c3f9d-0e50-42f0-bd23-6edc25ef14ad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\8fd6a86e-4595-4cc2-952f-7bce18ffb5a2.jpg",
       "PackagePath": "staticwebassets\\Images\\8fd6a86e-4595-4cc2-952f-7bce18ffb5a2.jpg"
     },
     {
-      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\a5293d86-c9d0-49bd-bbd3-fb738213547a.jpg",
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\97a66784-9398-4071-8109-abbf5684dec1.jpg",
+      "PackagePath": "staticwebassets\\Images\\97a66784-9398-4071-8109-abbf5684dec1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\9db34f28-f8bc-4541-bf81-b53470c81e75.png",
+      "PackagePath": "staticwebassets\\Images\\9db34f28-f8bc-4541-bf81-b53470c81e75.png"
+    },
+    {
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\a4a4b70a-79ce-4198-88ed-c8ed94faeab7.jpg",
+      "PackagePath": "staticwebassets\\Images\\a4a4b70a-79ce-4198-88ed-c8ed94faeab7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\a5293d86-c9d0-49bd-bbd3-fb738213547a.jpg",
       "PackagePath": "staticwebassets\\Images\\a5293d86-c9d0-49bd-bbd3-fb738213547a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\a6a55961-eb7c-46fa-a3c8-62192d1b5173.jpg",
+      "PackagePath": "staticwebassets\\Images\\a6a55961-eb7c-46fa-a3c8-62192d1b5173.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\b38054e6-eeca-4f3d-83a9-37d3c7452b98.png",
+      "PackagePath": "staticwebassets\\Images\\b38054e6-eeca-4f3d-83a9-37d3c7452b98.png"
+    },
+    {
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\b39fd6c4-1e06-4a78-8487-c722b43c2f1f.jpg",
+      "PackagePath": "staticwebassets\\Images\\b39fd6c4-1e06-4a78-8487-c722b43c2f1f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\c255d9e1-683b-4ac4-ae2c-5be2ac02b797.jpg",
+      "PackagePath": "staticwebassets\\Images\\c255d9e1-683b-4ac4-ae2c-5be2ac02b797.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\e11eca63-9662-4ae4-a0ae-1ee241dee1a3.jpg",
+      "PackagePath": "staticwebassets\\Images\\e11eca63-9662-4ae4-a0ae-1ee241dee1a3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\eaaac54b-3162-40bd-9352-679c15e347b5.jpg",
+      "PackagePath": "staticwebassets\\Images\\eaaac54b-3162-40bd-9352-679c15e347b5.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EComApplication.Microsoft.AspNetCore.StaticWebAssets.props",

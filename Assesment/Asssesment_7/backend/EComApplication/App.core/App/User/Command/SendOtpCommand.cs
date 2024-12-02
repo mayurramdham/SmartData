@@ -29,7 +29,7 @@ namespace App.core.App.User.Command
         public async Task<object> Handle(SendOtpCommand request, CancellationToken cancellationToken)
         {
             var user = request.LoginDto;
-            var userCheck = await _appDbContext.Set<Domain.Entity.Register.User>().FirstOrDefaultAsync(u => u.Email == user.Email);
+            var userCheck = await _appDbContext.Set<Domain.Entity.Register.User>().FirstOrDefaultAsync(u => u.UserName == user.UserName);
             if (userCheck == null || !BCrypt.Net.BCrypt.Verify(user.Password, userCheck.Password) || userCheck.isDeleted == true)
             {
                 return new
@@ -43,7 +43,7 @@ namespace App.core.App.User.Command
             var otp = generateOtp.GenerateOtps();
 
             var emailText = $" your otp is {otp}";
-            var otpdata = await _emailService.SendEmailAsync(user.Email, "user", "otp for verification", emailText);
+            var otpdata = await _emailService.SendEmailAsync(userCheck.Email, "user", "otp for verification", emailText);
             if (!otpdata)
             {
                 return new
@@ -53,7 +53,7 @@ namespace App.core.App.User.Command
                 };
             }
             DateTime now = DateTime.UtcNow;
-            DateTime otpValidity = now.AddMinutes(5);
+            DateTime otpValidity = now.AddMinutes(50);
            
 
            

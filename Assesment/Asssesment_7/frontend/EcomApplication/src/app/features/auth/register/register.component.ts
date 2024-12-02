@@ -6,13 +6,16 @@ import {
   ReactiveFormsModule,
   Validators,
 } from '@angular/forms';
-import { RouterLink, RouterOutlet } from '@angular/router';
+import { Router, RouterLink, RouterOutlet } from '@angular/router';
 import { AuthServicesService } from '../../../core/services/auth-services.service';
+import { CommonModule } from '@angular/common';
+import { DropdownService } from '../../../core/services/dropdown.service';
+import { ToaterService } from '../../../core/services/toater.service';
 
 @Component({
   selector: 'app-register',
   standalone: true,
-  imports: [ReactiveFormsModule, RouterLink],
+  imports: [ReactiveFormsModule, RouterLink, CommonModule],
   templateUrl: './register.component.html',
   styleUrl: './register.component.css',
 })
@@ -20,18 +23,26 @@ export class RegisterComponent implements OnInit {
   registerForm: FormGroup;
   selectedFile: File | null = null;
   registerFormValue = {};
+  countries: any[] = [];
+  states: any[] = [];
+  filteredStates: any[] = [];
   authService = inject(AuthServicesService);
+  dropdownService = inject(DropdownService);
+  toasterService = inject(ToaterService);
+  router = inject(Router);
   userTypes = [
     { id: 1, name: 'Admin' },
     { id: 2, name: 'Customer' },
   ];
-  countries = [
-    { id: 1, name: 'India' },
-    { id: 2, name: 'USA' },
-  ];
-  states: { id: number; name: string }[] = [];
+  // countries = [
+  //   { id: 1, name: 'India' },
+  //   { id: 2, name: 'USA' },
+  // ];
+  // states: { id: number; name: string }[] = [];
   ngOnInit(): void {
     this.getAllCountries();
+    //  this.getStateByCountryId();
+    this.filteredStates = [];
   }
 
   //formGroup Data Binding
@@ -53,42 +64,21 @@ export class RegisterComponent implements OnInit {
   }
 
   //Functions Api Calling
-  onCountryChange(event: Event) {
+  onCountryChange(event: any) {
     // Mock states filtering
-    const target = event.target as HTMLSelectElement;
-    const value = target.value;
-    console.log(value);
-    const countryId = target.value;
-    if (countryId === '1') {
-      this.states = [
-        { id: 1, name: 'Maharashtra' },
-        { id: 2, name: 'Gujarat' },
-      ];
-    } else if (countryId === '2') {
-      this.states = [
-        { id: 3, name: 'California' },
-        { id: 4, name: 'Texas' },
-      ];
-    } else {
-      this.states = [];
-    }
-    this.registerForm.controls['stateId'].setValue('');
+    const selectedCountryId = +event.target.value; // Convert the selected value to a number
+    console.log('selectedCountryId', selectedCountryId);
+    this.dropdownService.getAllStateByCountryId(selectedCountryId).subscribe({
+      next: (result: any) => {
+        this.states = result.state;
+        console.log('sgtate', this.states);
+      },
+      error: (error: Error) => {
+        console.log(error);
+      },
+    });
   }
 
-  // onSubmit() {
-  //   if (this.registerForm.valid) {
-  //     console.log(this.registerForm.value);
-  //     this.registerFormValue = this.registerForm.value;
-  //     alert('Registration Successful!');
-  //     this.authService.registerData(this.registerFormValue).subscribe((res) => {
-  //       if ((res.status = 200)) {
-  //         alert('user registered successfully');
-  //       } else {
-  //         alert('unabled to add user');
-  //       }
-  //     });
-  //   }
-  // }
   onFileSelect(event: Event): void {
     const file = (event.target as HTMLInputElement).files?.[0];
     if (file) {
@@ -122,22 +112,39 @@ export class RegisterComponent implements OnInit {
       this.authService.registerData(formData).subscribe(
         (response) => {
           console.log('Registration successful:', response);
-          alert('Registration successful!');
+          this.toasterService.showSuccess('Registration successful');
+          this.router.navigateByUrl('/auth/sendOtp');
         },
         (error) => {
           console.error('Error during registration:', error);
-          alert('Registration failed. Please try again.');
+          this.toasterService.showError(
+            'Registration failed. Please try again.'
+          );
         }
       );
     } else {
-      alert('Please fill all required fields.');
+      this.toasterService.showError('Please fill all required fields.');
     }
   }
   getAllCountries() {
-    this.authService.getAllCoutries().subscribe(
+    this.dropdownService.getAllCoutries().subscribe(
       (response) => {
-        console.log('all state data');
+        this.countries = response.country;
+        console.log(this.countries);
       },
+      (error) => {
+        console.log(error);
+      }
+    );
+  }
+  getStateByCountryId(selectedCountryId: number) {
+    this.dropdownService.getAllStateByCountryId(selectedCountryId).subscribe(
+      (response) => {
+        console.log('state data found');
+        this.states = response.state;
+        console.log(this.states);
+      },
+
       (error) => {
         console.log(error);
       }

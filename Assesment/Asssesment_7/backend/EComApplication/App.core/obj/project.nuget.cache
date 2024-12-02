@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0AlPlZblXqo=",
+  "dgSpecHash": "Ah7qvsTeU1E=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App.core.csproj",
+  "projectFilePath": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\App.core\\App.core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mayur Ramdham\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Mayur Ramdham\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",

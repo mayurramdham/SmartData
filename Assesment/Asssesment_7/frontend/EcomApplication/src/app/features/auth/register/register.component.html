@@ -40,33 +40,43 @@
                       <label for="email">Email</label>
                     </div>
 
-                    <!-- <div class="form-floating mb-3 mt-3">
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="userName"
-                        placeholder="Enter Username"
-                        name="userName"
-                        formControlName="userName"
-                      />
-                      <label for="userName">Username</label>
-                    </div> -->
-
                     <div class="form-floating mb-3 mt-3">
                       <select
                         class="form-select"
                         id="countryId"
                         formControlName="countryId"
+                        (change)="onCountryChange($event)"
                       >
                         <option value="" disabled>Select Country</option>
                         <option
                           *ngFor="let country of countries"
-                          [value]="country.id"
+                          [value]="country.countryId"
                         >
-                          {{ country.name }}
+                          {{ country.countryName }}
                         </option>
                       </select>
                       <label for="countryId">Country</label>
+                    </div>
+                    <div class="form-floating mb-3 mt-3">
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="mobile"
+                        placeholder="mobile"
+                        name="mobile"
+                        formControlName="mobile"
+                      />
+                      <label for="mobile">Mobile</label>
+                    </div>
+                    <div class="form-floating mb-3 mt-3">
+                      <textarea
+                        class="form-control"
+                        id="address"
+                        placeholder="Enter Address"
+                        name="address"
+                        formControlName="address"
+                      ></textarea>
+                      <label for="address">Address</label>
                     </div>
                   </div>
 
@@ -96,108 +106,86 @@
                       <label for="dob">Date of Birth</label>
                     </div>
                     <div class="form-floating mb-3 mt-3">
-                      <input
-                        type="number"
-                        class="form-control"
-                        id="dob"
-                        placeholder="userTypeId"
-                        name="mobile"
-                        formControlName="mobile"
-                      />
-                      <label for="mobile">Mobile</label>
-                    </div>
-                    <div class="form-floating mb-3 mt-3">
-                      <input
-                        type="number"
-                        class="form-control"
-                        id="dob"
-                        placeholder="userTypeId"
-                        name="userTypeId"
-                        formControlName="userTypeId"
-                      />
-                      <label for="userTypeId">UserTypeId</label>
-                    </div>
-
-                    <!-- <div class="form-floating mb-3 mt-3">
-                      <input
-                        type="password"
-                        class="form-control"
-                        id="password"
-                        placeholder="Enter Password"
-                        name="password"
-                        formControlName="password"
-                      />
-                      <label for="password">Password</label>
-                    </div> -->
-
-                    <div class="form-floating mb-3 mt-3">
                       <select
                         class="form-select"
                         id="stateId"
                         formControlName="stateId"
                       >
                         <option value="" disabled>Select State</option>
-                        <option *ngFor="let state of states" [value]="state.id">
-                          {{ state.name }}
+                        <option
+                          *ngFor="let state of states"
+                          [value]="state.stateId"
+                        >
+                          {{ state.stateName }}
                         </option>
                       </select>
                       <label for="stateId">State</label>
                     </div>
+
+                    <div class="form-floating mb-3 mt-3">
+                      <!-- <input
+                        type="number"
+                        class="form-control"
+                        id="userTypeId"
+                        placeholder="userTypeId"
+                        name="userTypeId"
+                        formControlName="userTypeId"
+                       
+                      /> -->
+                      <select
+                        class="form-select"
+                        id="userTypeId"
+                        formControlName="userTypeId"
+                      >
+                        <option value="" disabled>Select UserType</option>
+                        <option value="1">Admin</option>
+                        <option value="2">Customer</option>
+                      </select>
+
+                      <label for="userTypeId">UserTypeId</label>
+                    </div>
+                    <div class="form-floating mb-3 mt-3">
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="zipcode"
+                        placeholder="Enter Zipcode"
+                        name="zipcode"
+                        formControlName="zipcode"
+                      />
+                      <label for="zipcode">Zipcode</label>
+                    </div>
                   </div>
-                </div>
 
-                <!-- Full-Width Row for Image Upload -->
-                <div class="form-floating mb-3 mt-3">
-                  <input
-                    type="file"
-                    class="form-control"
-                    id="profileImage"
-                    (change)="onFileSelect($event)"
-                  />
-                  <label for="profileImage">Upload Profile Image</label>
-                </div>
+                  <!-- Full-Width Row for Image Upload -->
+                  <div class="col md-6"></div>
+                  <div class="form-floating mb-3 mt-3">
+                    <input
+                      type="file"
+                      class="form-control"
+                      id="profileImage"
+                      (change)="onFileSelect($event)"
+                    />
+                    <label for="profileImage">Upload Profile Image</label>
+                  </div>
 
-                <!-- Address Section -->
-                <div class="form-floating mb-3 mt-3">
-                  <textarea
-                    class="form-control"
-                    id="address"
-                    placeholder="Enter Address"
-                    name="address"
-                    formControlName="address"
-                  ></textarea>
-                  <label for="address">Address</label>
-                </div>
+                  <div class="d-flex justify-content-center">
+                    <button
+                      type="button"
+                      class="btn btn-success btn-block btn-lg gradient-custom-4 text-body"
+                      (click)="onSubmit()"
+                    >
+                      Register
+                    </button>
+                  </div>
 
-                <!-- Zipcode -->
-                <div class="form-floating mb-3 mt-3">
-                  <input
-                    type="number"
-                    class="form-control"
-                    id="zipcode"
-                    placeholder="Enter Zipcode"
-                    name="zipcode"
-                    formControlName="zipcode"
-                  />
-                  <label for="zipcode">Zipcode</label>
+                  <p class="text-center text-muted mt-5 mb-0">
+                    Already have an account?
+                    <a routerLink="/auth/sendOtp" class="fw-bold text-body"
+                      ><u>Login here</u></a
+                    >
+                  </p>
                 </div>
-
-                <div class="d-flex justify-content-center">
-                  <button
-                    type="button"
-                    class="btn btn-success btn-block btn-lg gradient-custom-4 text-body"
-                    (click)="onSubmit()"
-                  >
-                    Register
-                  </button>
-                </div>
-
-                <p class="text-center text-muted mt-5 mb-0">
-                  Already have an account?
-                  <a [routerLink]="'/login'" class="fw-bold text-body"
-                    ><u>Login here</u></a
-                  >
-                </p>
               </form>
             </div>
           </div>

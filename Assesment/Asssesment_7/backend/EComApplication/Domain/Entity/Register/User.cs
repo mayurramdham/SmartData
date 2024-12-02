@@ -26,6 +26,7 @@ namespace Domain.Entity.Register
         public int UserTypeId { get; set; }
         public int StateId { get; set; }
         public int CountryId { get; set; }
+        
        
 
     }

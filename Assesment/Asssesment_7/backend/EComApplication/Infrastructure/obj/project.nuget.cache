@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5tDRZ0Z6ymg=",
+  "dgSpecHash": "gw8APO5pT3E=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Mayur Ramdham\\Desktop\\Assement_git\\backendzip\\backend\\EComApplication\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mayur Ramdham\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Mayur Ramdham\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

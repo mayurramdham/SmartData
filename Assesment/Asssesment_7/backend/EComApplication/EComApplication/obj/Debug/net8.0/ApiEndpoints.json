@@ -42,6 +42,67 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "EComApplication.Controllers.ProductController",
+    "Method": "GetProduct",
+    "RelativePath": "api/Product",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.ProductController",
+    "Method": "AddProduct",
+    "RelativePath": "api/Product/AddProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PrName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PrImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "PrCategory",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PrBrand",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SellingPrice",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PurchasePrice",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PurchaseDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Stock",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EComApplication.Controllers.UserController",
     "Method": "ForgetPassword",
     "RelativePath": "api/User/ForgetPassword",
@@ -52,6 +113,22 @@
       {
         "Name": "command",
         "Type": "App.core.App.User.Command.ForgotPasswordCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "UserById",
+    "RelativePath": "api/User/getUserById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

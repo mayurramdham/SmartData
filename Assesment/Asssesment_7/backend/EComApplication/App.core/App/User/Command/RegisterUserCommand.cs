@@ -64,6 +64,13 @@ namespace App.core.App.User.Command
             var name = GenerateUsername(user.FirstName, user.LastName, user.DOB);
             string plainPassword = GenerateRandomPassword();
             var newUser = user.Adapt<Domain.Entity.Register.User>();
+
+            var userExist = await _appDbContext.Set<Domain.Entity.Register.User>().FirstOrDefaultAsync(user => user.UserName == name);
+
+            if (userExist != null) {
+                name = $"{userExist.UserName}1";
+            }
+
             newUser.UserName = name;
             // newUser.UserName = _dataProtectionProvider.Protect(name);
             var hashPassword = BCrypt.Net.BCrypt.HashPassword(plainPassword, 13);

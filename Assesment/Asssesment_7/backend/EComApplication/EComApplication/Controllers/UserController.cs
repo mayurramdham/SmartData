@@ -1,8 +1,11 @@
 ﻿using App.core.App.User.Command;
+using App.core.App.User.Query;
 using App.core.Model.Register;
+using Domain.Entity.Register;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration.UserSecrets;
 
 namespace EComApplication.Controllers
 {
@@ -43,5 +46,14 @@ namespace EComApplication.Controllers
             var response = await _mediator.Send(command);
             return Ok(response);
         }
+      
+        [HttpGet("getUserById/{id}")]
+        public async Task<IActionResult> UserById([FromRoute] int id)
+        {
+            var response = await _mediator.Send(new GetUserByIdQuery { UserId = id });
+            return Ok(response);
+        }
+
+
     }
 }

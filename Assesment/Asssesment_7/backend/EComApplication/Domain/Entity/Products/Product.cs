@@ -21,5 +21,7 @@ namespace Domain.Entity.Products
         public int PurchasePrice { get; set; }
         public DateTime PurchaseDate { get; set; }
         public int Stock {  get; set; }
+        public bool IsDeleted { get; set; }
+
     }
 }
