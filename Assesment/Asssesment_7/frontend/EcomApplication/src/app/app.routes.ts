@@ -13,6 +13,7 @@ import { producerAccessed } from '@angular/core/primitives/signals';
 import { ProductComponent } from './features/product/product/product.component';
 import { AddProductComponent } from './features/product/add-product/add-product.component';
 import { UsersComponent } from './features/org/users/users.component';
+import { CartComponent } from './features/product/cart/cart.component';
 
 export const routes: Routes = [
   {
@@ -71,6 +72,11 @@ export const routes: Routes = [
       {
         path: 'add-product',
         component: AddProductComponent,
+        canActivate: [guardsGuard],
+      },
+      {
+        path: 'cart',
+        component: CartComponent,
         canActivate: [guardsGuard],
       },
     ],

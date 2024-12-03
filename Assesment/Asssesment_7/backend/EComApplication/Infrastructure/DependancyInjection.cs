@@ -5,6 +5,7 @@ using Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System.Data;
 
 
 namespace Infrastructure
@@ -17,6 +18,7 @@ namespace Infrastructure
             services.AddScoped<IEmailService, EmailService>();
             services.AddScoped<IJwtService, JwtService>();
             services.AddScoped<IImageService ,ImageService>();
+          
             //services.AddHttpContextAccessor();
             //services.AddScoped<IJwtService, JwtService>();
             services.AddDbContext<AppDbContext>((provider, options) =>

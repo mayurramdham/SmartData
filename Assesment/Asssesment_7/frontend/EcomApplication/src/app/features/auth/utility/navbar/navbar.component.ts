@@ -4,6 +4,7 @@ import { Router, RouterLink } from '@angular/router';
 import { JwtService } from '../../../../core/services/jwt.service';
 import { ToaterService } from '../../../../core/services/toater.service';
 import { AuthServicesService } from '../../../../core/services/auth-services.service';
+import { CartService } from '../../../../core/services/cart.service';
 
 @Component({
   selector: 'app-navbar',
@@ -26,10 +27,12 @@ export class NavbarComponent implements OnInit {
   }
   ngOnInit(): void {
     if (this.userId) this.getUserData(this.userId);
+    console.log('currentRole', this.currentRole);
   }
   private jwtService = inject(JwtService);
   private authService = inject(AuthServicesService);
   private toaster = inject(ToaterService);
+  private cartService = inject(CartService);
   logout() {
     // Perform logout logic here
 
@@ -39,7 +42,9 @@ export class NavbarComponent implements OnInit {
     localStorage.removeItem('userName');
     this.router.navigate(['/auth/login']); // Redirect to login page
   }
-
+  goToCart() {
+    this.router.navigate(['/product/cart']);
+  }
   Test() {
     console.log('in jwt test');
     const role = this.jwtService.getRole();
@@ -56,4 +61,18 @@ export class NavbarComponent implements OnInit {
       }
     });
   }
+  //*****cart data*******/
+  // getCartItemCount() {
+  //   const userId = 1; // You can dynamically fetch this user ID from session/authentication state
+  //   this.cartService.getProductFromCart(userId).subscribe(
+  //     (response: any) => {
+  //       if (response.status === 200) {
+  //         this.cartItemCount = response.cartItems.length;
+  //       }
+  //     },
+  //     (error) => {
+  //       this.cartItemCount = 0;
+  //     }
+  //   );
+  // }
 }

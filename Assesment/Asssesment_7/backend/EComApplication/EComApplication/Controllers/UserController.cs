@@ -20,12 +20,15 @@ namespace EComApplication.Controllers
             _mediator = mediator;
         }
 
+
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromForm] UserDto user, IFormFile profileImage)
         {
             var userId = await _mediator.Send(new RegisterUserCommand { UserDto= user });
             return Ok(userId);
         }
+
+
         [HttpPost("Otp")]
         public async Task<IActionResult> Otp([FromBody] LoginDto logins)
         {
@@ -33,12 +36,14 @@ namespace EComApplication.Controllers
             return Ok(otp);
         }
 
+
         [HttpPost("login")]
         public async Task<IActionResult> login([FromBody] OtpDto otp)       
         {
             var login = await _mediator.Send(new LoginOtpCommand { otpDto = otp });
             return Ok(login);
         }
+
 
         [HttpPost("ForgetPassword")]
         public async Task<IActionResult> ForgetPassword([FromBody] ForgotPasswordCommand command)

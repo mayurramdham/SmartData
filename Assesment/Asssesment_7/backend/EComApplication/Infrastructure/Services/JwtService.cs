@@ -25,7 +25,7 @@ namespace Infrastructure.Services
             var issuer = _configuration["JwtConfig:Issuer"];
             var audience = _configuration["JwtConfig:Audience"];
             var key = _configuration["JwtConfig:Key"];
-            var tokenExpiryTimeStamp = DateTime.UtcNow.AddMinutes(50); // Token is valid for 30 minutes
+            var tokenExpiryTimeStamp = DateTime.UtcNow.AddMinutes(150); // Token is valid for 30 minutes
 
             var tokenDescripter = new SecurityTokenDescriptor
             {

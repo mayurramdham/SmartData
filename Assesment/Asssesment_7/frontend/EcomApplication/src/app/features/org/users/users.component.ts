@@ -25,6 +25,7 @@ export class UsersComponent implements OnInit {
 
   ngOnInit(): void {
     this.getAllProducts();
+    this.loadCartFromLocalStorage();
     this.userId = this.jwtService.getUserId();
   }
   getAllProducts() {
@@ -44,23 +45,65 @@ export class UsersComponent implements OnInit {
       }
     );
   }
+
+  ///***********Delieving With Cart Item************ */
   addItemsToCart(prId: number) {
     const payload = {
       prId: prId,
       userId: this.userId,
       quantity: 1,
     };
+
+    // Prevent duplicate additions
+    if (this.cart.has(prId)) {
+      this.toasterService.showError('Item is already in the cart');
+      return;
+    }
+
     this.cartService.addToCart(payload).subscribe(
       (response) => {
-        if (response.status == 200) {
-          this.toasterService.showSuccess('Item Addedd Successfully');
+        if (response.status === 200) {
+          // Add item to local cart state
+          this.cart.add(prId);
+          this.updateCartInLocalStorage();
+          this.toasterService.showSuccess('Item Added Successfully');
         } else {
-          this.toasterService.showError('errror');
+          this.toasterService.showError('Error while adding the item');
         }
       },
       (error) => {
-        this.toasterService.showError('Unable to get response');
+        this.toasterService.showError('Unable to add item to cart');
       }
     );
   }
+
+  cart = new Set<number>();
+  isProductInCart(productId: number): boolean {
+    return this.cart.has(productId);
+  }
+
+  updateCartInLocalStorage() {
+    localStorage.setItem('cart', JSON.stringify(Array.from(this.cart)));
+  }
+
+  loadCartFromLocalStorage() {
+    const storedCart = localStorage.getItem('cart');
+    if (storedCart) {
+      this.cart = new Set(JSON.parse(storedCart));
+    }
+  }
+
+  //handler server side create api in backend
+  // loadCartItems() {
+  //   this.cartService.getCartItems(this.userId).subscribe(
+  //     (response) => {
+  //       if (response.status === 200 && response.data) {
+  //         this.cart = new Set(response.data.map((item: any) => item.prId)); // Assuming the response contains product IDs
+  //       }
+  //     },
+  //     (error) => {
+  //       this.toasterService.showError('Unable to load cart items');
+  //     }
+  //   );
+  // }
 }

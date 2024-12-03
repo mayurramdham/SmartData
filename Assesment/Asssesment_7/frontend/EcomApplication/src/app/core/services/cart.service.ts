@@ -10,4 +10,7 @@ export class CartService {
   addToCart(body: any): Observable<any> {
     return this.http.post('https://localhost:7227/api/Product/AddToCart', body);
   }
+  getProductFromCart(prId: any): Observable<any> {
+    return this.http.get(`https://localhost:7227/api/Cart/${prId}`);
+  }
 }

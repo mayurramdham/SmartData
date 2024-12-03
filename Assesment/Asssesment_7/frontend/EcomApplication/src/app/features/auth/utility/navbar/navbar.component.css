@@ -1,8 +1,8 @@
 .profile-image {
-  width: 40px; /* Adjust the width as needed */
-  height: 40px; /* Adjust the height as needed */
-  border-radius: 50%; /* Makes the image circular */
-  object-fit: cover; /* Ensures the image covers the entire area */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 /* .cart-icon .fa-shopping-cart {
   font-size: 24px;
@@ -14,10 +14,42 @@
   right: -5px;
 } */
 
-.cart-icon {
+/* .cart-icon {
   height: 35px;
   width: 35px;
   align-items: center;
   justify-content: center;
  
+} */
+.navbar {
+  background-color: #f8f9fa; /* Subtle background for elegance */
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
+.profile-image {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}
+
+.cart-icon {
+  cursor: pointer;
+  position: relative;
+}
+
+.cart-badge {
+  font-size: 0.75rem;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

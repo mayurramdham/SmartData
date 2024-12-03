@@ -21,14 +21,25 @@
           </p>
           <p class="text-primary fs-5 mb-2">
             <strong>Price:</strong> ${{ product.sellingPrice }}
-            <strong>Prid:</strong> ${{ product.prId }}
           </p>
-          <button
-            class="btn btn-primary mt-auto"
-            (click)="addItemsToCart(product.prId)"
-          >
-            Add to Cart
-          </button>
+          <div class="position-relative">
+            <button
+              class="btn btn-primary mt-auto"
+              [ngClass]="{ 'btn-success': isProductInCart(product.prId) }"
+              (click)="addItemsToCart(product.prId)"
+            >
+              {{
+                isProductInCart(product.prId) ? "Added to Cart" : "Add to Cart"
+              }}
+            </button>
+            <span
+              *ngIf="isProductInCart(product.prId)"
+              class="badge bg-success position-absolute top-0 end-0"
+              style="transform: translate(50%, -50%)"
+            >
+              ✔
+            </span>
+          </div>
         </div>
       </div>
     </div>

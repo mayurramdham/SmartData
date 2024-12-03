@@ -62,6 +62,7 @@ namespace App.core.App.Cart
 
             var response = new
             {
+                status=200,
                 CartMaster = checkUserId,
                 Product = product,
                 Quanity = cartDto.Quantity
