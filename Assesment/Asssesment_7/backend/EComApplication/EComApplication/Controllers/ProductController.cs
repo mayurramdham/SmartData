@@ -1,6 +1,8 @@
-﻿using App.core.App.Product.Command;
+﻿using App.core.App.Cart;
+using App.core.App.Product.Command;
 using App.core.App.Product.Query;
 using App.core.App.User.Command;
+using App.core.Model.Cart;
 using App.core.Model.Product;
 using MediatR;
 using Microsoft.AspNetCore.Http;
@@ -15,7 +17,7 @@ namespace EComApplication.Controllers
         private readonly IMediator _mediator;
         public ProductController(IMediator mediator)
         {
-            _mediator=mediator;
+            _mediator = mediator;
         }
         [HttpPost("AddProduct")]
         public async Task<IActionResult> AddProduct([FromForm] ProductDto productDto)
@@ -28,11 +30,33 @@ namespace EComApplication.Controllers
         public async Task<IActionResult> GetProduct()
         {
             // Send the request to the mediator to add the product
-            var response = await _mediator.Send(new getAllProductQuery {  });
+            var response = await _mediator.Send(new getAllProductQuery { });
 
             // Return the response (status and data) as an OK result
             return Ok(response);
         }
+        [HttpPut]
+        public async Task<IActionResult> UpdateProduct(UpdateProductDto products)
+        {
+            var update = await _mediator.Send(new UpdateProductCommand { Product = products });
+            return Ok(update);
+
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteProducttById(int id)
+        {
+            var isDeleted = await _mediator.Send(new DeleteProductCommand { PrId = id });
+            return Ok(isDeleted);
+        }
+        [HttpPost("AddToCart")]
+        public async Task<IActionResult> AddToCartProduct(AddToCartDto cartDto)
+        {
+            var addCart = await _mediator.Send(new AddToCartCommand{ AddToCartDto = cartDto });
+            return Ok(addCart);
+        }
+
+
 
     }
 }

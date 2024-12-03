@@ -1,11 +1,12 @@
 import { Component, inject } from '@angular/core';
 import { AuthServicesService } from '../../../core/services/auth-services.service';
 import { JwtService } from '../../../core/services/jwt.service';
+import { NavbarComponent } from '../../auth/utility/navbar/navbar.component';
 
 @Component({
   selector: 'app-profile',
   standalone: true,
-  imports: [],
+  imports: [NavbarComponent],
   templateUrl: './profile.component.html',
   styleUrl: './profile.component.css',
 })

@@ -16,4 +16,10 @@ export class ProductService {
   getProducts(): Observable<any> {
     return this.http.get('https://localhost:7227/api/Product');
   }
+  updateProducts(product: any): Observable<any> {
+    return this.http.put('https://localhost:7227/api/Product', product);
+  }
+  deleteProducts(PrId: any): Observable<any> {
+    return this.http.delete(`https://localhost:7227/api/Product/${PrId}`);
+  }
 }

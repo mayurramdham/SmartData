@@ -4,3 +4,20 @@
   border-radius: 50%; /* Makes the image circular */
   object-fit: cover; /* Ensures the image covers the entire area */
 }
+/* .cart-icon .fa-shopping-cart {
+  font-size: 24px;
+}
+
+.cart-icon .badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+} */
+
+.cart-icon {
+  height: 35px;
+  width: 35px;
+  align-items: center;
+  justify-content: center;
+ 
+}

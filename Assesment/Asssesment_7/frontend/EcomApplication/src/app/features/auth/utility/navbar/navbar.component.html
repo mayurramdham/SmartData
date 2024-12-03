@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">SmartData</a>
+    <a class="navbar-brand">SmartData</a>
     <button
       class="navbar-toggler"
       type="button"
@@ -18,7 +18,12 @@
           <a class="nav-link" [routerLink]="'/org/home'">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLink]="'/org/users'">Users</a>
+          <a
+            *ngIf="currentRole === 'User'"
+            class="nav-link"
+            routerLink="/org/users"
+            >Users</a
+          >
         </li>
         <li class="nav-item">
           <a class="nav-link" routerLink="/org/profile">Profile</a>
@@ -40,6 +45,12 @@
           <span class="navbar-text me-3"
             >Welcome, {{ userName }} You are {{ currentRole }}</span
           >
+          <div class="cart-icon">
+            <i class="fas fa-shopping-cart me-2 mt-2"></i>
+            <span class="cart-count">3</span>
+
+            <!-- Change the number dynamically -->
+          </div>
           <img
             [src]="usersData.profileImage"
             alt="Profile Image"

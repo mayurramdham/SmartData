@@ -12,6 +12,7 @@ import { ProfileComponent } from './features/org/profile/profile.component';
 import { producerAccessed } from '@angular/core/primitives/signals';
 import { ProductComponent } from './features/product/product/product.component';
 import { AddProductComponent } from './features/product/add-product/add-product.component';
+import { UsersComponent } from './features/org/users/users.component';
 
 export const routes: Routes = [
   {
@@ -54,6 +55,11 @@ export const routes: Routes = [
       {
         path: 'profile',
         component: ProfileComponent,
+        canActivate: [guardsGuard],
+      },
+      {
+        path: 'users',
+        component: UsersComponent,
         canActivate: [guardsGuard],
       },
     ],

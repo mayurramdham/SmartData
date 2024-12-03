@@ -53,7 +53,7 @@ namespace App.core.App.User.Command
                 };
             }
             DateTime now = DateTime.UtcNow;
-            DateTime otpValidity = now.AddMinutes(50);
+            DateTime otpValidity = now.AddMinutes(100);
            
 
            
