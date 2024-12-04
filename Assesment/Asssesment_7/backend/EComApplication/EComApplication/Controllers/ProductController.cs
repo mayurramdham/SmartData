@@ -1,4 +1,5 @@
 ﻿using App.core.App.Cart;
+using App.core.App.Cart.Command;
 using App.core.App.Product.Command;
 using App.core.App.Product.Query;
 using App.core.App.User.Command;
@@ -49,13 +50,8 @@ namespace EComApplication.Controllers
             var isDeleted = await _mediator.Send(new DeleteProductCommand { PrId = id });
             return Ok(isDeleted);
         }
-        [HttpPost("AddToCart")]
-        public async Task<IActionResult> AddToCartProduct(AddToCartDto cartDto)
-        {
-            var addCart = await _mediator.Send(new AddToCartCommand{ AddToCartDto = cartDto });
-            return Ok(addCart);
-        }
 
+       
 
 
     }

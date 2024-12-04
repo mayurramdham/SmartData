@@ -6,6 +6,10 @@
       <div class="col-md-4 text-center bg-light">
         <img
           [src]="userData?.profileImage || 'assets/default-profile.png'"
+          (error)="
+            userData.profileImage =
+              'https://avatars.githubusercontent.com/u/93993478?v=4'
+          "
           alt="Profile Image"
           class="img-fluid rounded-circle mt-4"
           style="width: 150px; height: 150px; object-fit: cover"
@@ -13,7 +17,10 @@
         <h3 class="mt-3">{{ userData?.firstName }} {{ userData?.lastName }}</h3>
         <p class="text-muted">{{ userData?.email }}</p>
         <div class="text-center mt-4">
-          <button class="btn change-password-btn">
+          <button
+            (click)="changePasswordModal(userData.userName)"
+            class="btn change-password-btn"
+          >
             <i class="bi bi-shield-lock"></i> Change Password
           </button>
         </div>
@@ -53,6 +60,157 @@
           <p><strong>Zip Code:</strong> {{ userData?.zipcode }}</p>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
+<!--Change Password model-->
+<!-- Modal Structure -->
+<!-- Change Password Modal -->
+<!-- Change Password Modal -->
+<div
+  class="modal fade"
+  id="changePasswordModal"
+  tabindex="-1"
+  aria-labelledby="changePasswordModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="changePasswordModalLabel">
+          Change Your Password
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+          (click)="closeModal()"
+        ></button>
+      </div>
+      <form [formGroup]="changePasswordForm">
+        <div class="modal-body">
+          <!-- Username Field -->
+          <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input
+              id="username"
+              type="text"
+              class="form-control"
+              formControlName="username"
+              placeholder="Enter your username"
+            />
+            <div
+              *ngIf="
+                changePasswordForm.get('username')?.invalid &&
+                changePasswordForm.get('username')?.touched
+              "
+              class="text-danger"
+            >
+              <small
+                *ngIf="changePasswordForm.get('username')?.hasError('required')"
+                >Username is required.</small
+              >
+              <small
+                *ngIf="
+                  changePasswordForm.get('username')?.hasError('minlength')
+                "
+                >Username must be at least 3 characters long.</small
+              >
+            </div>
+          </div>
+
+          <!-- New Password Field -->
+          <div class="mb-3">
+            <label for="password" class="form-label">New Password</label>
+            <input
+              id="password"
+              type="password"
+              class="form-control"
+              formControlName="password"
+              placeholder="Enter new password"
+            />
+            <div
+              *ngIf="
+                changePasswordForm.get('password')?.invalid &&
+                changePasswordForm.get('password')?.touched
+              "
+              class="text-danger"
+            >
+              <small
+                *ngIf="changePasswordForm.get('password')?.hasError('required')"
+                >Password is required.</small
+              >
+              <small
+                *ngIf="
+                  changePasswordForm.get('password')?.hasError('minlength')
+                "
+                >Password must be at least 6 characters long.</small
+              >
+            </div>
+          </div>
+
+          <!-- Confirm Password Field -->
+          <div class="mb-3">
+            <label for="confirmPassword" class="form-label"
+              >Confirm Password</label
+            >
+            <input
+              id="confirmPassword"
+              type="password"
+              class="form-control"
+              formControlName="confirmPassword"
+              placeholder="Confirm your new password"
+            />
+            <div
+              *ngIf="
+                changePasswordForm.hasError('passwordMismatch') &&
+                changePasswordForm.get('confirmPassword')?.touched
+              "
+              class="text-danger"
+            >
+              <small>Passwords do not match!</small>
+            </div>
+            <div
+              *ngIf="
+                changePasswordForm.get('confirmPassword')?.invalid &&
+                changePasswordForm.get('confirmPassword')?.touched
+              "
+              class="text-danger"
+            >
+              <small
+                *ngIf="
+                  changePasswordForm
+                    .get('confirmPassword')
+                    ?.hasError('required')
+                "
+                >Confirm Password is required.</small
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-dismiss="modal"
+            (click)="closeModal()"
+          >
+            Close
+          </button>
+          <button
+            type="submit"
+            (click)="closeModal()"
+            (click)="onSubmit()"
+            class="btn btn-primary"
+            [disabled]="changePasswordForm.invalid"
+          >
+            Change Password
+          </button>
+        </div>
+      </form>
     </div>
   </div>
 </div>

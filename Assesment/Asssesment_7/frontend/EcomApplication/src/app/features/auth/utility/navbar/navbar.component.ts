@@ -19,6 +19,7 @@ export class NavbarComponent implements OnInit {
   userName: string = ''; // Replace with actual user name from auth service
   isAdmin = false; // Replace with actual role check logic from auth service
   currentRole: string = '';
+  cartItemCount: number = 0;
 
   constructor(private router: Router) {
     this.currentRole = this.jwtService.getRole();
@@ -28,6 +29,10 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
     if (this.userId) this.getUserData(this.userId);
     console.log('currentRole', this.currentRole);
+    this.cartService.cartItemCount$.subscribe((count) => {
+      this.cartItemCount = count; // Update the cart item count
+    });
+    this.cartService.updateCartItemCount();
   }
   private jwtService = inject(JwtService);
   private authService = inject(AuthServicesService);

@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "EComApplication.Controllers.CartController",
+    "Method": "DeleteItem",
+    "RelativePath": "api/Cart/{cartId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.CartController",
     "Method": "GetCartProduct",
     "RelativePath": "api/Cart/{userId}",
     "HttpMethod": "GET",
@@ -10,6 +26,38 @@
       {
         "Name": "userId",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.CartController",
+    "Method": "AddToCartProduct",
+    "RelativePath": "api/Cart/AddToCart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartDto",
+        "Type": "App.core.Model.Cart.AddToCartDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.CartController",
+    "Method": "incrementQuantity",
+    "RelativePath": "api/Cart/incrementcart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incrementCartQuantityDto",
+        "Type": "App.core.Model.Cart.IncrementCartQuantityDto",
         "IsRequired": true
       }
     ],
@@ -191,16 +239,16 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EComApplication.Controllers.ProductController",
-    "Method": "AddToCartProduct",
-    "RelativePath": "api/Product/AddToCart",
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/User/ChangePassword",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "cartDto",
-        "Type": "App.core.Model.Cart.AddToCartDto",
+        "Name": "command",
+        "Type": "App.core.Model.Register.ChangePasswordDto",
         "IsRequired": true
       }
     ],
@@ -209,14 +257,14 @@
   {
     "ContainingType": "EComApplication.Controllers.UserController",
     "Method": "ForgetPassword",
-    "RelativePath": "api/User/ForgetPassword",
+    "RelativePath": "api/User/ForgetPassword/{email}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "command",
-        "Type": "App.core.App.User.Command.ForgotPasswordCommand",
+        "Name": "email",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

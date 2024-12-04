@@ -45,13 +45,20 @@ namespace EComApplication.Controllers
         }
 
 
-        [HttpPost("ForgetPassword")]
-        public async Task<IActionResult> ForgetPassword([FromBody] ForgotPasswordCommand command)
+        [HttpPost("ForgetPassword/{email}")]
+        public async Task<IActionResult> ForgetPassword(string email)
         {
-            var response = await _mediator.Send(command);
+            var response = await _mediator.Send(new ForgotPasswordCommand {Email= email } );
             return Ok(response);
         }
-      
+
+        [HttpPost("ChangePassword")]
+        public async Task<IActionResult> ChangePassword(ChangePasswordDto command)
+        {
+            var response = await _mediator.Send(new ChangePasswordCommand { ChangePasswordDto = command });
+            return Ok(response);
+        }
+
         [HttpGet("getUserById/{id}")]
         public async Task<IActionResult> UserById([FromRoute] int id)
         {

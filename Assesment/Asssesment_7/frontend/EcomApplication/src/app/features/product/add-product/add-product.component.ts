@@ -45,21 +45,6 @@ export class AddProductComponent implements OnInit {
 
     // this.productId = this.products[0].prId;
   }
-  // openEditModal(product: any): void {
-  //   this.products = product;
-
-  //   this.productForm.patchValue({
-  //     PrName: product.prName,
-  //     PrCategory: product.prCategory,
-  //     PrBrand: product.prBrand,
-  //     SellingPrice: product.sellingPrice,
-  //     PurchasePrice: product.purchasePrice,
-  //     PurchaseDate: product.purchaseDate,
-  //     Stock: product.stock,
-  //   });
-  //   // Open the modal (use Bootstrap modal methods)
-  //   // ('#editProductModal').modal('show');
-  // }
 
   getAllProducts() {
     this.productService.getProducts().subscribe(
@@ -222,6 +207,6 @@ export class AddProductComponent implements OnInit {
       modal.classList.remove('show');
       modal.setAttribute('aria-hidden', 'true');
     }
-    this.selectedProduct = null; // Clear the selected product when closing the modal
+    this.selectedProduct = null;
   }
 }

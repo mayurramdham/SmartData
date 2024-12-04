@@ -51,7 +51,7 @@ namespace App.core.App.Cart.Query
                                   p.PrBrand AS Brand,
                                   p.SellingPrice AS Price,
                                   p.PrImage AS ImageUrl
-                                   FROM CartMaster cm
+                                  FROM CartMaster cm
                                   INNER JOIN CartDetails cd ON cm.CartId = cd.CartId
                                   INNER JOIN Product p ON cd.PrId = p.PrId
                                   WHERE cm.UserId = @UserId

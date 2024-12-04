@@ -66,6 +66,8 @@ export class UsersComponent implements OnInit {
           // Add item to local cart state
           this.cart.add(prId);
           this.updateCartInLocalStorage();
+          this.cartService.updateCartItemCount();
+
           this.toasterService.showSuccess('Item Added Successfully');
         } else {
           this.toasterService.showError('Error while adding the item');
@@ -86,24 +88,21 @@ export class UsersComponent implements OnInit {
     localStorage.setItem('cart', JSON.stringify(Array.from(this.cart)));
   }
 
+  removeCartInLocalStorage() {
+    localStorage.removeItem('cart');
+  }
+  removeCartItemFromLocalStorage(itemToRemove: any): void {
+    // Remove the item from the Set
+    this.cart.delete(itemToRemove);
+
+    // Update localStorage with the new state of the cart
+    this.updateCartInLocalStorage();
+  }
+
   loadCartFromLocalStorage() {
     const storedCart = localStorage.getItem('cart');
     if (storedCart) {
       this.cart = new Set(JSON.parse(storedCart));
     }
   }
-
-  //handler server side create api in backend
-  // loadCartItems() {
-  //   this.cartService.getCartItems(this.userId).subscribe(
-  //     (response) => {
-  //       if (response.status === 200 && response.data) {
-  //         this.cart = new Set(response.data.map((item: any) => item.prId)); // Assuming the response contains product IDs
-  //       }
-  //     },
-  //     (error) => {
-  //       this.toasterService.showError('Unable to load cart items');
-  //     }
-  //   );
-  // }
 }

@@ -53,7 +53,12 @@
                   <i class="bi bi-plus"></i>
                 </button>
               </div>
-              <button class="btn btn-danger btn-sm mt-2">Remove</button>
+              <button
+                (click)="removeCartItem(item.cartId)"
+                class="btn btn-danger btn-sm mt-2"
+              >
+                Remove
+              </button>
             </div>
           </div>
         </div>
@@ -88,13 +93,16 @@
             </tbody>
           </table>
           <hr />
-          <h6>Delivery Address</h6>
-          <p class="small">
-            <strong>John Doe</strong><br />
-            123, Elm Street<br />
-            Springfield, IL 62704
-          </p>
-          <button class="btn btn-success w-100">Proceed to Checkout</button>
+          <div>
+            <h6>Delivery Address</h6>
+            <p class="small">
+              <strong>{{ users.firstName }} {{ users.lastName }}</strong
+              ><br />
+              123, Elm Street<br />
+              Springfield, IL 62704
+            </p>
+            <button class="btn btn-success w-100">Proceed to Checkout</button>
+          </div>
         </div>
       </div>
     </div>

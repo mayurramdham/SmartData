@@ -9,6 +9,10 @@
       <div class="card shadow-sm">
         <img
           [src]="product.prImage || 'assets/images/default-placeholder.png'"
+          (error)="
+            product.prImage =
+              'https://cdn.pixabay.com/photo/2022/08/01/07/59/vegetables-7357585_640.png'
+          "
           class="card-img-top"
           alt="{{ product.prName }}"
           style="height: 200px; object-fit: cover"
