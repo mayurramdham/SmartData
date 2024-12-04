@@ -8,11 +8,12 @@ import {
 import { Router, RouterLink } from '@angular/router';
 import { AuthServicesService } from '../../../core/services/auth-services.service';
 import { ToaterService } from '../../../core/services/toater.service';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [ReactiveFormsModule, RouterLink],
+  imports: [ReactiveFormsModule, RouterLink, CommonModule],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css',
 })
@@ -23,7 +24,10 @@ export class LoginComponent {
   otpDataValue: any = {};
   otpData: FormGroup = new FormGroup({
     userName: new FormControl(''),
-    otpCode: new FormControl('', [Validators.required]),
+    otpCode: new FormControl('', [
+      Validators.required,
+      Validators.pattern(/^\d{6}$/), // Ensures only 6-digit numbers are valid
+    ]),
   });
 
   otpVerify() {

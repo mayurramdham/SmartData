@@ -12,7 +12,7 @@
             <div class="card-body p-5">
               <h2 class="text-uppercase text-center mb-5">Create an Account</h2>
 
-              <form [formGroup]="registerForm">
+              <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
                 <div class="row">
                   <!-- First Column -->
                   <div class="col-md-6">
@@ -24,8 +24,15 @@
                         placeholder="Enter First Name"
                         name="firstName"
                         formControlName="firstName"
+                        [class.is-invalid]="
+                          registerForm.get('firstName')?.invalid &&
+                          registerForm.get('firstName')?.touched
+                        "
                       />
                       <label for="firstName">First Name</label>
+                      <div class="invalid-feedback">
+                        First Name is required.
+                      </div>
                     </div>
 
                     <div class="form-floating mb-3 mt-3">
@@ -36,8 +43,15 @@
                         placeholder="Enter Email"
                         name="email"
                         formControlName="email"
+                        [class.is-invalid]="
+                          registerForm.get('email')?.invalid &&
+                          registerForm.get('email')?.touched
+                        "
                       />
                       <label for="email">Email</label>
+                      <div class="invalid-feedback">
+                        Enter a valid email address.
+                      </div>
                     </div>
 
                     <div class="form-floating mb-3 mt-3">
@@ -57,17 +71,26 @@
                       </select>
                       <label for="countryId">Country</label>
                     </div>
+
                     <div class="form-floating mb-3 mt-3">
                       <input
                         type="number"
                         class="form-control"
                         id="mobile"
-                        placeholder="mobile"
+                        placeholder="Enter Mobile Number"
                         name="mobile"
                         formControlName="mobile"
+                        [class.is-invalid]="
+                          registerForm.get('mobile')?.invalid &&
+                          registerForm.get('mobile')?.touched
+                        "
                       />
                       <label for="mobile">Mobile</label>
+                      <div class="invalid-feedback">
+                        Mobile number is required.
+                      </div>
                     </div>
+
                     <div class="form-floating mb-3 mt-3">
                       <textarea
                         class="form-control"
@@ -75,8 +98,13 @@
                         placeholder="Enter Address"
                         name="address"
                         formControlName="address"
+                        [class.is-invalid]="
+                          registerForm.get('address')?.invalid &&
+                          registerForm.get('address')?.touched
+                        "
                       ></textarea>
                       <label for="address">Address</label>
+                      <div class="invalid-feedback">Address is required.</div>
                     </div>
                   </div>
 
@@ -90,8 +118,13 @@
                         placeholder="Enter Last Name"
                         name="lastName"
                         formControlName="lastName"
+                        [class.is-invalid]="
+                          registerForm.get('lastName')?.invalid &&
+                          registerForm.get('lastName')?.touched
+                        "
                       />
                       <label for="lastName">Last Name</label>
+                      <div class="invalid-feedback">Last Name is required.</div>
                     </div>
 
                     <div class="form-floating mb-3 mt-3">
@@ -102,9 +135,17 @@
                         placeholder="Enter DOB"
                         name="dob"
                         formControlName="dob"
+                        [class.is-invalid]="
+                          registerForm.get('dob')?.invalid &&
+                          registerForm.get('dob')?.touched
+                        "
                       />
                       <label for="dob">Date of Birth</label>
+                      <div class="invalid-feedback">
+                        Date of Birth is required.
+                      </div>
                     </div>
+
                     <div class="form-floating mb-3 mt-3">
                       <select
                         class="form-select"
@@ -123,27 +164,19 @@
                     </div>
 
                     <div class="form-floating mb-3 mt-3">
-                      <!-- <input
-                        type="number"
-                        class="form-control"
-                        id="userTypeId"
-                        placeholder="userTypeId"
-                        name="userTypeId"
-                        formControlName="userTypeId"
-                       
-                      /> -->
                       <select
                         class="form-select"
                         id="userTypeId"
                         formControlName="userTypeId"
                       >
-                        <option value="" disabled>Select UserType</option>
+                        <option value="" disabled>Select User Type</option>
                         <option value="1">Admin</option>
                         <option value="2">Customer</option>
                       </select>
-
-                      <label for="userTypeId">UserTypeId</label>
+                      <label for="userTypeId">User Type</label>
+                      <div class="invalid-feedback">User Type is required.</div>
                     </div>
+
                     <div class="form-floating mb-3 mt-3">
                       <input
                         type="number"
@@ -152,13 +185,19 @@
                         placeholder="Enter Zipcode"
                         name="zipcode"
                         formControlName="zipcode"
+                        [class.is-invalid]="
+                          registerForm.get('zipcode')?.invalid &&
+                          registerForm.get('zipcode')?.touched
+                        "
                       />
                       <label for="zipcode">Zipcode</label>
+                      <div class="invalid-feedback">
+                        Zipcode must be a 6-digit number.
+                      </div>
                     </div>
                   </div>
 
                   <!-- Full-Width Row for Image Upload -->
-                  <div class="col md-6"></div>
                   <div class="form-floating mb-3 mt-3">
                     <input
                       type="file"
@@ -171,9 +210,9 @@
 
                   <div class="d-flex justify-content-center">
                     <button
-                      type="button"
+                      type="submit"
                       class="btn btn-success btn-block btn-lg gradient-custom-4 text-body"
-                      (click)="onSubmit()"
+                      [disabled]="registerForm.invalid"
                     >
                       Register
                     </button>

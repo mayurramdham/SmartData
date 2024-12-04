@@ -40,9 +40,8 @@ namespace Infrastructure.Migrations
                         .HasMaxLength(3)
                         .HasColumnType("nvarchar(3)");
 
-                    b.Property<string>("ExpiryDate")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("ExpiryDate")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("CardId");
 
@@ -142,11 +141,11 @@ namespace Infrastructure.Migrations
 
             modelBuilder.Entity("Domain.Entity.Products.SalesDetails", b =>
                 {
-                    b.Property<int>("SalesId")
+                    b.Property<int>("SalesDetailsId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SalesId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SalesDetailsId"));
 
                     b.Property<int>("InvoiceId")
                         .HasColumnType("int");
@@ -154,9 +153,8 @@ namespace Infrastructure.Migrations
                     b.Property<int>("PrId")
                         .HasColumnType("int");
 
-                    b.Property<string>("ProductCode")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("ProductCode")
+                        .HasColumnType("int");
 
                     b.Property<int>("SalesQty")
                         .HasColumnType("int");
@@ -164,7 +162,7 @@ namespace Infrastructure.Migrations
                     b.Property<float>("SellingPrice")
                         .HasColumnType("real");
 
-                    b.HasKey("SalesId");
+                    b.HasKey("SalesDetailsId");
 
                     b.HasIndex("InvoiceId");
 
@@ -185,11 +183,13 @@ namespace Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("DeliveryCode")
-                        .HasColumnType("int");
+                    b.Property<string>("DeliveryCountry")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("DeliveryState")
-                        .HasColumnType("int");
+                    b.Property<string>("DeliveryState")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("DeliveryZipCode")
                         .IsRequired()

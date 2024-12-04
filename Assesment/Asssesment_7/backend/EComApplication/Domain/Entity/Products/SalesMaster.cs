@@ -12,15 +12,16 @@ namespace Domain.Entity.Products
         [Key]
         public int SalesId { get; set; }
         [Required]
-        public string InvoiceId { get; set; }
+        public string? InvoiceId { get; set; }
         public int UserId { get; set; }
         public DateTime OrderDate { get; set; }
         public double TotalAmount { get; set; }
         public string DeliveryAddress { get; set; }
         [Required,MaxLength(6)]
         public string DeliveryZipCode { get; set; }
-        public int DeliveryState { get; set; }
-        public int DeliveryCode {  get; set; } 
+        public string DeliveryState { get; set; }
+        public string DeliveryCountry { get; set; }
+    
 
     }
 }

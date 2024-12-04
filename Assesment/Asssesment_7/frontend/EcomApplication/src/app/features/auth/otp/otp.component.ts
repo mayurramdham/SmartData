@@ -9,11 +9,12 @@ import { Router, RouterLink, RouterOutlet } from '@angular/router';
 import { AuthServicesService } from '../../../core/services/auth-services.service';
 import { ToaterService } from '../../../core/services/toater.service';
 import { JwtService } from '../../../core/services/jwt.service';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-otp',
   standalone: true,
-  imports: [ReactiveFormsModule, RouterLink],
+  imports: [ReactiveFormsModule, RouterLink, CommonModule],
   templateUrl: './otp.component.html',
   styleUrl: './otp.component.css',
 })

@@ -35,11 +35,26 @@ namespace EComApplication.Controllers
            var cartQuanity=await _mediator.Send(new IncrementCartCommand { incrementCartQuantityDto= incrementCartQuantityDto });
             return Ok(cartQuanity);
         }
-         [HttpPost("AddToCart")]
+
+        [HttpPost("decrementcart")]
+        public async Task<IActionResult> decrementQuantity(DecrementCartQuantityDto decrementCartQuantityDto)
+        {
+            var cartQuanityDecrement = await _mediator.Send(new DecrementCartCommand { decrementCartQuantityDto = decrementCartQuantityDto });
+            return Ok(cartQuanityDecrement);
+        }
+
+        [HttpPost("AddToCart")]
         public async Task<IActionResult> AddToCartProduct(AddToCartDto cartDto)
         {
             var addCart = await _mediator.Send(new AddToCartCommand { AddToCartDto = cartDto });
             return Ok(addCart);
+        }
+
+        [HttpPost("AddPayment")]
+        public async Task<IActionResult> AddToPayment(CartPaymentDto cartPaymentDto)
+        {
+            var addPayment = await _mediator.Send(new AddPaymentCommand { CartPaymentDto = cartPaymentDto });
+            return Ok(addPayment);
         }
     }
 }

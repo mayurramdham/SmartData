@@ -15,7 +15,7 @@ namespace Domain.Entity.Products
 
         public string CardNumber { get; set; }
         [Required]    
-        public string ExpiryDate { get; set; }
+        public DateTime? ExpiryDate { get; set; }
         [Required,MaxLength(3)]
         public string Cvv { get; set; }
     }

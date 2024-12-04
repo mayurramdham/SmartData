@@ -12,7 +12,7 @@ namespace Domain.Entity.Products
     public class SalesDetails
     {
         [Key]
-        public int SalesId { get; set; }
+        public int SalesDetailsId { get; set; }
         [Required]
         [ForeignKey("SalesMaster")]
         public int InvoiceId { get; set; }
@@ -22,7 +22,7 @@ namespace Domain.Entity.Products
        
         public Product Product { get; set; }
         [Required]
-        public string ProductCode { get; set; }
+        public int ProductCode { get; set; }
         [Required]
         public int SalesQty { get; set; }
         [Required]

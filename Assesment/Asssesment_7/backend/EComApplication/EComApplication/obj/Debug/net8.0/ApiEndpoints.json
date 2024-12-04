@@ -33,6 +33,22 @@
   },
   {
     "ContainingType": "EComApplication.Controllers.CartController",
+    "Method": "AddToPayment",
+    "RelativePath": "api/Cart/AddPayment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartPaymentDto",
+        "Type": "App.core.Model.Cart.CartPaymentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.CartController",
     "Method": "AddToCartProduct",
     "RelativePath": "api/Cart/AddToCart",
     "HttpMethod": "POST",
@@ -42,6 +58,22 @@
       {
         "Name": "cartDto",
         "Type": "App.core.Model.Cart.AddToCartDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.CartController",
+    "Method": "decrementQuantity",
+    "RelativePath": "api/Cart/decrementcart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "decrementCartQuantityDto",
+        "Type": "App.core.Model.Cart.DecrementCartQuantityDto",
         "IsRequired": true
       }
     ],

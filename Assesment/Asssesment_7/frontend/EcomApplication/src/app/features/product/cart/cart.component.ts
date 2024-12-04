@@ -4,24 +4,47 @@ import { CartService } from '../../../core/services/cart.service';
 import { ToaterService } from '../../../core/services/toater.service';
 import { NavbarComponent } from '../../auth/utility/navbar/navbar.component';
 import { JwtService } from '../../../core/services/jwt.service';
+import {
+  FormBuilder,
+  FormGroup,
+  ReactiveFormsModule,
+  Validators,
+} from '@angular/forms';
 
 @Component({
   selector: 'app-cart',
   standalone: true,
-  imports: [CommonModule, NavbarComponent],
+  imports: [CommonModule, NavbarComponent, ReactiveFormsModule],
   templateUrl: './cart.component.html',
   styleUrl: './cart.component.css',
 })
 export class CartComponent implements OnInit {
+  paymentForm: FormGroup;
   cartItems: any[] = [];
   cart = new Set<number>();
   cartItemCount: number = 0;
   users: any = {};
   constructor(
+    private fb: FormBuilder,
     private cartService: CartService,
     private toasterService: ToaterService,
     private jwtService: JwtService
-  ) {}
+  ) {
+    this.paymentForm = this.fb.group({
+      cardNumber: [
+        '',
+        [Validators.required, Validators.pattern(/^\d{16}$/)], // 16-digit card number
+      ],
+      expiryDate: [
+        '',
+        [Validators.required, Validators.pattern(/^(0[1-9]|1[0-2])\/\d{2}$/)], // MM/YY format
+      ],
+      cvv: [
+        '',
+        [Validators.required, Validators.pattern(/^\d{3}$/)], // 3-digit CVV
+      ],
+    });
+  }
   ngOnInit(): void {
     this.getCartDetails();
     this.getUserForAddress(this.userId);
@@ -95,10 +118,15 @@ export class CartComponent implements OnInit {
       cartId: item.cartId,
       quantity: 1,
     };
-    console.log('quanity payload', payload);
+    // console.log('quanity payload', payload.quantity);
     this.cartService.IncrementQuantity(payload).subscribe(
       (response) => {
         if ((response.status = 200)) {
+          if (response.avaibleStock > response.cartQuantity) {
+            this.toasterService.showError(
+              'Out of stock! Please reduce the quantity.'
+            );
+          }
           this.updateCartInLocalStorage();
           this.getCartDetails();
         }
@@ -172,6 +200,38 @@ export class CartComponent implements OnInit {
     } else {
       // If the user cancels, do nothing
       console.log('Item deletion canceled');
+    }
+  }
+
+  //payment modal
+  // private paymentModal: bootstrap.Modal | undefined;
+
+  openPaymentModal(): void {
+    const modalElement = document.getElementById('paymentModal');
+    if (modalElement) {
+      modalElement.style.display = 'block';
+      modalElement.classList.add('show');
+      modalElement.setAttribute('aria-hidden', 'false');
+    }
+  }
+
+  closePaymentModal(): void {
+    const modal = document.getElementById('paymentModal');
+    if (modal) {
+      modal.style.display = 'none';
+      modal.classList.remove('show');
+      modal.setAttribute('aria-hidden', 'true');
+    }
+  }
+
+  processPayment(): void {
+    if (this.paymentForm.valid) {
+      // Simulate payment processing
+      alert('Payment successful!');
+      this.closePaymentModal();
+      this.paymentForm.reset(); // Reset form after successful submission
+    } else {
+      this.paymentForm.markAllAsTouched(); // Show validation errors
     }
   }
 }

@@ -21,9 +21,17 @@
                     placeholder="Enter OTP"
                     name="otpCode"
                     formControlName="otpCode"
-                    required
                   />
                   <label for="otp">Enter OTP</label>
+                  <div
+                    *ngIf="
+                      otpData.get('otpCode')?.invalid &&
+                      otpData.get('otpCode')?.touched
+                    "
+                    class="text-danger"
+                  >
+                    OTP must be a 6-digit number.
+                  </div>
                 </div>
 
                 <div class="text-center text-muted mb-4">
@@ -40,14 +48,11 @@
                     type="submit"
                     class="btn btn-success btn-block btn-lg gradient-custom-4 text-body"
                     (click)="otpVerify()"
+                    [disabled]="otpData.invalid"
                   >
-                    Login
+                    Verify OTP
                   </button>
                 </div>
-
-                <!-- <p class="text-center text-muted mt-4 mb-0">
-                  <a class="fw-bold text-body"><u>Back to Login</u></a>
-                </p> -->
               </form>
             </div>
           </div>

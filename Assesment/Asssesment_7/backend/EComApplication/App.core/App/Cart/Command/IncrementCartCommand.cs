@@ -47,7 +47,8 @@ namespace App.core.App.Cart.Command
             {
                 status = 200,
                 message = "Quanity updated successfully",
-                cartQuantity = checkProduct.Quantity
+                cartQuantity = checkProduct.Quantity,
+                avaibleStock=product.Stock
             };
             return response;
 
