@@ -28,6 +28,7 @@ namespace App.core.App.Cart.Command
             var productRequest = request.incrementCartQuantityDto;
             var checkProduct = await _appDbContext.Set<Domain.Entity.Products.CartDetails>().
                                        FirstOrDefaultAsync(p => p.CartId == productRequest.CartId,cancellationToken);
+
             var product= await _appDbContext.Set<Domain.Entity.Products.Product>().
                                 FirstOrDefaultAsync(p=>p.PrId== productRequest.PrId,cancellationToken);
             if (checkProduct is null)

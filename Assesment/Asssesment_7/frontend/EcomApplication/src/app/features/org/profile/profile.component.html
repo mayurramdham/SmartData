@@ -24,6 +24,13 @@
             <i class="bi bi-shield-lock"></i> Change Password
           </button>
         </div>
+
+        <button
+          (click)="onOpenupdateProfileModal(userData)"
+          class="btn btn-primary change-password-btn m-2"
+        >
+          <i class="bi bi-person-circle"></i> Update Profile
+        </button>
       </div>
 
       <!-- Profile Details Section -->
@@ -208,6 +215,236 @@
             [disabled]="changePasswordForm.invalid"
           >
             Change Password
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!--**************Update Profile Model************-->
+<div
+  class="modal fade"
+  id="updateProfileModal"
+  tabindex="-1"
+  aria-labelledby="updateProfileModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="updateProfileModalLabel">
+          Update Your Profile
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+          (click)="onCloseupdateProfileModal()"
+        ></button>
+      </div>
+      <form [formGroup]="updateProfileForm">
+        <div class="modal-body">
+          <!-- First Name Field -->
+          <div class="mb-3">
+            <label for="firstName" class="form-label">First Name</label>
+            <input
+              id="firstName"
+              type="text"
+              class="form-control"
+              formControlName="firstName"
+              placeholder="Enter your first name"
+            />
+            <div
+              *ngIf="
+                updateProfileForm.get('firstName')?.invalid &&
+                updateProfileForm.get('firstName')?.touched
+              "
+              class="text-danger"
+            >
+              <small
+                *ngIf="updateProfileForm.get('firstName')?.hasError('required')"
+                >First name is required.</small
+              >
+            </div>
+          </div>
+
+          <!-- Last Name Field -->
+          <div class="mb-3">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input
+              id="lastName"
+              type="text"
+              class="form-control"
+              formControlName="lastName"
+              placeholder="Enter your last name"
+            />
+            <div
+              *ngIf="
+                updateProfileForm.get('lastName')?.invalid &&
+                updateProfileForm.get('lastName')?.touched
+              "
+              class="text-danger"
+            >
+              <small
+                *ngIf="updateProfileForm.get('lastName')?.hasError('required')"
+                >Last name is required.</small
+              >
+            </div>
+          </div>
+
+          <!-- Email Field -->
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input
+              id="email"
+              type="email"
+              class="form-control"
+              formControlName="email"
+              placeholder="Enter your email"
+            />
+            <div
+              *ngIf="
+                updateProfileForm.get('email')?.invalid &&
+                updateProfileForm.get('email')?.touched
+              "
+              class="text-danger"
+            >
+              <small
+                *ngIf="updateProfileForm.get('email')?.hasError('required')"
+                >Email is required.</small
+              >
+              <small *ngIf="updateProfileForm.get('email')?.hasError('email')"
+                >Please enter a valid email address.</small
+              >
+            </div>
+          </div>
+
+          <!-- Date of Birth Field -->
+          <div class="mb-3">
+            <label for="dob" class="form-label">Date of Birth</label>
+            <input
+              id="dob"
+              type="date"
+              class="form-control"
+              formControlName="dob"
+              placeholder="Enter your date of birth"
+            />
+            <div
+              *ngIf="
+                updateProfileForm.get('dob')?.invalid &&
+                updateProfileForm.get('dob')?.touched
+              "
+              class="text-danger"
+            >
+              <small *ngIf="updateProfileForm.get('dob')?.hasError('required')"
+                >Date of birth is required.</small
+              >
+            </div>
+          </div>
+
+          <!-- Mobile Field -->
+          <div class="mb-3">
+            <label for="mobile" class="form-label">Mobile</label>
+            <input
+              id="mobile"
+              type="text"
+              class="form-control"
+              formControlName="mobile"
+              placeholder="Enter your mobile number"
+            />
+            <div
+              *ngIf="
+                updateProfileForm.get('mobile')?.invalid &&
+                updateProfileForm.get('mobile')?.touched
+              "
+              class="text-danger"
+            >
+              <small
+                *ngIf="updateProfileForm.get('mobile')?.hasError('required')"
+                >Mobile number is required.</small
+              >
+            </div>
+          </div>
+
+          <!-- Address Field -->
+          <div class="mb-3">
+            <label for="address" class="form-label">Address</label>
+            <input
+              id="address"
+              type="text"
+              class="form-control"
+              formControlName="address"
+              placeholder="Enter your address"
+            />
+            <div
+              *ngIf="
+                updateProfileForm.get('address')?.invalid &&
+                updateProfileForm.get('address')?.touched
+              "
+              class="text-danger"
+            >
+              <small
+                *ngIf="updateProfileForm.get('address')?.hasError('required')"
+                >Address is required.</small
+              >
+            </div>
+          </div>
+
+          <!-- Zipcode Field -->
+          <div class="mb-3">
+            <label for="zipcode" class="form-label">Zipcode</label>
+            <input
+              id="zipcode"
+              type="text"
+              class="form-control"
+              formControlName="zipcode"
+              placeholder="Enter your zipcode"
+            />
+            <div
+              *ngIf="
+                updateProfileForm.get('zipcode')?.invalid &&
+                updateProfileForm.get('zipcode')?.touched
+              "
+              class="text-danger"
+            >
+              <small
+                *ngIf="updateProfileForm.get('zipcode')?.hasError('required')"
+                >Zipcode is required.</small
+              >
+            </div>
+          </div>
+
+          <!-- Profile Image Field -->
+          <div class="mb-3">
+            <label for="profileImage" class="form-label">Profile Image</label>
+            <input
+              id="profileImage"
+              type="file"
+              class="form-control"
+              formControlName="profileImage"
+            />
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-dismiss="modal"
+            (click)="onCloseupdateProfileModal()"
+          >
+            Close
+          </button>
+          <button
+            type="submit"
+            (click)="closeModal()"
+            (click)="onUpdateProfile()"
+            class="btn btn-primary"
+            [disabled]="updateProfileForm.invalid"
+          >
+            Update Profile
           </button>
         </div>
       </form>

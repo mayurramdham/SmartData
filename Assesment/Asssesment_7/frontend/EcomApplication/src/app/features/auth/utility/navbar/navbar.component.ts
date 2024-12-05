@@ -16,10 +16,11 @@ import { CartService } from '../../../../core/services/cart.service';
 export class NavbarComponent implements OnInit {
   userId?: number;
   usersData: any = {};
-  userName: string = ''; // Replace with actual user name from auth service
-  isAdmin = false; // Replace with actual role check logic from auth service
+  userName: string = '';
+  isAdmin = false;
   currentRole: string = '';
   cartItemCount: number = 0;
+  cartCaunt: number = 0;
 
   constructor(private router: Router) {
     this.currentRole = this.jwtService.getRole();
@@ -32,15 +33,15 @@ export class NavbarComponent implements OnInit {
     this.cartService.cartItemCount$.subscribe((count) => {
       this.cartItemCount = count; // Update the cart item count
     });
-    this.cartService.updateCartItemCount();
+    this.cartService.cartItem$.subscribe((count) => {
+      this.cartCaunt = count.length;
+    });
   }
   private jwtService = inject(JwtService);
   private authService = inject(AuthServicesService);
   private toaster = inject(ToaterService);
   private cartService = inject(CartService);
   logout() {
-    // Perform logout logic here
-
     alert('Logged out successfully!');
     localStorage.removeItem('accessToken');
     localStorage.removeItem('userId');
@@ -66,18 +67,4 @@ export class NavbarComponent implements OnInit {
       }
     });
   }
-  //*****cart data*******/
-  // getCartItemCount() {
-  //   const userId = 1; // You can dynamically fetch this user ID from session/authentication state
-  //   this.cartService.getProductFromCart(userId).subscribe(
-  //     (response: any) => {
-  //       if (response.status === 200) {
-  //         this.cartItemCount = response.cartItems.length;
-  //       }
-  //     },
-  //     (error) => {
-  //       this.cartItemCount = 0;
-  //     }
-  //   );
-  // }
 }

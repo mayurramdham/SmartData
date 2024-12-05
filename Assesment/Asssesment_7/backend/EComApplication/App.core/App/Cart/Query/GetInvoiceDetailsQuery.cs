@@ -16,7 +16,7 @@ namespace App.core.App.Cart.Query
     {
         public int SalesId { get; set; }
 
-      
+
     }
 
     public class GetInvoiceDetailsQueryHandler : IRequestHandler<GetInvoiceDetailsQuery, object>
@@ -69,15 +69,56 @@ namespace App.core.App.Cart.Query
             var invoiceDetails = await connection.QueryAsync<InvoiceDetailsDto>(sql, parameters);
 
             // Map the result to a response object
+            var groupedInvoice = invoiceDetails
+          .GroupBy(x => new
+          {
+              x.InvoiceId,
+              x.UserId,
+              x.FirstName,
+              x.LastName,
+              x.Email,
+              x.Mobile,
+              x.DeliveryAddress,
+              x.DeliveryZipCode,
+              x.DeliveryState,
+              x.DeliveryCountry,
+              x.OrderDate,
+              x.TotalAmount
+          })
+          .Select(g => new
+          {
+              InvoiceId = g.Key.InvoiceId,
+              UserId = g.Key.UserId,
+              FirstName = g.Key.FirstName,
+              LastName = g.Key.LastName,
+              Email = g.Key.Email,
+              Mobile = g.Key.Mobile,
+              DeliveryAddress = g.Key.DeliveryAddress,
+              DeliveryZipCode = g.Key.DeliveryZipCode,
+              DeliveryState = g.Key.DeliveryState,
+              DeliveryCountry = g.Key.DeliveryCountry,
+              OrderDate = g.Key.OrderDate,
+              TotalAmount = g.Key.TotalAmount,
+              Products = g.Select(p => new
+              {
+                  ProductName = p.ProductName,
+                  ProductCode = p.ProductCode,
+                  SalesQty = p.SalesQty,
+                  SellingPrice = p.SellingPrice
+              }).ToList()
+          })
+          .FirstOrDefault();
+
+            // Response object
             var response = new
             {
-                message = "Invoice details retrieved successfully.",
-                status = 200,
-                invoice = invoiceDetails.ToList()
+                message = groupedInvoice != null ? "Invoice details retrieved successfully." : "Invoice not found.",
+                status = groupedInvoice != null ? 200 : 404,
+                invoice = groupedInvoice
             };
 
             return response;
         }
-    }
 
+    }
 }

@@ -77,7 +77,7 @@ namespace App.core.App.Cart.Command
 
                 if (product is null || !(product.Stock >= item.Quantity))
                 {
-                    return new { status = 404, message = "Item not found in the cart", data = product };
+                    return new { status = 404, message = "Item not in the stock", data = product };
                 }
 
                 // Find Subtotal

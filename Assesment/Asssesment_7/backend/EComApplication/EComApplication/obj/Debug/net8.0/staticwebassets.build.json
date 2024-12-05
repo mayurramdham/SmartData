@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "X6QSMi3oB6MSLwWr63LMJ6oMF8Vi5LLD8+6O7SJxnaY=",
+  "Hash": "YbwVLJL5VPCmnYl15sTMkPU7wWmTOKQvWqQ14Ac8hek=",
   "Source": "EComApplication",
   "BasePath": "_content/EComApplication",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "EComApplication\\wwwroot",
       "Source": "EComApplication",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\269eb5b1-7040-4c3a-a130-e53fd1394838.png",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\269eb5b1-7040-4c3a-a130-e53fd1394838.png",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/269eb5b1-7040-4c3a-a130-e53fd1394838.png",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\269eb5b1-7040-4c3a-a130-e53fd1394838.png"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\2a2f9e3e-d7dd-4752-9b8b-4c24859f6eea.png",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\2a2f9e3e-d7dd-4752-9b8b-4c24859f6eea.png",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/2a2f9e3e-d7dd-4752-9b8b-4c24859f6eea.png",
       "AssetKind": "All",
@@ -55,10 +55,29 @@
       "OriginalItemSpec": "wwwroot\\Images\\2a2f9e3e-d7dd-4752-9b8b-4c24859f6eea.png"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\2cc47cb3-4344-47be-808d-17bd950e3d10.jpg",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\2ab679c0-1783-4f46-8008-071fa43cadd0.jpg",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "BasePath": "_content/EComApplication",
+      "RelativePath": "Images/2ab679c0-1783-4f46-8008-071fa43cadd0.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\2ab679c0-1783-4f46-8008-071fa43cadd0.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\2cc47cb3-4344-47be-808d-17bd950e3d10.jpg",
+      "SourceId": "EComApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/2cc47cb3-4344-47be-808d-17bd950e3d10.jpg",
       "AssetKind": "All",
@@ -74,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\2cc47cb3-4344-47be-808d-17bd950e3d10.jpg"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\2f663c53-9d19-4e10-bc9f-4f4e4b526c43.jpg",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\2f663c53-9d19-4e10-bc9f-4f4e4b526c43.jpg",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/2f663c53-9d19-4e10-bc9f-4f4e4b526c43.jpg",
       "AssetKind": "All",
@@ -93,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\2f663c53-9d19-4e10-bc9f-4f4e4b526c43.jpg"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\31c45348-ce8e-4fc5-bec1-2bf542bf4bd6.jpg",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\31c45348-ce8e-4fc5-bec1-2bf542bf4bd6.jpg",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/31c45348-ce8e-4fc5-bec1-2bf542bf4bd6.jpg",
       "AssetKind": "All",
@@ -112,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\31c45348-ce8e-4fc5-bec1-2bf542bf4bd6.jpg"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\66533bf0-c2ff-418a-a1a2-cb87adc462e6.jpg",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\66533bf0-c2ff-418a-a1a2-cb87adc462e6.jpg",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/66533bf0-c2ff-418a-a1a2-cb87adc462e6.jpg",
       "AssetKind": "All",
@@ -131,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\66533bf0-c2ff-418a-a1a2-cb87adc462e6.jpg"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\6bdb11eb-0a12-4d95-9634-e576cc28383c.png",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\6bdb11eb-0a12-4d95-9634-e576cc28383c.png",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/6bdb11eb-0a12-4d95-9634-e576cc28383c.png",
       "AssetKind": "All",
@@ -150,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\6bdb11eb-0a12-4d95-9634-e576cc28383c.png"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\6c86004a-ef68-422a-9771-779813fe6112.jpg",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\6c86004a-ef68-422a-9771-779813fe6112.jpg",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/6c86004a-ef68-422a-9771-779813fe6112.jpg",
       "AssetKind": "All",
@@ -169,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\6c86004a-ef68-422a-9771-779813fe6112.jpg"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\72d577ef-38ef-484c-8289-23cdaa4ae3d7.png",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\72d577ef-38ef-484c-8289-23cdaa4ae3d7.png",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/72d577ef-38ef-484c-8289-23cdaa4ae3d7.png",
       "AssetKind": "All",
@@ -188,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\72d577ef-38ef-484c-8289-23cdaa4ae3d7.png"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\7cb98c64-a806-4015-817c-b7172df3988c.png",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\7cb98c64-a806-4015-817c-b7172df3988c.png",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/7cb98c64-a806-4015-817c-b7172df3988c.png",
       "AssetKind": "All",
@@ -207,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\7cb98c64-a806-4015-817c-b7172df3988c.png"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\8db8b1e4-125e-4b49-b1ba-6b433ba6d5a4.jpg",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\8db8b1e4-125e-4b49-b1ba-6b433ba6d5a4.jpg",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/8db8b1e4-125e-4b49-b1ba-6b433ba6d5a4.jpg",
       "AssetKind": "All",
@@ -226,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\8db8b1e4-125e-4b49-b1ba-6b433ba6d5a4.jpg"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\92a0a71a-6d47-4791-8008-eb65c3e0fd95.jpg",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\92a0a71a-6d47-4791-8008-eb65c3e0fd95.jpg",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/92a0a71a-6d47-4791-8008-eb65c3e0fd95.jpg",
       "AssetKind": "All",
@@ -245,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\92a0a71a-6d47-4791-8008-eb65c3e0fd95.jpg"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\97e71879-5d1a-41ad-9f89-a5e2e08e2957.png",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\97e71879-5d1a-41ad-9f89-a5e2e08e2957.png",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/97e71879-5d1a-41ad-9f89-a5e2e08e2957.png",
       "AssetKind": "All",
@@ -264,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\97e71879-5d1a-41ad-9f89-a5e2e08e2957.png"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\a3f8beda-73c3-4e4f-8a71-0e521c623e51.jpg",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\a3f8beda-73c3-4e4f-8a71-0e521c623e51.jpg",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/a3f8beda-73c3-4e4f-8a71-0e521c623e51.jpg",
       "AssetKind": "All",
@@ -283,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\a3f8beda-73c3-4e4f-8a71-0e521c623e51.jpg"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\a5293d86-c9d0-49bd-bbd3-fb738213547a.jpg",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\a5293d86-c9d0-49bd-bbd3-fb738213547a.jpg",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/a5293d86-c9d0-49bd-bbd3-fb738213547a.jpg",
       "AssetKind": "All",
@@ -302,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\a5293d86-c9d0-49bd-bbd3-fb738213547a.jpg"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\a61b29cf-011a-4fe7-bb50-d3acf527bcbc.jpg",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\a61b29cf-011a-4fe7-bb50-d3acf527bcbc.jpg",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/a61b29cf-011a-4fe7-bb50-d3acf527bcbc.jpg",
       "AssetKind": "All",
@@ -321,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\a61b29cf-011a-4fe7-bb50-d3acf527bcbc.jpg"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\a6a55961-eb7c-46fa-a3c8-62192d1b5173.jpg",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\a6a55961-eb7c-46fa-a3c8-62192d1b5173.jpg",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/a6a55961-eb7c-46fa-a3c8-62192d1b5173.jpg",
       "AssetKind": "All",
@@ -340,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\a6a55961-eb7c-46fa-a3c8-62192d1b5173.jpg"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\ac7e6c03-a2cc-453d-b8d1-ddfbdebf9c73.jpg",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\ac7e6c03-a2cc-453d-b8d1-ddfbdebf9c73.jpg",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/ac7e6c03-a2cc-453d-b8d1-ddfbdebf9c73.jpg",
       "AssetKind": "All",
@@ -359,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ac7e6c03-a2cc-453d-b8d1-ddfbdebf9c73.jpg"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\aee35e3d-0216-43f9-b020-572c631b6ff7.png",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\aee35e3d-0216-43f9-b020-572c631b6ff7.png",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/aee35e3d-0216-43f9-b020-572c631b6ff7.png",
       "AssetKind": "All",
@@ -378,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\aee35e3d-0216-43f9-b020-572c631b6ff7.png"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\b363d6cf-3a6a-433f-bfee-74e98c66a2ea.png",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\b363d6cf-3a6a-433f-bfee-74e98c66a2ea.png",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/b363d6cf-3a6a-433f-bfee-74e98c66a2ea.png",
       "AssetKind": "All",
@@ -397,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\b363d6cf-3a6a-433f-bfee-74e98c66a2ea.png"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\b38054e6-eeca-4f3d-83a9-37d3c7452b98.png",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\b38054e6-eeca-4f3d-83a9-37d3c7452b98.png",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/b38054e6-eeca-4f3d-83a9-37d3c7452b98.png",
       "AssetKind": "All",
@@ -416,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\b38054e6-eeca-4f3d-83a9-37d3c7452b98.png"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\b39fd6c4-1e06-4a78-8487-c722b43c2f1f.jpg",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\b39fd6c4-1e06-4a78-8487-c722b43c2f1f.jpg",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/b39fd6c4-1e06-4a78-8487-c722b43c2f1f.jpg",
       "AssetKind": "All",
@@ -435,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\b39fd6c4-1e06-4a78-8487-c722b43c2f1f.jpg"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\b413b350-0669-42ba-8a74-d71764f0e3f4.png",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\b413b350-0669-42ba-8a74-d71764f0e3f4.png",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/b413b350-0669-42ba-8a74-d71764f0e3f4.png",
       "AssetKind": "All",
@@ -454,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\b413b350-0669-42ba-8a74-d71764f0e3f4.png"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\c255d9e1-683b-4ac4-ae2c-5be2ac02b797.jpg",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\c255d9e1-683b-4ac4-ae2c-5be2ac02b797.jpg",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/c255d9e1-683b-4ac4-ae2c-5be2ac02b797.jpg",
       "AssetKind": "All",
@@ -473,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\c255d9e1-683b-4ac4-ae2c-5be2ac02b797.jpg"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\c8a24790-1313-4f5a-bfe6-fdb785e3f374.png",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\c8a24790-1313-4f5a-bfe6-fdb785e3f374.png",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/c8a24790-1313-4f5a-bfe6-fdb785e3f374.png",
       "AssetKind": "All",
@@ -492,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\c8a24790-1313-4f5a-bfe6-fdb785e3f374.png"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\da92dd66-dfe3-472f-b5ef-16af483b023b.png",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\da92dd66-dfe3-472f-b5ef-16af483b023b.png",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/da92dd66-dfe3-472f-b5ef-16af483b023b.png",
       "AssetKind": "All",
@@ -511,10 +530,29 @@
       "OriginalItemSpec": "wwwroot\\Images\\da92dd66-dfe3-472f-b5ef-16af483b023b.png"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\e11eca63-9662-4ae4-a0ae-1ee241dee1a3.jpg",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\ddc068be-89d3-4bb9-8660-79d338a4069c.jpg",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "BasePath": "_content/EComApplication",
+      "RelativePath": "Images/ddc068be-89d3-4bb9-8660-79d338a4069c.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ddc068be-89d3-4bb9-8660-79d338a4069c.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\e11eca63-9662-4ae4-a0ae-1ee241dee1a3.jpg",
+      "SourceId": "EComApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/e11eca63-9662-4ae4-a0ae-1ee241dee1a3.jpg",
       "AssetKind": "All",
@@ -530,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\e11eca63-9662-4ae4-a0ae-1ee241dee1a3.jpg"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\e847e373-a7ea-4ebd-81ac-c47f6f169523.jpg",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\e847e373-a7ea-4ebd-81ac-c47f6f169523.jpg",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/e847e373-a7ea-4ebd-81ac-c47f6f169523.jpg",
       "AssetKind": "All",
@@ -549,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\e847e373-a7ea-4ebd-81ac-c47f6f169523.jpg"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\eaaac54b-3162-40bd-9352-679c15e347b5.jpg",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\eaaac54b-3162-40bd-9352-679c15e347b5.jpg",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/eaaac54b-3162-40bd-9352-679c15e347b5.jpg",
       "AssetKind": "All",
@@ -568,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\eaaac54b-3162-40bd-9352-679c15e347b5.jpg"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\f5e9c732-68e2-4951-91dd-cee0e368972e.jpg",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\f5e9c732-68e2-4951-91dd-cee0e368972e.jpg",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/f5e9c732-68e2-4951-91dd-cee0e368972e.jpg",
       "AssetKind": "All",
@@ -587,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\f5e9c732-68e2-4951-91dd-cee0e368972e.jpg"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\fa55a055-d559-411b-840a-a7557b462293.png",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\fa55a055-d559-411b-840a-a7557b462293.png",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/fa55a055-d559-411b-840a-a7557b462293.png",
       "AssetKind": "All",
@@ -606,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\fa55a055-d559-411b-840a-a7557b462293.png"
     },
     {
-      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\fbbe42c1-c3b2-4ccb-9ada-7fb8fa04fc1f.jpg",
+      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\Images\\fbbe42c1-c3b2-4ccb-9ada-7fb8fa04fc1f.jpg",
       "SourceId": "EComApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\EComApplication\\wwwroot\\",
       "BasePath": "_content/EComApplication",
       "RelativePath": "Images/fbbe42c1-c3b2-4ccb-9ada-7fb8fa04fc1f.jpg",
       "AssetKind": "All",

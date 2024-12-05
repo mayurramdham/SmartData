@@ -13,7 +13,7 @@ import { CommonModule } from '@angular/common';
 })
 export class InvoiceComponent implements OnInit {
   id?: number;
-  invoiceData: any[] = [];
+  invoice: any;
   constructor(
     private route: ActivatedRoute,
     private cartService: CartService,
@@ -27,8 +27,8 @@ export class InvoiceComponent implements OnInit {
     this.cartService.GenerateInvoice(Number(this.id)).subscribe(
       (response) => {
         if (response.status == 200) {
-          this.invoiceData = response.invoice;
-          console.log('invoice data', this.invoiceData);
+          this.invoice = response.invoice;
+          console.log('invoice data', this.invoice);
         } else {
           this.toasterService.showError('unable to gnerate invoice');
         }

@@ -187,7 +187,8 @@ export class CartComponent implements OnInit {
         next: (result: any) => {
           if (result.status == 200) {
             this.removeCartInLocalStorage();
-            this.cartService.updateCartItemCount();
+            this.cartService.resetSetCount();
+
             this.getCartDetails();
             this.toasterService.showSuccess(
               'Item from cart Deleted Successfully'
@@ -228,15 +229,6 @@ export class CartComponent implements OnInit {
     }
   }
 
-  // getUserData(userId: number): void {
-  //   this.authService.getUserById(userId).subscribe((response: any) => {
-  //     if (response.status === 200) {
-
-  //       console.log('User Data:', this.userData);
-  //     }
-  //   });
-  // }
-
   processPayment(): void {
     if (this.paymentForm.valid) {
       const expiryDateRaw = this.paymentForm.get('expiryDate')?.value;
@@ -261,6 +253,7 @@ export class CartComponent implements OnInit {
 
           if (response.status == 200) {
             console.log('payment', response);
+            this.cartService.resetSetCount();
             this.toasterService.showSuccess('Payment successful!');
 
             this.closePaymentModal();
@@ -269,7 +262,7 @@ export class CartComponent implements OnInit {
             );
             this.paymentForm.reset();
           } else {
-            this.toasterService.showError('Invalid details');
+            this.toasterService.showError(response.message);
           }
         },
         (error) => {
@@ -281,6 +274,4 @@ export class CartComponent implements OnInit {
       this.paymentForm.markAllAsTouched(); // Show validation errors
     }
   }
-
-  
 }

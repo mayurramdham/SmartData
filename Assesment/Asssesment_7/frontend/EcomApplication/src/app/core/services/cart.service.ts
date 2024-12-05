@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { jwtDecode } from 'jwt-decode';
 import { BehaviorSubject, Observable } from 'rxjs';
 
 @Injectable({
@@ -8,6 +9,7 @@ import { BehaviorSubject, Observable } from 'rxjs';
 export class CartService {
   constructor(private http: HttpClient) {
     this.updateCartItemCount();
+    this.setItemCountSubject();
   }
   addToCart(body: any): Observable<any> {
     return this.http.post('https://localhost:7227/api/Cart/AddToCart', body);
@@ -29,6 +31,13 @@ export class CartService {
       `https://localhost:7227/api/User/getUserById/${userId}`
     );
   }
+
+  getCartProductCount$(userId: number): Observable<any> {
+    return this.http.get(
+      `https://localhost:7227/api/Cart/getCartCount/${userId}`
+    );
+  }
+
   addPayment(payment: any): Observable<any> {
     return this.http.post(
       `https://localhost:7227/api/Cart/AddPayment`,
@@ -44,6 +53,35 @@ export class CartService {
 
   //code fro subject behavipour
   private cartItemCountSubject = new BehaviorSubject<number>(0);
+  //code to handle cartCount 05-12-2025
+  public cartItem$ = new BehaviorSubject<number[]>([]);
+
+  setItemCountSubject() {
+    const accessToken = localStorage.getItem('accessToken');
+    if (accessToken) {
+      const decodedToken: any = jwtDecode(accessToken);
+      const userId = decodedToken.UserId;
+      this.getCartProductCount$(userId).subscribe(
+        (response) => {
+          if (response.status == 200) {
+            this.cartItem$.next(response.cartProductId);
+          } else {
+            this.cartItem$.next([]);
+          }
+        },
+        (error) => {
+          this.cartItem$.next([]);
+        }
+      );
+    } else {
+      this.cartItem$.next([]);
+    }
+  }
+
+  resetSetCount() {
+    this.setItemCountSubject();
+  }
+
   // Expose the cart item count as an observable
   cartItemCount$ = this.cartItemCountSubject.asObservable();
 

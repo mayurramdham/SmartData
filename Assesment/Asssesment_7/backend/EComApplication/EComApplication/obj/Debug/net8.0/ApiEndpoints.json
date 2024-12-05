@@ -231,6 +231,11 @@
         "Name": "Stock",
         "Type": "System.Int32",
         "IsRequired": false
+      },
+      {
+        "Name": "formFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -391,6 +396,11 @@
     "Order": 0,
     "Parameters": [
       {
+        "Name": "UserId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
         "Name": "FirstName",
         "Type": "System.String",
         "IsRequired": false
@@ -431,19 +441,25 @@
         "IsRequired": false
       },
       {
-        "Name": "UserTypeId",
-        "Type": "System.Int32",
+        "Name": "profileImage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
-      },
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/User/updateUser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Name": "StateId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "CountryId",
-        "Type": "System.Int32",
-        "IsRequired": false
+        "Name": "updateDto",
+        "Type": "App.core.Model.Register.UserDto",
+        "IsRequired": true
       },
       {
         "Name": "profileImage",

@@ -58,6 +58,12 @@ namespace EComApplication.Controllers
             var response = await _mediator.Send(new ChangePasswordCommand { ChangePasswordDto = command });
             return Ok(response);
         }
+        [HttpPut("updateUser")]
+        public async Task<IActionResult> UpdateProfile([FromBody] UserDto updateDto, IFormFile profileImage)
+        {
+            var updateUser = await _mediator.Send(new UpdateUserCommand { userDto = updateDto });
+            return Ok(updateUser);
+        }
 
         [HttpGet("getUserById/{id}")]
         public async Task<IActionResult> UserById(int id)

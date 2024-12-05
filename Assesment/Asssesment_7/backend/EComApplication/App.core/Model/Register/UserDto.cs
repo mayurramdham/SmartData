@@ -9,6 +9,7 @@ namespace App.core.Model.Register
 {
     public class UserDto
     {
+        public int UserId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
@@ -18,8 +19,8 @@ namespace App.core.Model.Register
       
         public int Zipcode { get; set; }
         public IFormFile ProfileImage { get; set; }
-        public int UserTypeId { get; set; }   
-        public int StateId { get; set; }
-        public int CountryId { get; set; }
+       
+      
+     
     }
 }

@@ -11,8 +11,6 @@ namespace App.core.Model.Product
     {
         public int PrId { get; set; }
         public string PrName { get; set; }
-      
-       
         public IFormFile PrImageFile { get; set; }
         public string PrCategory { get; set; }
         public string PrBrand { get; set; }

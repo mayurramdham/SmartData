@@ -1,9 +1,10 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { AuthServicesService } from '../../../core/services/auth-services.service';
 import { JwtService } from '../../../core/services/jwt.service';
 import { NavbarComponent } from '../../auth/utility/navbar/navbar.component';
 import {
   FormBuilder,
+  FormControl,
   FormGroup,
   ReactiveFormsModule,
   Validators,
@@ -18,8 +19,9 @@ import { ToaterService } from '../../../core/services/toater.service';
   templateUrl: './profile.component.html',
   styleUrl: './profile.component.css',
 })
-export class ProfileComponent {
+export class ProfileComponent implements OnInit {
   userData: any;
+  updateProfileForm!: FormGroup;
   StateName: any;
   countryName: any;
   changePasswordForm: FormGroup;
@@ -37,10 +39,39 @@ export class ProfileComponent {
         confirmPassword: ['', [Validators.required, Validators.minLength(6)]],
       },
       {
-        // Custom validator to ensure passwords match
         validator: this.passwordsMatchValidator,
       }
     );
+  }
+
+  onOpenupdateProfileModal(userData: any) {
+    this.updateProfileForm.patchValue(userData);
+    const modal = document.getElementById('updateProfileModal');
+    if (modal) {
+      modal.style.display = 'block';
+      modal.classList.add('show');
+      modal.setAttribute('aria-hidden', 'false');
+    }
+  }
+
+  onCloseupdateProfileModal() {
+    const modal = document.getElementById('updateProfileModal');
+    if (modal) {
+      modal.style.display = 'none';
+      modal.classList.remove('show');
+      modal.setAttribute('aria-hidden', 'true');
+    }
+  }
+
+  //handle update profile logic code
+  onUpdateProfile(): void {
+    if (this.updateProfileForm.valid) {
+      console.log('Form Submitted!', this.updateProfileForm.value);
+      this.toasterService.showSuccess('Profile updated successfully!');
+      this.closeModal();
+    } else {
+      this.toasterService.showError('Please fill out the form correctly.');
+    }
   }
 
   openModal() {
@@ -113,6 +144,17 @@ export class ProfileComponent {
     const userId = this.jwtService.getUserId();
     // Replace with actual logic to get userId
     this.getUserData(userId);
+
+    this.updateProfileForm = new FormGroup({
+      firstName: new FormControl('', Validators.required),
+      lastName: new FormControl('', Validators.required),
+      email: new FormControl('', [Validators.required, Validators.email]),
+      dob: new FormControl('', Validators.required),
+      mobile: new FormControl('', Validators.required),
+      address: new FormControl('', Validators.required),
+      zipcode: new FormControl('', Validators.required),
+      profileImage: new FormControl(null),
+    });
   }
 
   getUserData(userId: number): void {

@@ -22,11 +22,24 @@ export class UsersComponent implements OnInit {
   productId: number = 0;
   userId: number = 0;
   quantity: number = 1;
+  cartItemList: number[] = [];
 
   ngOnInit(): void {
     this.getAllProducts();
     this.loadCartFromLocalStorage();
     this.userId = this.jwtService.getUserId();
+    this.cartService.cartItem$.subscribe({
+      next: (res: any) => {
+        console.log('cartres', res);
+        this.cartItemList = res;
+      },
+    });
+  }
+
+  isExistInCart(productId: number): boolean {
+    console.log(this.cartItemList.includes(productId));
+    return this.cartItemList.includes(productId);
+    // return this.cartItemList.some((x) => x == productId);
   }
   getAllProducts() {
     this.productService.getProducts().subscribe(
@@ -65,8 +78,9 @@ export class UsersComponent implements OnInit {
         if (response.status === 200) {
           // Add item to local cart state
           this.cart.add(prId);
-          this.updateCartInLocalStorage();
-          this.cartService.updateCartItemCount();
+          this.cartService.resetSetCount();
+          //   this.updateCartInLocalStorage(); // changes made bu subject behaviour 05-12
+          //  this.cartService.updateCartItemCount();
 
           this.toasterService.showSuccess('Item Added Successfully');
         } else {

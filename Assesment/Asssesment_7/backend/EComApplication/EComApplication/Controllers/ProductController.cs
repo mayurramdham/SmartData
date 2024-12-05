@@ -37,7 +37,7 @@ namespace EComApplication.Controllers
             return Ok(response);
         }
         [HttpPut]
-        public async Task<IActionResult> UpdateProduct(UpdateProductDto products)
+        public async Task<IActionResult> UpdateProduct(UpdateProductDto products,IFormFile formFile)
         {
             var update = await _mediator.Send(new UpdateProductCommand { Product = products });
             return Ok(update);

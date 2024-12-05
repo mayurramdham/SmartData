@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EComApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6407450bdb447368b89847d5f98fe25a92b4fb5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0e8b1d1ccacda558d422c2fe6b37381a0350666")]
 [assembly: System.Reflection.AssemblyProductAttribute("EComApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EComApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

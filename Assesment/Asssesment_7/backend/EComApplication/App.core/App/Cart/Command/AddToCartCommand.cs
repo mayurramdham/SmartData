@@ -24,8 +24,8 @@ namespace App.core.App.Cart.Command
         }
         public async Task<object> Handle(AddToCartCommand request, CancellationToken cancellationToken)
         {
-            var cartDto = request.AddToCartDto;
-            var checkUserId = await _appDbContext.Set<CartMaster>()
+            var cartDto     =  request.AddToCartDto;
+            var checkUserId =  await _appDbContext.Set<CartMaster>()
                               .FirstOrDefaultAsync(c => c.UserId == cartDto.UserId);
             //checkUserId.UserId= cartDto.UserId;
             if (checkUserId is null)

@@ -31,21 +31,21 @@ namespace App.core.App.Cart.Query
             var connectionString = _configuration.GetConnectionString("DefaultConnection");
 
             using var connection = new SqlConnection(connectionString);
-            const string sql = @"select count(*) from CartMaster cm
-                                inner join CartDetails cd on cm.CartId = cd.CartId
-                                Where cm.UserId = UserId";
+            const string sql = @"select cd.PrId from CartMaster CM
+                                 inner join CartDetails CD on CM.CartId = CD.CartId
+                                where CM.UserId = @UserId";
 
             var parameters = new { UserId = request.UserId };
 
             // Execute the query using Dapper
-            var cartCount = await connection.ExecuteScalarAsync<int>(sql, parameters);
+            var cartCount = await connection.QueryAsync<int>(sql, parameters);
 
             // Map the result to a response object
             var response = new
             {
                 message = "Invoice details retrieved successfully.",
                 status = 200,
-                data = cartCount
+                CartProductId = cartCount
             };
 
             return response;

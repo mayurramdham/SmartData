@@ -27,22 +27,37 @@
             <strong>Price:</strong> ${{ product.sellingPrice }}
           </p>
           <div class="position-relative">
-            <button
-              class="btn btn-primary mt-auto"
-              [ngClass]="{ 'btn-success': isProductInCart(product.prId) }"
-              (click)="addItemsToCart(product.prId)"
+            <ng-container
+              *ngIf="!isExistInCart(product.prId); else addedToCart"
             >
-              {{
-                isProductInCart(product.prId) ? "Added to Cart" : "Add to Cart"
-              }}
-            </button>
-            <span
-              *ngIf="isProductInCart(product.prId)"
-              class="badge bg-success position-absolute top-0 end-0"
-              style="transform: translate(50%, -50%)"
+              <button
+                class="btn add-to-cart-btn mt-auto btn-primary"
+                (click)="addItemsToCart(product.prId)"
+              >
+                Add to Cart
+              </button>
+            </ng-container>
+            <ng-template #addedToCart>
+              <button class="btn add-to-cart-btn mt-auto btn-success">
+                Added to Cart
+              </button>
+            </ng-template>
+            <!-- </div> -->
+            <!-- <ng-container
+              *ngIf="!isExistInCart(product.prId); else addedToCart"
             >
-              ✔
-            </span>
+              <button
+                class="btn add-to-cart-btn mt-auto"
+                (click)="addItemsToCart(product.prId)"
+              >
+                <i class="bi bi-cart-plus"></i> Add to Cart
+              </button>
+            </ng-container>
+            <ng-template #addedToCart>
+              <button class="btn add-to-cart-btn mt-auto">
+                <i class="bi bi-cart-plus"></i> Added to Cart
+              </button>
+            </ng-template> -->
           </div>
         </div>
       </div>
