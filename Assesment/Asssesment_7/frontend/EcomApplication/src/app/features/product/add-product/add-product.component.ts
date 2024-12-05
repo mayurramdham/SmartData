@@ -26,13 +26,14 @@ export class AddProductComponent implements OnInit {
   productService = inject(ProductService);
   toasterService = inject(ToaterService);
   selectedProduct: any = null;
+  currentEditedElement?: number;
 
   constructor(private fb: FormBuilder) {
     // Initialize the form
     this.productForm = this.fb.group({
       prName: [''],
       prCategory: [''],
-      profileImage: new FormControl<File | null>(null),
+      prImageFile: [''],
       prBrand: [''],
       sellingPrice: [''],
       purchasePrice: [''],
@@ -72,6 +73,9 @@ export class AddProductComponent implements OnInit {
   }
 
   updateModal(product: any) {
+    this.currentEditedElement = product.prId;
+    console.log('cccc ', this.currentEditedElement);
+
     console.log('product', product);
     this.isupdate = true;
     console.log('productValue', this.productForm);
@@ -95,38 +99,43 @@ export class AddProductComponent implements OnInit {
     }
   }
 
+  // onFileSelect(event: Event): void {
+  //   const file = (event.target as HTMLInputElement).files?.[0];
+  //   if (file) {
+  //     this.selectedFile = file; // Store the file for uploading
+  //   }
+  // }
+
   onFileSelect(event: Event): void {
     const file = (event.target as HTMLInputElement).files?.[0];
+    console.log('event--', file);
     if (file) {
       this.selectedFile = file; // Store the file for uploading
     }
   }
-
   submitProduct() {
+    debugger;
     if (this.productForm.invalid || !this.selectedFile) {
       this.toasterService.showError(
         'Please fill all required fields and upload an image.'
       );
       return;
     }
+    console.log('prodction from', this.productForm.value);
     const formData = new FormData();
-
-    // Append form values to FormData
     Object.keys(this.productForm.value).forEach((key) => {
       formData.append(key, this.productForm.value[key]);
     });
-    console.log('fromdata', formData);
-    // formData.append('PrImageFile', this.selectedFile);
-
-    // Pass `formData` to the service instead of `this.productForm`
+    // Append the file (image)
+    formData.append('prImageFile', this.selectedFile, this.selectedFile.name);
+    console.log('formData:', formData);
     this.productService.addProduct(formData).subscribe(
       (response: any) => {
-        console.log('productresponse', response);
-        if (response.status == 200) {
+        console.log('Product response:', response);
+        if (response.status === 200) {
           this.toasterService.showSuccess('Product Added Successfully');
           this.getAllProducts();
-          this.productForm.reset(); // Optional: Reset the form after successful submission
-          this.selectedFile = null; // Clear the file selection
+          this.selectedFile = null;
         } else {
           this.toasterService.showError('Unable to add Product');
         }
@@ -137,6 +146,7 @@ export class AddProductComponent implements OnInit {
       }
     );
   }
+
   deleteProduct(id: number) {
     if (confirm('Are you sure you want to delete this user?')) {
       this.productService.deleteProducts(id).subscribe(
@@ -156,19 +166,18 @@ export class AddProductComponent implements OnInit {
     }
   }
   editProduct() {
+    debugger;
     const formData = new FormData();
-
-    // Append form values to FormData
     Object.keys(this.productForm.value).forEach((key) => {
       formData.append(key, this.productForm.value[key]);
     });
     console.log('fromdata', formData);
     if (this.selectedFile) {
-      formData.append(
-        'profileImage',
-        this.selectedFile,
-        this.selectedFile.name
-      );
+      formData.append('prImageFile', this.selectedFile, this.selectedFile.name);
+    }
+
+    if (this.currentEditedElement) {
+      formData.append('prId', this.currentEditedElement.toString());
     }
 
     this.productService.updateProducts(formData).subscribe(

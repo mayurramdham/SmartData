@@ -30,4 +30,9 @@ export class AuthServicesService {
       userData
     );
   }
+  forgotPassword(useremail: any): Observable<any> {
+    return this.http.get<any>(
+      `https://localhost:7227/api/User/ForgetPassword/${useremail}`
+    );
+  }
 }

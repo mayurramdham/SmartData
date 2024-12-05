@@ -30,6 +30,7 @@
 
 <!-- Modal -->
 <app-navbar></app-navbar>
+<button (click)="openModal()">Add Product</button>
 <div
   class="modal fade"
   id="addProductModal"
@@ -68,7 +69,7 @@
             <input
               type="file"
               id="prImageFile"
-              formControlName="profileImage"
+  
               class="form-control shadow-sm"
               (change)="onFileSelect($event)"
               required
@@ -250,6 +251,10 @@
           <p><strong>Price:</strong> ${{ selectedProduct.sellingPrice }}</p>
           <img
             [src]="selectedProduct.prImage"
+            (error)="
+              selectedProduct.prImage =
+                'https://cdn.pixabay.com/photo/2022/08/01/07/59/vegetables-7357585_640.png'
+            "
             alt="Product Image"
             class="img-fluid"
             style="max-height: 250px; object-fit: contain"

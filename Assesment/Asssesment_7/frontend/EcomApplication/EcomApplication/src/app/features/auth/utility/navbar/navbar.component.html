@@ -1,0 +1,55 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">SmartData</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="'/org/home'">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="'/org/users'">Users</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/org/profile">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a
+            *ngIf="currentRole === 'Admin'"
+            class="nav-link"
+            [routerLink]="'/product/add-product'"
+            >Add-Product</a
+          >
+        </li>
+        <!-- <li class="nav-item">
+              <a class="nav-link" (click)="Test()">Test</a>
+            </li> -->
+      </ul>
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item d-flex align-items-center">
+          <span class="navbar-text me-3"
+            >Welcome, {{ userName }} You are {{ currentRole }}</span
+          >
+          <img
+            [src]="usersData.profileImage"
+            alt="Profile Image"
+            class="profile-image me-2"
+          />
+          <button class="btn btn-danger btn-sm" (click)="logout()">
+            Logout
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

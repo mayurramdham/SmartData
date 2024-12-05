@@ -2212,19 +2212,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mayur Ramdham\\.nuget\\packages\\": {}
+    "C:\\Users\\mayurramdham\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App.core.csproj",
+      "projectUniqueName": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App.core.csproj",
       "projectName": "App.core",
-      "projectPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App.core.csproj",
-      "packagesPath": "C:\\Users\\Mayur Ramdham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\obj\\",
+      "projectPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\App.core.csproj",
+      "packagesPath": "C:\\Users\\mayurramdham\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\App.core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mayur Ramdham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mayurramdham\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2239,8 +2239,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Domain.csproj"
+            "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Asssesment_7\\backend\\EComApplication\\Domain\\Domain.csproj"
             }
           }
         }

@@ -13,7 +13,7 @@ namespace Domain.Entity.Products
         [Key]
         public int PrId { get; set; }
         public string PrName { get; set; }
-        public string  PrImage { get; set; }
+        public string?  PrImage { get; set; }
         public int PrCode { get; set; }
         public string PrCategory {  get; set; }
         public string PrBrand { get; set; }

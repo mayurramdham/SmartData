@@ -20,6 +20,8 @@ import { ToaterService } from '../../../core/services/toater.service';
 })
 export class ProfileComponent {
   userData: any;
+  StateName: any;
+  countryName: any;
   changePasswordForm: FormGroup;
   jwtService = inject(JwtService);
   toasterService = inject(ToaterService);
@@ -117,6 +119,9 @@ export class ProfileComponent {
     this.authService.getUserById(userId).subscribe((response: any) => {
       if (response.status === 200) {
         this.userData = response.userData;
+        this.StateName = response.stateName;
+        this.countryName = response.countryName;
+
         console.log('User Data:', this.userData);
       }
     });

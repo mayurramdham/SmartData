@@ -14,6 +14,7 @@ import { ProductComponent } from './features/product/product/product.component';
 import { AddProductComponent } from './features/product/add-product/add-product.component';
 import { UsersComponent } from './features/org/users/users.component';
 import { CartComponent } from './features/product/cart/cart.component';
+import { InvoiceComponent } from './features/product/invoice/invoice.component';
 
 export const routes: Routes = [
   {
@@ -51,17 +52,20 @@ export const routes: Routes = [
         path: 'home',
         component: HomeComponent,
         canActivate: [guardsGuard],
+        data: { roles: ['Admin', 'User'] },
       },
 
       {
         path: 'profile',
         component: ProfileComponent,
         canActivate: [guardsGuard],
+        data: { roles: ['Admin', 'User'] },
       },
       {
         path: 'users',
         component: UsersComponent,
         canActivate: [guardsGuard],
+        data: { roles: ['User'] },
       },
     ],
   },
@@ -73,11 +77,20 @@ export const routes: Routes = [
         path: 'add-product',
         component: AddProductComponent,
         canActivate: [guardsGuard],
+        data: { roles: ['Admin'] },
       },
       {
         path: 'cart',
         component: CartComponent,
         canActivate: [guardsGuard],
+        data: { roles: ['User'] },
+      },
+      {
+        path: 'Invoice/:id',
+        component: InvoiceComponent,
+        title: 'Invoice Page',
+        canActivate: [guardsGuard],
+        data: { roles: ['User'] },
       },
     ],
   },

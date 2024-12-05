@@ -25,7 +25,7 @@
         </li>
         <li class="nav-item">
           <a
-            *ngIf="currentRole === 'Customer'"
+            *ngIf="currentRole === 'User'"
             class="nav-link text-dark fw-semibold"
             routerLink="/org/users"
             >MarketPlace</a
@@ -55,7 +55,7 @@
             Role: <span class="fw-bold">{{ currentRole }}</span>
           </span>
         </li>
-        <li class="nav-item position-relative">
+        <li *ngIf="currentRole === 'User'" class="nav-item position-relative">
           <div (click)="goToCart()" class="cart-icon position-relative">
             <i class="fas fa-shopping-cart fa-lg text-dark"></i>
             <span

@@ -98,6 +98,8 @@
             <p class="small">
               <strong>{{ users.firstName }} {{ users.lastName }}</strong
               ><br />
+              <strong>{{ stateName }} {{ countryName }}</strong>
+              <br />
               {{ users.address }} {{ users.mobile }}<br />
               {{ users.zipcode }}<br />
               {{ users.email }}
@@ -133,7 +135,7 @@
         ></button>
       </div>
       <div class="modal-body">
-        <form [formGroup]="paymentForm" (ngSubmit)="processPayment()">
+        <form [formGroup]="paymentForm">
           <div class="mb-3">
             <label for="cardNumber" class="form-label">Card Number</label>
             <input
@@ -157,11 +159,11 @@
             <div class="col-md-6 mb-3">
               <label for="expiryDate" class="form-label">Expiry Date</label>
               <input
-                type="text"
+                type="date"
                 class="form-control"
                 id="expiryDate"
                 formControlName="expiryDate"
-                placeholder="MM/YY"
+                placeholder="yyyy-mm-dd"
                 [class.is-invalid]="
                   paymentForm.get('expiryDate')?.invalid &&
                   paymentForm.get('expiryDate')?.touched
@@ -203,6 +205,7 @@
             <button
               type="submit"
               class="btn btn-success"
+              (click)="processPayment()"
               [disabled]="paymentForm.invalid"
             >
               Pay Now

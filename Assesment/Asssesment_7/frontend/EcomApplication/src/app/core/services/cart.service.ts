@@ -29,6 +29,19 @@ export class CartService {
       `https://localhost:7227/api/User/getUserById/${userId}`
     );
   }
+  addPayment(payment: any): Observable<any> {
+    return this.http.post(
+      `https://localhost:7227/api/Cart/AddPayment`,
+      payment
+    );
+  }
+
+  GenerateInvoice(invoiceId: number): Observable<any> {
+    return this.http.get(
+      `https://localhost:7227/api/Cart/generateInvoic/${invoiceId}`
+    );
+  }
+
   //code fro subject behavipour
   private cartItemCountSubject = new BehaviorSubject<number>(0);
   // Expose the cart item count as an observable

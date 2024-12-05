@@ -45,7 +45,7 @@ namespace EComApplication.Controllers
         }
 
 
-        [HttpPost("ForgetPassword/{email}")]
+        [HttpGet("ForgetPassword/{email}")]
         public async Task<IActionResult> ForgetPassword(string email)
         {
             var response = await _mediator.Send(new ForgotPasswordCommand {Email= email } );
@@ -60,7 +60,7 @@ namespace EComApplication.Controllers
         }
 
         [HttpGet("getUserById/{id}")]
-        public async Task<IActionResult> UserById([FromRoute] int id)
+        public async Task<IActionResult> UserById(int id)
         {
             var response = await _mediator.Send(new GetUserByIdQuery { UserId = id });
             return Ok(response);

@@ -13,7 +13,7 @@ namespace App.core.Model.Product
         public string PrName { get; set; }
       
        
-        public IFormFile ProfileImage { get; set; }
+        public IFormFile PrImageFile { get; set; }
         public string PrCategory { get; set; }
         public string PrBrand { get; set; }
         public int SellingPrice { get; set; }

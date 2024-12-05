@@ -10,6 +10,7 @@ import {
   ReactiveFormsModule,
   Validators,
 } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-cart',
@@ -20,28 +21,29 @@ import {
 })
 export class CartComponent implements OnInit {
   paymentForm: FormGroup;
+  stateName: any;
+  countryName: any;
   cartItems: any[] = [];
   cart = new Set<number>();
   cartItemCount: number = 0;
+  invoiceData: any[] = [];
   users: any = {};
   constructor(
     private fb: FormBuilder,
     private cartService: CartService,
     private toasterService: ToaterService,
-    private jwtService: JwtService
+    private jwtService: JwtService,
+    private router: Router
   ) {
     this.paymentForm = this.fb.group({
-      cardNumber: [
-        '',
-        [Validators.required, Validators.pattern(/^\d{16}$/)], // 16-digit card number
-      ],
+      cardNumber: ['', [Validators.required, Validators.pattern(/^\d{16}$/)]],
       expiryDate: [
         '',
-        [Validators.required, Validators.pattern(/^(0[1-9]|1[0-2])\/\d{2}$/)], // MM/YY format
+        [Validators.required], // MM/YY
       ],
       cvv: [
         '',
-        [Validators.required, Validators.pattern(/^\d{3}$/)], // 3-digit CVV
+        [Validators.required, Validators.pattern(/^\d{3}$/)], //
       ],
     });
   }
@@ -101,6 +103,8 @@ export class CartComponent implements OnInit {
       (response) => {
         if (response.status == 200) {
           this.users = response.userData;
+          this.stateName = response.stateName;
+          this.countryName = response.countryName;
           console.log('userDataAddress', this.users);
         } else {
           console.log(Error);
@@ -224,14 +228,59 @@ export class CartComponent implements OnInit {
     }
   }
 
+  // getUserData(userId: number): void {
+  //   this.authService.getUserById(userId).subscribe((response: any) => {
+  //     if (response.status === 200) {
+
+  //       console.log('User Data:', this.userData);
+  //     }
+  //   });
+  // }
+
   processPayment(): void {
     if (this.paymentForm.valid) {
-      // Simulate payment processing
-      alert('Payment successful!');
-      this.closePaymentModal();
-      this.paymentForm.reset(); // Reset form after successful submission
+      const expiryDateRaw = this.paymentForm.get('expiryDate')?.value;
+      const formattedExpiryDate = new Date(
+        expiryDateRaw + 'T00:00:00.000Z'
+      ).toISOString();
+      const payload = {
+        cardNumber: this.paymentForm.get('cardNumber')?.value,
+        expiryDate: formattedExpiryDate,
+        address: this.users.address,
+        userId: this.users.userId,
+        zipcode: String(this.users.zipcode),
+        cvv: this.paymentForm.get('cvv')?.value,
+        stateName: this.stateName,
+        countryName: this.countryName,
+      };
+      console.log('payment payload', payload);
+
+      this.cartService.addPayment(payload).subscribe(
+        (response) => {
+          console.log('payment payload', payload);
+
+          if (response.status == 200) {
+            console.log('payment', response);
+            this.toasterService.showSuccess('Payment successful!');
+
+            this.closePaymentModal();
+            this.router.navigateByUrl(
+              `/product/Invoice/${response.data.salesId}`
+            );
+            this.paymentForm.reset();
+          } else {
+            this.toasterService.showError('Invalid details');
+          }
+        },
+        (error) => {
+          this.toasterService.showError('unable to get response');
+        }
+      );
+      // Reset form after successful submission
     } else {
       this.paymentForm.markAllAsTouched(); // Show validation errors
     }
   }
+
+  
 }

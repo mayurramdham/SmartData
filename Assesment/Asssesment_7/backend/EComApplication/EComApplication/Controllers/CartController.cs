@@ -56,5 +56,20 @@ namespace EComApplication.Controllers
             var addPayment = await _mediator.Send(new AddPaymentCommand { CartPaymentDto = cartPaymentDto });
             return Ok(addPayment);
         }
+
+        [HttpGet("generateInvoic/{userId}")]
+        public async Task<IActionResult> GenerateInvoice(int userId)
+        {
+            var addPayment = await _mediator.Send(new GetInvoiceDetailsQuery { SalesId=userId});
+            return Ok(addPayment);
+        }
+
+        [HttpGet("getCartCount/{userId}")]
+        public async Task<IActionResult> GetCartCount(int userId)
+        {
+            var cartCount = await _mediator.Send(new getCartItermCount { UserId = userId });
+            return Ok(cartCount);
+        }
+
     }
 }

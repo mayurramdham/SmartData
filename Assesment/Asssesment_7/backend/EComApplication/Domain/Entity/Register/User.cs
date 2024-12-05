@@ -21,7 +21,7 @@ namespace Domain.Entity.Register
         public string Mobile { get; set; }
         public string Address { get; set; }
         public int Zipcode { get; set; }
-        public string ProfileImage { get; set; }
+        public string? ProfileImage { get; set; }
         public bool isDeleted { get; set; }
         public int UserTypeId { get; set; }
         public int StateId { get; set; }

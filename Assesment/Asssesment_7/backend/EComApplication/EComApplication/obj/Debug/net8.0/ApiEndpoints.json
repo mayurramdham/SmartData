@@ -81,6 +81,38 @@
   },
   {
     "ContainingType": "EComApplication.Controllers.CartController",
+    "Method": "GenerateInvoice",
+    "RelativePath": "api/Cart/generateInvoic/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.CartController",
+    "Method": "GetCartCount",
+    "RelativePath": "api/Cart/getCartCount/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.CartController",
     "Method": "incrementQuantity",
     "RelativePath": "api/Cart/incrementcart",
     "HttpMethod": "POST",
@@ -166,7 +198,7 @@
         "IsRequired": false
       },
       {
-        "Name": "ProfileImage",
+        "Name": "PrImageFile",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
       },
@@ -290,7 +322,7 @@
     "ContainingType": "EComApplication.Controllers.UserController",
     "Method": "ForgetPassword",
     "RelativePath": "api/User/ForgetPassword/{email}",
-    "HttpMethod": "POST",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [

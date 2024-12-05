@@ -39,7 +39,7 @@ namespace App.core.App.Product.Command
                                        .FirstOrDefaultAsync(p => p.PrId == productData.PrId);
             // var updateProduct=await _appDbContext.Set<Domain.Entity.Products.Product>().Adapt(selectedProduct);
 
-            var imageUploadResult = await _imageService.Upload(productData.ProfileImage);
+            var imageUploadResult = await _imageService.Upload(productData.PrImageFile);
             if (imageUploadResult is ResponseDto uploadResponse && uploadResponse.Status != 200)
             {
                 return uploadResponse;
@@ -47,15 +47,24 @@ namespace App.core.App.Product.Command
 
              string uploadedImageUrl = (imageUploadResult as ResponseDto)?.Data?.ToString();
 
-             var productUpdated=  productData.Adapt(selectedProduct);
-             productUpdated.PrImage = uploadedImageUrl;
-             _appDbContext.Set<Domain.Entity.Products.Product>().Update(productUpdated);
+            //var productUpdated=  productData.Adapt(selectedProduct);
+            selectedProduct.PrImage = uploadedImageUrl;
+            //    _appDbContext.Set<Domain.Entity.Products.Product>().Update(productUpdated);
+            //_appDbContext.Set<Domain.Entity.Products.Product>()
+            selectedProduct.PrName = productData.PrName;
+            selectedProduct.PrCategory = productData.PrCategory;
+            selectedProduct.PrBrand = productData.PrBrand;
+            selectedProduct.SellingPrice = productData.SellingPrice;
+            selectedProduct.PurchasePrice = productData.PurchasePrice;
+            selectedProduct.PurchaseDate = productData.PurchaseDate;
+            selectedProduct.Stock = productData.Stock;
+
             await _appDbContext.SaveChangesAsync();
             var response = new
             {
                 status = 200,
                 message = "Product updated successfully",
-                data = productUpdated
+                data = selectedProduct
             };
             return response;
         }
