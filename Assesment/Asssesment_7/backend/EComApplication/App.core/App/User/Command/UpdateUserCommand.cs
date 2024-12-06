@@ -14,7 +14,7 @@ namespace App.core.App.User.Command
 {
     public class UpdateUserCommand : IRequest<object>
     {
-        public UserDto userDto { get; set; }
+        public UpdateUserDto userDto { get; set; }
     }
     public class UpdateUserCommandHandler : IRequestHandler<UpdateUserCommand, object>
     {
@@ -39,24 +39,22 @@ namespace App.core.App.User.Command
                 data = updateUserId
             };
 
-            var imageUploadResult = await _imageService.Upload(userToUpdate.ProfileImage);
-            if (imageUploadResult is ResponseDto uploadResponse && uploadResponse.Status != 200)
-            {
-                return uploadResponse;
-            }
+           // var imageUploadResult = await _imageService.Upload(userToUpdate.ProfileImage);
+           // if (imageUploadResult is ResponseDto uploadResponse && uploadResponse.Status != 200)
+           // {
+           //     return uploadResponse;
+           //}
 
-            string uploadedImageUrl = (imageUploadResult as ResponseDto)?.Data?.ToString();
+          //  string uploadedImageUrl = (imageUploadResult as ResponseDto)?.Data?.ToString();
 
 
-            updateUserId.ProfileImage = uploadedImageUrl;
+          //  updateUserId.ProfileImage = uploadedImageUrl;
             updateUserId.DOB = userToUpdate.DOB;
             updateUserId.Mobile = userToUpdate.Mobile;
             updateUserId.Address = userToUpdate.Address;
             updateUserId.FirstName = userToUpdate.FirstName;
             updateUserId.LastName = userToUpdate.LastName;
             updateUserId.Zipcode = userToUpdate.Zipcode;
-
-
             updateUserId.Email = userToUpdate.Email;
 
             await _appDbContext.SaveChangesAsync(cancellationToken);

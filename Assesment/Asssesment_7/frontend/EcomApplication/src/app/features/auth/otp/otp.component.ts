@@ -20,6 +20,7 @@ import { CommonModule } from '@angular/common';
 })
 export class OtpComponent {
   loginValue: any = {};
+  showPassword: boolean = false;
   authService = inject(AuthServicesService);
   toasterService = inject(ToaterService);
   jwtService = inject(JwtService);
@@ -48,5 +49,9 @@ export class OtpComponent {
         this.toasterService.showError('unable to add user');
       },
     });
+  }
+
+  onClickShowPassword() {
+    this.showPassword = !this.showPassword;
   }
 }

@@ -10,11 +10,13 @@ import {
 import { provideToastr } from 'ngx-toastr';
 import { customInterceptor } from './core/custom.interceptor';
 
+
 export const appConfig: ApplicationConfig = {
   providers: [
     provideRouter(routes),
     provideHttpClient(withInterceptors([customInterceptor])),
     provideToastr(),
     provideAnimations(),
+    
   ],
 };

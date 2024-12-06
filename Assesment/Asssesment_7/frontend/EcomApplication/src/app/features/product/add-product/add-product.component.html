@@ -30,7 +30,14 @@
 
 <!-- Modal -->
 <app-navbar></app-navbar>
-<button (click)="openModal()">Add Product</button>
+<div class="d-flex justify-content-center mt-4">
+  <button
+    class="btn btn-lg btn-success shadow-sm hover:btn-success"
+    (click)="openModal()"
+  >
+    Add Product
+  </button>
+</div>
 <div
   class="modal fade"
   id="addProductModal"
@@ -61,15 +68,19 @@
               class="form-control shadow-sm"
               formControlName="prName"
               placeholder="Enter product name"
+              [class.is-invalid]="
+                productForm.get('prName')?.invalid &&
+                productForm.get('prName')?.touched
+              "
               required
             />
+            <div class="invalid-feedback">Product Name is required.</div>
           </div>
           <div class="col-md-6">
             <label for="prImageFile" class="form-label">Product Image</label>
             <input
               type="file"
               id="prImageFile"
-  
               class="form-control shadow-sm"
               (change)="onFileSelect($event)"
               required
@@ -83,8 +94,13 @@
               class="form-control shadow-sm"
               formControlName="prCategory"
               placeholder="Enter product category"
+              [class.is-invalid]="
+                productForm.get('prCategory')?.invalid &&
+                productForm.get('prCategory')?.touched
+              "
               required
             />
+            <div class="invalid-feedback">Product category is required.</div>
           </div>
           <div class="col-md-6">
             <label for="prBrand" class="form-label">Brand</label>
@@ -94,8 +110,13 @@
               class="form-control shadow-sm"
               formControlName="prBrand"
               placeholder="Enter product brand"
+              [class.is-invalid]="
+                productForm.get('prBrand')?.invalid &&
+                productForm.get('prBrand')?.touched
+              "
               required
             />
+            <div class="invalid-feedback">Product Brand is required.</div>
           </div>
           <div class="col-md-6">
             <label for="sellingPrice" class="form-label">Selling Price</label>
@@ -107,6 +128,14 @@
               placeholder="Enter selling price"
               required
             />
+            <div
+              *ngIf="
+                productForm.get('sellingPrice')?.invalid &&
+                productForm.get('sellingPrice')?.touched
+              "
+            >
+              <small class="text-danger">Selling price is required.</small>
+            </div>
           </div>
           <div class="col-md-6">
             <label for="purchasePrice" class="form-label">Purchase Price</label>
@@ -118,11 +147,28 @@
               placeholder="Enter purchase price"
               required
             />
+            <div
+              *ngIf="
+                productForm.get('purchasePrice')?.invalid &&
+                productForm.get('purchasePrice')?.touched
+              "
+            >
+              <small class="text-danger">Purchase price is required.</small>
+            </div>
+          </div>
+          <div
+            *ngIf="productForm.errors?.['priceNotValid'] && productForm.touched"
+          >
+            <small class="text-danger"
+              >Selling price must be greater than purchase price.</small
+            >
           </div>
           <div class="col-md-6">
             <label for="purchaseDate" class="form-label">Purchase Date</label>
             <input
               type="date"
+              [max]="todayDate"
+              [min]="todayDate"
               id="purchaseDate"
               class="form-control shadow-sm"
               formControlName="purchaseDate"
@@ -137,8 +183,13 @@
               class="form-control shadow-sm"
               formControlName="stock"
               placeholder="Enter stock quantity"
+              [class.is-invalid]="
+                productForm.get('stock')?.invalid &&
+                productForm.get('stock')?.touched
+              "
               required
             />
+            <div class="invalid-feedback">Stock quantity is required.</div>
           </div>
         </form>
       </div>
@@ -175,7 +226,6 @@
     <table class="table table-bordered table-hover table-striped shadow-sm">
       <thead class="table-dark">
         <tr>
-          <th>#</th>
           <th>Product Name</th>
           <th>Category</th>
           <th>Brand</th>
@@ -188,7 +238,6 @@
       </thead>
       <tbody>
         <tr *ngFor="let product of products; let i = index">
-          <td>{{ i + 1 }}</td>
           <td>{{ product.prName }}</td>
           <td>{{ product.prCategory }}</td>
           <td>{{ product.prBrand }}</td>

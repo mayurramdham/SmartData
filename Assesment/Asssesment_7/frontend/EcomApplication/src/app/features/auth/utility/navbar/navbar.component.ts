@@ -46,7 +46,10 @@ export class NavbarComponent implements OnInit {
     localStorage.removeItem('accessToken');
     localStorage.removeItem('userId');
     localStorage.removeItem('userName');
-    this.router.navigate(['/auth/login']); // Redirect to login page
+    this.router.navigate(['/auth/sendOtp']); // Redirect to login page
+  }
+  profile() {
+    this.router.navigate(['/org/profile']);
   }
   goToCart() {
     this.router.navigate(['/product/cart']);

@@ -4,11 +4,14 @@ import {
   FormControl,
   FormGroup,
   ReactiveFormsModule,
+  ValidationErrors,
+  Validators,
 } from '@angular/forms';
 import { ProductService } from '../../../core/services/product.service';
 import { ToaterService } from '../../../core/services/toater.service';
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from '../../auth/utility/navbar/navbar.component';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-add-product',
@@ -27,24 +30,55 @@ export class AddProductComponent implements OnInit {
   toasterService = inject(ToaterService);
   selectedProduct: any = null;
   currentEditedElement?: number;
+  todayDate = new Date().toISOString().split('T')[0];
 
   constructor(private fb: FormBuilder) {
     // Initialize the form
-    this.productForm = this.fb.group({
-      prName: [''],
-      prCategory: [''],
-      prImageFile: [''],
-      prBrand: [''],
-      sellingPrice: [''],
-      purchasePrice: [''],
-      purchaseDate: [''],
-      stock: [''],
+    this.productForm = this.fb.group(
+      {
+        prName: ['', Validators.required],
+        prCategory: ['', Validators.required],
+        prImageFile: [''],
+        prBrand: ['', Validators.required],
+        sellingPrice: ['', Validators.required],
+        purchasePrice: ['', Validators.required],
+        purchaseDate: [''],
+        stock: ['', Validators.required],
+      },
+      {
+        validators: this.sellingPriceGreaterThanPurchasePrice, // Custom validator applied at FormGroup level
+      }
+    );
+  }
+
+  onClickReset() {
+    this.productForm = new FormGroup({
+      prName: new FormControl(''),
+      prCategory: new FormControl(''),
+      prBrand: new FormControl(''),
+      sellingPrice: new FormControl(''),
+      purchasePrice: new FormControl(''),
+      purchaseDate: new FormControl(''),
+      stock: new FormControl(''),
     });
   }
   ngOnInit(): void {
     this.getAllProducts();
 
     // this.productId = this.products[0].prId;
+  }
+
+  sellingPriceGreaterThanPurchasePrice(
+    group: FormGroup
+  ): ValidationErrors | null {
+    const sellingPrice = group.get('sellingPrice')?.value;
+    const purchasePrice = group.get('purchasePrice')?.value;
+
+    if (sellingPrice && purchasePrice && sellingPrice <= purchasePrice) {
+      return { priceNotValid: true }; // Return error if sellingPrice <= purchasePrice
+    }
+
+    return null; // Valid if sellingPrice > purchasePrice
   }
 
   getAllProducts() {
@@ -74,14 +108,9 @@ export class AddProductComponent implements OnInit {
 
   updateModal(product: any) {
     this.currentEditedElement = product.prId;
-    console.log('cccc ', this.currentEditedElement);
-
-    console.log('product', product);
     this.isupdate = true;
-    console.log('productValue', this.productForm);
     this.productForm.patchValue(product);
-    // this.productForm.get('PrName')?.setValue(product.pr)
-    // this.productForm.get()
+    console.log('checkPatchImage', this.productForm);
     const modal = document.getElementById('addProductModal');
     if (modal) {
       modal.style.display = 'block';
@@ -97,14 +126,8 @@ export class AddProductComponent implements OnInit {
       modal.classList.remove('show');
       modal.setAttribute('aria-hidden', 'true');
     }
+    this.onClickReset();
   }
-
-  // onFileSelect(event: Event): void {
-  //   const file = (event.target as HTMLInputElement).files?.[0];
-  //   if (file) {
-  //     this.selectedFile = file; // Store the file for uploading
-  //   }
-  // }
 
   onFileSelect(event: Event): void {
     const file = (event.target as HTMLInputElement).files?.[0];
@@ -114,7 +137,6 @@ export class AddProductComponent implements OnInit {
     }
   }
   submitProduct() {
-    debugger;
     if (this.productForm.invalid || !this.selectedFile) {
       this.toasterService.showError(
         'Please fill all required fields and upload an image.'
@@ -135,6 +157,9 @@ export class AddProductComponent implements OnInit {
         if (response.status === 200) {
           this.toasterService.showSuccess('Product Added Successfully');
           this.getAllProducts();
+          this.closeModal();
+          this.onClickReset();
+
           this.selectedFile = null;
         } else {
           this.toasterService.showError('Unable to add Product');
@@ -147,26 +172,59 @@ export class AddProductComponent implements OnInit {
     );
   }
 
-  deleteProduct(id: number) {
-    if (confirm('Are you sure you want to delete this user?')) {
-      this.productService.deleteProducts(id).subscribe(
-        (response) => {
-          console.log('login response', response);
-          if (response.status == 200) {
-            this.toasterService.showSuccess('Product Delete Successfuuly');
-            this.getAllProducts();
-          } else {
-            this.toasterService.showError('Unable to delete');
+  //before adding the sweet alert
+  // deleteProduct2(id: number) {
+  //   if (confirm('Are you sure you want to delete this user?')) {
+  //     this.productService.deleteProducts(id).subscribe(
+  //       (response) => {
+  //         console.log('login response', response);
+  //         if (response.status == 200) {
+  //           this.toasterService.showSuccess('Product Delete Successfuuly');
+  //           this.getAllProducts();
+  //         } else {
+  //           this.toasterService.showError('Unable to delete');
+  //         }
+  //       },
+  //       (error) => {
+  //         this.toasterService.showError('Unable to get response');
+  //       }
+  //     );
+  //   }
+  // }
+
+  deleteProduct(id: number): void {
+    Swal.fire({
+      title: 'Are you sure?',
+      text: 'Are you sure you want to delete this product?',
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonText: 'Yes, delete it!',
+      cancelButtonText: 'No, keep it',
+    }).then((result) => {
+      if (result.isConfirmed) {
+        // Proceed with the deletion if confirmed
+        this.productService.deleteProducts(id).subscribe(
+          (response) => {
+            console.log('login response', response);
+            if (response.status == 200) {
+              this.toasterService.showSuccess('Product Deleted Successfully');
+              this.getAllProducts();
+            } else {
+              this.toasterService.showError('Unable to delete');
+            }
+          },
+          (error) => {
+            this.toasterService.showError('Unable to get response');
           }
-        },
-        (error) => {
-          this.toasterService.showError('Unable to get response');
-        }
-      );
-    }
+        );
+      } else {
+        // If the user cancels, do nothing
+        console.log('Product deletion canceled');
+      }
+    });
   }
+
   editProduct() {
-    debugger;
     const formData = new FormData();
     Object.keys(this.productForm.value).forEach((key) => {
       formData.append(key, this.productForm.value[key]);
@@ -186,7 +244,12 @@ export class AddProductComponent implements OnInit {
         if ((response.status = 200)) {
           console.log('update respnse', response);
           this.toasterService.showWarning('Product updateded successfully');
+
+          this.selectedFile = null;
+
           this.getAllProducts();
+          this.closeModal();
+          this.onClickReset();
         } else {
           this.toasterService.showError('Errror in updated the product');
         }
@@ -216,6 +279,7 @@ export class AddProductComponent implements OnInit {
       modal.classList.remove('show');
       modal.setAttribute('aria-hidden', 'true');
     }
+    this.onClickReset();
     this.selectedProduct = null;
   }
 }

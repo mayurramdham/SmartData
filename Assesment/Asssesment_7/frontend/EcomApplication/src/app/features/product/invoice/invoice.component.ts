@@ -3,11 +3,12 @@ import { ActivatedRoute } from '@angular/router';
 import { CartService } from '../../../core/services/cart.service';
 import { ToaterService } from '../../../core/services/toater.service';
 import { CommonModule } from '@angular/common';
+import { NavbarComponent } from "../../auth/utility/navbar/navbar.component";
 
 @Component({
   selector: 'app-invoice',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, NavbarComponent],
   templateUrl: './invoice.component.html',
   styleUrl: './invoice.component.css',
 })

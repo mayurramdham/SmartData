@@ -59,7 +59,7 @@ namespace EComApplication.Controllers
             return Ok(response);
         }
         [HttpPut("updateUser")]
-        public async Task<IActionResult> UpdateProfile([FromBody] UserDto updateDto, IFormFile profileImage)
+        public async Task<IActionResult> UpdateProfile([FromBody] UpdateUserDto updateDto)
         {
             var updateUser = await _mediator.Send(new UpdateUserCommand { userDto = updateDto });
             return Ok(updateUser);

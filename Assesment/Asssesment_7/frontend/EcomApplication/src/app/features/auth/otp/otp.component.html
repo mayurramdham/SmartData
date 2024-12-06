@@ -10,7 +10,7 @@
         <div class="col-12 col-md-9 col-lg-7 col-xl-6">
           <div class="card" style="border-radius: 15px">
             <div class="card-body p-5">
-              <h2 class="text-uppercase text-center mb-5">Login</h2>
+              <h2 class="text-uppercase text-center mb-5">Enter Credentials</h2>
 
               <form [formGroup]="LoginData">
                 <div class="form-floating mb-3">
@@ -43,7 +43,9 @@
                     name="password"
                     formControlName="password"
                   />
+
                   <label for="password">Password</label>
+
                   <div
                     *ngIf="
                       LoginData.get('password')?.invalid &&
@@ -68,7 +70,7 @@
                     (click)="loginUser()"
                     [disabled]="LoginData.invalid"
                   >
-                    Login
+                    Send Otp
                   </button>
                 </div>
 

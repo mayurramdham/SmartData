@@ -30,9 +30,10 @@ export class RegisterComponent implements OnInit {
   dropdownService = inject(DropdownService);
   toasterService = inject(ToaterService);
   router = inject(Router);
+  todayDate = new Date().toISOString().split('T')[0];
   userTypes = [
     { id: 1, name: 'Admin' },
-    { id: 2, name: 'Customer' },
+    { id: 2, name: 'User' },
   ];
   // countries = [
   //   { id: 1, name: 'India' },
@@ -52,9 +53,7 @@ export class RegisterComponent implements OnInit {
       lastName: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
       dob: ['', Validators.required],
-      // userName: [{ value: '', disabled: true }],
-      // password: ['', Validators.required],
-      mobile: ['', Validators.required],
+      mobile: ['', [Validators.required, Validators.pattern(/^\d{10}$/)]],
       address: ['', Validators.required],
       zipcode: ['', [Validators.required, Validators.pattern(/^\d{6}$/)]],
       userTypeId: ['', Validators.required],
@@ -65,8 +64,8 @@ export class RegisterComponent implements OnInit {
 
   //Functions Api Calling
   onCountryChange(event: any) {
-    // Mock states filtering
-    const selectedCountryId = +event.target.value; // Convert the selected value to a number
+
+    const selectedCountryId = +event.target.value;
     console.log('selectedCountryId', selectedCountryId);
     this.dropdownService.getAllStateByCountryId(selectedCountryId).subscribe({
       next: (result: any) => {

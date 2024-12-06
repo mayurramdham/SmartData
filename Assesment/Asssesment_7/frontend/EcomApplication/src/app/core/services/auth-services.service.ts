@@ -35,4 +35,11 @@ export class AuthServicesService {
       `https://localhost:7227/api/User/ForgetPassword/${useremail}`
     );
   }
+
+  updateUser(userData: any): Observable<any> {
+    return this.http.put<any>(
+      `https://localhost:7227/api/User/updateUser`,
+      userData
+    );
+  }
 }

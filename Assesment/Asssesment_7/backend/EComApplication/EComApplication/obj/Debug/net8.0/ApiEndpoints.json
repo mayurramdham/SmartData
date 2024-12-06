@@ -231,11 +231,6 @@
         "Name": "Stock",
         "Type": "System.Int32",
         "IsRequired": false
-      },
-      {
-        "Name": "formFile",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -396,11 +391,6 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "UserId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
         "Name": "FirstName",
         "Type": "System.String",
         "IsRequired": false
@@ -441,6 +431,21 @@
         "IsRequired": false
       },
       {
+        "Name": "UserTypeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "StateId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CountryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
         "Name": "profileImage",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
@@ -458,13 +463,8 @@
     "Parameters": [
       {
         "Name": "updateDto",
-        "Type": "App.core.Model.Register.UserDto",
+        "Type": "App.core.Model.Register.UpdateUserDto",
         "IsRequired": true
-      },
-      {
-        "Name": "profileImage",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []

@@ -11,6 +11,7 @@ import {
   Validators,
 } from '@angular/forms';
 import { Router } from '@angular/router';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-cart',
@@ -126,11 +127,6 @@ export class CartComponent implements OnInit {
     this.cartService.IncrementQuantity(payload).subscribe(
       (response) => {
         if ((response.status = 200)) {
-          if (response.avaibleStock > response.cartQuantity) {
-            this.toasterService.showError(
-              'Out of stock! Please reduce the quantity.'
-            );
-          }
           this.updateCartInLocalStorage();
           this.getCartDetails();
         }
@@ -140,6 +136,12 @@ export class CartComponent implements OnInit {
       }
     );
   }
+
+  // increaseQuantity(item: any): void {
+  //   if (item.quantity > 1) {
+  //     item.quantity++;
+  //   }
+  // }
 
   decreaseQuantity(item: any): void {
     if (item.quantity > 1) {
@@ -175,37 +177,77 @@ export class CartComponent implements OnInit {
     }
   }
 
+  //before adding the sweet alert
+  // removeCartItem2(cartId: number): void {
+  //   console.log('cartId', cartId);
+  //   const isConfirmed = window.confirm(
+  //     'Are you sure you want to delete this item from the cart?'
+  //   );
+
+  //   if (isConfirmed) {
+  //     // Proceed with the deletion if confirmed
+  //     this.cartService.RemoveItemFromCart(cartId).subscribe({
+  //       next: (result: any) => {
+  //         if (result.status == 200) {
+  //           this.removeCartInLocalStorage();
+  //           this.cartService.resetSetCount();
+
+  //           this.getCartDetails();
+  //           this.toasterService.showSuccess(
+  //             'Item from cart Deleted Successfully'
+  //           );
+  //         } else {
+  //           this.toasterService.showError('Unable to delete the cart item');
+  //         }
+  //       },
+  //       error: (error: Error) => {
+  //         this.toasterService.showError('Unable to get response');
+  //         console.log(error);
+  //       },
+  //     });
+  //   } else {
+  //     // If the user cancels, do nothing
+  //     console.log('Item deletion canceled');
+  //   }
+  // }
+
   removeCartItem(cartId: number): void {
     console.log('cartId', cartId);
-    const isConfirmed = window.confirm(
-      'Are you sure you want to delete this item from the cart?'
-    );
 
-    if (isConfirmed) {
-      // Proceed with the deletion if confirmed
-      this.cartService.RemoveItemFromCart(cartId).subscribe({
-        next: (result: any) => {
-          if (result.status == 200) {
-            this.removeCartInLocalStorage();
-            this.cartService.resetSetCount();
+    Swal.fire({
+      title: 'Are you sure?',
+      text: 'Are you sure you want to delete this item from the cart?',
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonText: 'Yes, delete it!',
+      cancelButtonText: 'No, keep it',
+    }).then((result) => {
+      if (result.isConfirmed) {
+        // Proceed with the deletion if confirmed
+        this.cartService.RemoveItemFromCart(cartId).subscribe({
+          next: (result: any) => {
+            if (result.status == 200) {
+              this.removeCartInLocalStorage();
+              this.cartService.resetSetCount();
 
-            this.getCartDetails();
-            this.toasterService.showSuccess(
-              'Item from cart Deleted Successfully'
-            );
-          } else {
-            this.toasterService.showError('Unable to delete the cart item');
-          }
-        },
-        error: (error: Error) => {
-          this.toasterService.showError('Unable to get response');
-          console.log(error);
-        },
-      });
-    } else {
-      // If the user cancels, do nothing
-      console.log('Item deletion canceled');
-    }
+              this.getCartDetails();
+              this.toasterService.showSuccess(
+                'Item from cart Deleted Successfully'
+              );
+            } else {
+              this.toasterService.showError('Unable to delete the cart item');
+            }
+          },
+          error: (error: Error) => {
+            this.toasterService.showError('Unable to get response');
+            console.log(error);
+          },
+        });
+      } else {
+        // If the user cancels, do nothing
+        console.log('Item deletion canceled');
+      }
+    });
   }
 
   //payment modal

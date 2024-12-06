@@ -32,12 +32,10 @@ namespace EComApplication.Controllers
         {
             // Send the request to the mediator to add the product
             var response = await _mediator.Send(new getAllProductQuery { });
-
-            // Return the response (status and data) as an OK result
             return Ok(response);
         }
         [HttpPut]
-        public async Task<IActionResult> UpdateProduct(UpdateProductDto products,IFormFile formFile)
+        public async Task<IActionResult> UpdateProduct(UpdateProductDto products)
         {
             var update = await _mediator.Send(new UpdateProductCommand { Product = products });
             return Ok(update);

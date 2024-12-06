@@ -9,7 +9,7 @@ import {
   ReactiveFormsModule,
   Validators,
 } from '@angular/forms';
-import { CommonModule } from '@angular/common';
+import { CommonModule, formatDate } from '@angular/common';
 import { ToaterService } from '../../../core/services/toater.service';
 
 @Component({
@@ -46,6 +46,13 @@ export class ProfileComponent implements OnInit {
 
   onOpenupdateProfileModal(userData: any) {
     this.updateProfileForm.patchValue(userData);
+    console.log('updatefromvalue', userData);
+    this.updateProfileForm.value.dob = formatDate(
+      userData.dob,
+      'dd-MM-yyyy',
+      'en'
+    );
+    console.log('updatefromvalue2', this.updateProfileForm.value.dob);
     const modal = document.getElementById('updateProfileModal');
     if (modal) {
       modal.style.display = 'block';
@@ -67,8 +74,16 @@ export class ProfileComponent implements OnInit {
   onUpdateProfile(): void {
     if (this.updateProfileForm.valid) {
       console.log('Form Submitted!', this.updateProfileForm.value);
-      this.toasterService.showSuccess('Profile updated successfully!');
-      this.closeModal();
+      this.authService
+        .updateUser(this.updateProfileForm.value)
+        .subscribe((response) => {
+          if (response.status == 200) {
+            this.toasterService.showSuccess('Profile updated successfully');
+            const userId = this.jwtService.getUserId();
+            this.getUserData(userId);
+            this.onCloseupdateProfileModal();
+          }
+        });
     } else {
       this.toasterService.showError('Please fill out the form correctly.');
     }
@@ -146,6 +161,7 @@ export class ProfileComponent implements OnInit {
     this.getUserData(userId);
 
     this.updateProfileForm = new FormGroup({
+      userId: new FormControl(''),
       firstName: new FormControl('', Validators.required),
       lastName: new FormControl('', Validators.required),
       email: new FormControl('', [Validators.required, Validators.email]),
@@ -153,7 +169,6 @@ export class ProfileComponent implements OnInit {
       mobile: new FormControl('', Validators.required),
       address: new FormControl('', Validators.required),
       zipcode: new FormControl('', Validators.required),
-      profileImage: new FormControl(null),
     });
   }
 
@@ -169,19 +184,19 @@ export class ProfileComponent implements OnInit {
     });
   }
 
-  formatDate(dateString: string | undefined): string {
-    if (!dateString) return '';
-    const options: Intl.DateTimeFormatOptions = {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric',
-    };
-    return new Date(dateString).toLocaleDateString(undefined, options);
-  }
+  // formatDate(dateString: string | undefined): string {
+  //   if (!dateString) return '';
+  //   const options: Intl.DateTimeFormatOptions = {
+  //     year: 'numeric',
+  //     month: 'long',
+  //     day: 'numeric',
+  //   };
+  //   return new Date(dateString).toLocaleDateString(undefined, options);
+  // }
 
   getUserType(userTypeId: number | undefined): string {
     if (userTypeId === 1) return 'Admin';
-    if (userTypeId === 2) return 'Customer';
+    if (userTypeId === 2) return 'User';
     return 'Unknown';
   }
 }
