@@ -26,6 +26,7 @@ export class RegisterComponent implements OnInit {
   countries: any[] = [];
   states: any[] = [];
   filteredStates: any[] = [];
+  isLoading: boolean = false;
   authService = inject(AuthServicesService);
   dropdownService = inject(DropdownService);
   toasterService = inject(ToaterService);
@@ -45,26 +46,52 @@ export class RegisterComponent implements OnInit {
     //  this.getStateByCountryId();
     this.filteredStates = [];
   }
+  removeNumbers(event: KeyboardEvent) {
+    const charCode = event.charCode;
+
+    if (charCode >= 48 && charCode <= 57) {
+      event.preventDefault();
+    }
+  }
 
   //formGroup Data Binding
   constructor(private fb: FormBuilder) {
     this.registerForm = this.fb.group({
-      firstName: ['', Validators.required],
+      firstName: [
+        '',
+        [
+          Validators.required,
+          Validators.minLength(2),
+          Validators.maxLength(12),
+        ],
+      ],
       lastName: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
       dob: ['', Validators.required],
       mobile: ['', [Validators.required, Validators.pattern(/^\d{10}$/)]],
       address: ['', Validators.required],
-      zipcode: ['', [Validators.required, Validators.pattern(/^\d{6}$/)]],
+      zipcode: [
+        '',
+        [Validators.required, Validators.min(100000), Validators.max(999999)],
+      ],
       userTypeId: ['', Validators.required],
       countryId: [''],
       stateId: [''],
     });
   }
 
+  validateZipcodeLength(event: Event): void {
+    const input = event.target as HTMLInputElement;
+    const value = input.value;
+
+    if (value.length > 6) {
+      // Limit the input to 6 digits
+      input.value = value.slice(0, 6);
+    }
+  }
+
   //Functions Api Calling
   onCountryChange(event: any) {
-
     const selectedCountryId = +event.target.value;
     console.log('selectedCountryId', selectedCountryId);
     this.dropdownService.getAllStateByCountryId(selectedCountryId).subscribe({
@@ -85,6 +112,7 @@ export class RegisterComponent implements OnInit {
     }
   }
   onSubmit(): void {
+    this.isLoading = true;
     if (this.registerForm.valid) {
       const formData = new FormData();
 
@@ -116,6 +144,7 @@ export class RegisterComponent implements OnInit {
         },
         (error) => {
           console.error('Error during registration:', error);
+          this.isLoading = true;
           this.toasterService.showError(
             'Registration failed. Please try again.'
           );
@@ -123,6 +152,7 @@ export class RegisterComponent implements OnInit {
       );
     } else {
       this.toasterService.showError('Please fill all required fields.');
+      return;
     }
   }
   getAllCountries() {

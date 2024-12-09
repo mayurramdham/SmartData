@@ -27,6 +27,7 @@ export class ProfileComponent implements OnInit {
   changePasswordForm: FormGroup;
   jwtService = inject(JwtService);
   toasterService = inject(ToaterService);
+  todayDate = new Date().toISOString().split('T')[0];
 
   constructor(
     private authService: AuthServicesService,
@@ -46,6 +47,17 @@ export class ProfileComponent implements OnInit {
 
   onOpenupdateProfileModal(userData: any) {
     this.updateProfileForm.patchValue(userData);
+    this.updateProfileForm
+      .get('dob')
+      ?.setValue(
+        userData.dob ? new Date(userData.dob).toISOString().split('T')[0] : ''
+      );
+    // .this.productForm.get('purchaseDate')
+    // ?.setValue(
+    //   product.purchaseDate
+    //     ? new Date(product.purchaseDate).toISOString().split('T')[0]
+    //     : ''
+    // );
     console.log('updatefromvalue', userData);
     this.updateProfileForm.value.dob = formatDate(
       userData.dob,

@@ -23,6 +23,7 @@ import Swal from 'sweetalert2';
 export class AddProductComponent implements OnInit {
   productForm: FormGroup;
   selectedFile: File | null = null;
+  imagePreview: string | null = null;
   products: any[] = [];
   productId: number = 0;
   isupdate: boolean = false;
@@ -109,8 +110,16 @@ export class AddProductComponent implements OnInit {
   updateModal(product: any) {
     this.currentEditedElement = product.prId;
     this.isupdate = true;
+    console.log('checkPatchImageBeforePatching', this.productForm);
     this.productForm.patchValue(product);
-    console.log('checkPatchImage', this.productForm);
+    this.productForm
+      .get('purchaseDate')
+      ?.setValue(
+        product.purchaseDate
+          ? new Date(product.purchaseDate).toISOString().split('T')[0]
+          : ''
+      );
+
     const modal = document.getElementById('addProductModal');
     if (modal) {
       modal.style.display = 'block';
@@ -233,17 +242,15 @@ export class AddProductComponent implements OnInit {
     if (this.selectedFile) {
       formData.append('prImageFile', this.selectedFile, this.selectedFile.name);
     }
-
     if (this.currentEditedElement) {
       formData.append('prId', this.currentEditedElement.toString());
     }
-
     this.productService.updateProducts(formData).subscribe(
       (response: any) => {
         console.log('update respnse', response);
         if ((response.status = 200)) {
           console.log('update respnse', response);
-          this.toasterService.showWarning('Product updateded successfully');
+          this.toasterService.showSuccess('Product updateded successfully');
 
           this.selectedFile = null;
 

@@ -26,6 +26,13 @@ export class CartService {
       quantity
     );
   }
+
+  DecrementQuantity(quantity: any): Observable<any> {
+    return this.http.post(
+      `https://localhost:7227/api/Cart/decrementcart`,
+      quantity
+    );
+  }
   getUserById(userId: any): Observable<any> {
     return this.http.get(
       `https://localhost:7227/api/User/getUserById/${userId}`

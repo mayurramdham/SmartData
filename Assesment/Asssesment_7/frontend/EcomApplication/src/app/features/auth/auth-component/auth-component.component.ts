@@ -5,7 +5,7 @@ import { LoaderComponent } from '../utility/loader/loader.component';
 @Component({
   selector: 'app-auth-component',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, LoaderComponent],
   templateUrl: './auth-component.component.html',
   styleUrl: './auth-component.component.css',
 })

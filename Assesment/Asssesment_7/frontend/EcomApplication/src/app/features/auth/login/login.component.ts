@@ -21,6 +21,7 @@ export class LoginComponent {
   authService = inject(AuthServicesService);
   toasterService = inject(ToaterService);
   router = inject(Router);
+  isLoading: boolean = false;
   otpDataValue: any = {};
   otpData: FormGroup = new FormGroup({
     userName: new FormControl(''),
@@ -34,6 +35,7 @@ export class LoginComponent {
     // this.otpDataValue = this.otpData.get('emailOtp')?.value;
     // const otpValue = Number(this.otpData.get('emailOtp')?.value);
     // console.log(otpValue);
+    this.isLoading = true;
     if (this.otpData.value) {
       const otpValue = Number(this.otpData.get('otpCode')?.value);
       const payload = {
@@ -57,11 +59,13 @@ export class LoginComponent {
             localStorage.setItem('accessToken', res.token);
             this.router.navigateByUrl('/org/home');
           } else {
+            this.isLoading = true;
             this.toasterService.showError('Invalid otp or otp expired');
           }
         },
         (error) => {
           console.log(error);
+          this.isLoading = true;
           this.toasterService.showError('unable to get the response');
         }
       );

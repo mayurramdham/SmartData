@@ -118,15 +118,19 @@ export class CartComponent implements OnInit {
   }
 
   increaseQuantity(item: any): void {
+    console.log('item quantity', item);
     const payload = {
       prId: item.prId,
       cartId: item.cartId,
       quantity: 1,
     };
-    // console.log('quanity payload', payload.quantity);
+
+    console.log('payload', payload);
+
     this.cartService.IncrementQuantity(payload).subscribe(
       (response) => {
         if ((response.status = 200)) {
+          console.log('increase quantity response', response);
           this.updateCartInLocalStorage();
           this.getCartDetails();
         }
@@ -137,16 +141,26 @@ export class CartComponent implements OnInit {
     );
   }
 
-  // increaseQuantity(item: any): void {
-  //   if (item.quantity > 1) {
-  //     item.quantity++;
-  //   }
-  // }
-
   decreaseQuantity(item: any): void {
-    if (item.quantity > 1) {
-      item.quantity--;
-    }
+    const payload = {
+      prId: item.prId,
+      cartId: item.cartId,
+      quantity: 1,
+    };
+
+    this.cartService.DecrementQuantity(payload).subscribe(
+      (response) => {
+        if (response.status == 200) {
+          console.log('decrement quanity response', response);
+          this.updateCartInLocalStorage();
+          this, this.cartService.resetSetCount();
+          this.getCartDetails();
+        }
+      },
+      (error) => {
+        console.error('qyanity error', error);
+      }
+    );
   }
 
   removeCartInLocalStorage() {

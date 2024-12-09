@@ -10,6 +10,7 @@ import { AuthServicesService } from '../../../core/services/auth-services.servic
 import { ToaterService } from '../../../core/services/toater.service';
 import { JwtService } from '../../../core/services/jwt.service';
 import { CommonModule } from '@angular/common';
+import { LoaderComponent } from '../utility/loader/loader.component';
 
 @Component({
   selector: 'app-otp',
@@ -19,6 +20,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './otp.component.css',
 })
 export class OtpComponent {
+  isLoading: boolean = false;
   loginValue: any = {};
   showPassword: boolean = false;
   authService = inject(AuthServicesService);
@@ -31,6 +33,7 @@ export class OtpComponent {
   });
   loginUser() {
     this.loginValue = this.LoginData.value;
+    this.isLoading = true;
     localStorage.setItem('userName', this.LoginData.get('userName')?.value);
 
     this.authService.loginData(this.loginValue).subscribe({
@@ -38,14 +41,15 @@ export class OtpComponent {
         if (response.status == 200) {
           console.log(response);
           this.toasterService.showSuccess('Otp send to given mailId');
-
           this.router.navigateByUrl('/auth/login');
         } else {
+          this.isLoading = true;
           this.toasterService.showError('invalid credentials');
         }
       },
       error: (error) => {
         console.log('login error', error);
+        this.isLoading = true;
         this.toasterService.showError('unable to add user');
       },
     });
