@@ -117,3 +117,8 @@ hr {
 .align-bottom {
   vertical-align: bottom !important;
 }
+
+.img-cart {
+  height: 25px;
+  width: 25px;
+}

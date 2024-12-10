@@ -141,6 +141,8 @@
                         placeholder="Enter Mobile Number"
                         name="mobile"
                         formControlName="mobile"
+                        maxlength="10"
+                        (input)="validateMobileLength($event)"
                         [class.is-invalid]="
                           registerForm.get('mobile')?.invalid &&
                           registerForm.get('mobile')?.touched
@@ -148,8 +150,8 @@
                       />
                       <label for="mobile">Mobile</label>
                       <div class="invalid-feedback">
-                        Mobile number is required and number length should be
-                        10.
+                        Mobile number is required and should be exactly 10
+                        digits.
                       </div>
                     </div>
                     <div class="form-floating mb-3 mt-3">

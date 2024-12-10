@@ -5,6 +5,7 @@ import { JwtService } from '../../../../core/services/jwt.service';
 import { ToaterService } from '../../../../core/services/toater.service';
 import { AuthServicesService } from '../../../../core/services/auth-services.service';
 import { CartService } from '../../../../core/services/cart.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-navbar',
@@ -41,12 +42,52 @@ export class NavbarComponent implements OnInit {
   private authService = inject(AuthServicesService);
   private toaster = inject(ToaterService);
   private cartService = inject(CartService);
+
+  // Swal.fire({
+  //   title: 'Are you sure?',
+  //   text: 'Are you sure you want to delete this product?',
+  //   icon: 'warning',
+  //   showCancelButton: true,
+  //   confirmButtonText: 'Yes, delete it!',
+  //   cancelButtonText: 'No, keep it',
+  // }).then((result) => {
+  //   if (result.isConfirmed) {
+  //     // Proceed with the deletion if confirmed
+  //     this.productService.deleteProducts(id).subscribe(
+  //       (response) => {
+  //         console.log('login response', response);
+  //         if (response.status == 200) {
+  //           this.toasterService.showSuccess('Product Deleted Successfully');
+  //           this.getAllProducts();
+  //         } else {
+  //           this.toasterService.showError('Unable to delete');
+  //         }
+  //       },
+  //       (error) => {
+  //         this.toasterService.showError('Unable to get response');
+  //       }
+  //     );
+  //   } else {
+  //     // If the user cancels, do nothing
+  //     console.log('Product deletion canceled');
+  //   }
+  // });
   logout() {
-    alert('Logged out successfully!');
-    localStorage.removeItem('accessToken');
-    localStorage.removeItem('userId');
-    localStorage.removeItem('userName');
-    this.router.navigate(['/auth/sendOtp']); // Redirect to login page
+    Swal.fire({
+      title: 'Are You Sure',
+      text: 'Are You Sure You want to logout from the application?',
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonText: 'Yes, Logout from application',
+      cancelButtonText: 'No, keep it log in',
+    }).then((result) => {
+      if (result.isConfirmed) {
+        localStorage.removeItem('accessToken');
+        localStorage.removeItem('userId');
+        localStorage.removeItem('userName');
+        this.router.navigate(['/auth/sendOtp']); // Redirect to login page
+      }
+    });
   }
   profile() {
     this.router.navigate(['/org/profile']);

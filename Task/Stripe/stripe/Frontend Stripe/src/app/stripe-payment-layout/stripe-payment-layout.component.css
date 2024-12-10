@@ -1,0 +1,29 @@
+
+.btn{
+    height: 38px;
+    width: 62px;
+    font-size: medium;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    margin-top: -17px;
+    margin-left: 750px;
+}
+
+.input{
+    margin-left: 31px;
+    margin-top: 75px;
+    width: 227px;
+    height: 37px;
+}
+
+.btn1{
+    height: 38px;
+    width: 100px;
+    font-size: medium;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    margin-top: -12px;
+    margin-left: 91px;
+}

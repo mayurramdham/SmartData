@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "WebApplication1.Controllers.StripeController",
+    "Method": "CreateStripePayment",
+    "RelativePath": "api/Stripe/CreateStripePayment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "striprequestmodel",
+        "Type": "WebApplication1.Models.Striprequestmodel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

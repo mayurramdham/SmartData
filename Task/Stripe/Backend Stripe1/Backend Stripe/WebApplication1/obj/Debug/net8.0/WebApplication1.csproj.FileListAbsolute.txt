@@ -1,0 +1,73 @@
+D:\Simran\Projects\Solution1\WebApplication1\bin\Debug\net8.0\appsettings.Development.json
+D:\Simran\Projects\Solution1\WebApplication1\bin\Debug\net8.0\appsettings.json
+D:\Simran\Projects\Solution1\WebApplication1\bin\Debug\net8.0\WebApplication1.exe
+D:\Simran\Projects\Solution1\WebApplication1\bin\Debug\net8.0\WebApplication1.deps.json
+D:\Simran\Projects\Solution1\WebApplication1\bin\Debug\net8.0\WebApplication1.runtimeconfig.json
+D:\Simran\Projects\Solution1\WebApplication1\bin\Debug\net8.0\WebApplication1.dll
+D:\Simran\Projects\Solution1\WebApplication1\bin\Debug\net8.0\WebApplication1.pdb
+D:\Simran\Projects\Solution1\WebApplication1\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Simran\Projects\Solution1\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Simran\Projects\Solution1\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Simran\Projects\Solution1\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Simran\Projects\Solution1\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.AssemblyReference.cache
+D:\Simran\Projects\Solution1\WebApplication1\obj\Debug\net8.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Simran\Projects\Solution1\WebApplication1\obj\Debug\net8.0\WebApplication1.AssemblyInfoInputs.cache
+D:\Simran\Projects\Solution1\WebApplication1\obj\Debug\net8.0\WebApplication1.AssemblyInfo.cs
+D:\Simran\Projects\Solution1\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.CoreCompileInputs.cache
+D:\Simran\Projects\Solution1\WebApplication1\obj\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cs
+D:\Simran\Projects\Solution1\WebApplication1\obj\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+D:\Simran\Projects\Solution1\WebApplication1\obj\Debug\net8.0\staticwebassets.build.json
+D:\Simran\Projects\Solution1\WebApplication1\obj\Debug\net8.0\staticwebassets.development.json
+D:\Simran\Projects\Solution1\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Simran\Projects\Solution1\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApplication1.props
+D:\Simran\Projects\Solution1\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication1.props
+D:\Simran\Projects\Solution1\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApplication1.props
+D:\Simran\Projects\Solution1\WebApplication1\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Simran\Projects\Solution1\WebApplication1\obj\Debug\net8.0\scopedcss\bundle\WebApplication1.styles.css
+D:\Simran\Projects\Solution1\WebApplication1\obj\Debug\net8.0\WebAppli.7D14BD69.Up2Date
+D:\Simran\Projects\Solution1\WebApplication1\obj\Debug\net8.0\WebApplication1.dll
+D:\Simran\Projects\Solution1\WebApplication1\obj\Debug\net8.0\refint\WebApplication1.dll
+D:\Simran\Projects\Solution1\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb
+D:\Simran\Projects\Solution1\WebApplication1\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
+D:\Simran\Projects\Solution1\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll
+D:\Simran\Projects\Solution1\WebApplication1\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Simran\Projects\Solution1\WebApplication1\bin\Debug\net8.0\Stripe.net.dll
+D:\Simran\Projects\Solution1\WebApplication1\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Simran\Projects\Solution1\WebApplication1\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\obj\Debug\net8.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\obj\Debug\net8.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\obj\Debug\net8.0\WebApplication1.AssemblyInfo.cs
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\obj\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\obj\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\obj\Debug\net8.0\WebApplication1.sourcelink.json
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\obj\Debug\net8.0\WebApplication1.dll
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\obj\Debug\net8.0\refint\WebApplication1.dll
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\bin\Debug\net8.0\appsettings.json
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\bin\Debug\net8.0\WebApplication1.exe
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\bin\Debug\net8.0\WebApplication1.deps.json
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\bin\Debug\net8.0\WebApplication1.runtimeconfig.json
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\bin\Debug\net8.0\WebApplication1.dll
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\bin\Debug\net8.0\WebApplication1.pdb
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\bin\Debug\net8.0\Stripe.net.dll
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApplication1.props
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication1.props
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApplication1.props
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\obj\Debug\net8.0\scopedcss\bundle\WebApplication1.styles.css
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\obj\Debug\net8.0\WebAppli.7D14BD69.Up2Date
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
+C:\Users\mayurramdham\Desktop\SmartData\Task\Stripe\Backend Stripe1\Backend Stripe\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll

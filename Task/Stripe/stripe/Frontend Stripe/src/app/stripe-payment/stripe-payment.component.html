@@ -1,0 +1,23 @@
+<div class="common-wrapper table-wrapper reseller_company" style="margin-top: 77px">
+    <div class="customer-info staff-box ">
+      <mat-card>
+        <mat-card-content class="card-container">
+          <mat-card-title>
+            <h2 class="mb-3 payment-text">Payment Details</h2>
+          </mat-card-title>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12">
+                <div id="card-info" class="stripe-card-container fs-30" #cardInfo></div>
+                <div id="card-errors" role="alert" *ngIf="error" style="color: red;">{{ error }}</div>
+              </div>
+              <br><br>
+              <br>
+              <span *ngIf="textpaymentfaild" style="color: red;">Payment not succeeded. Please check your card
+                details.</span>
+            </div>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>

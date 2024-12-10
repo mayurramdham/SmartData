@@ -80,6 +80,16 @@ export class RegisterComponent implements OnInit {
     });
   }
 
+  validateMobileLength(event: Event): void {
+    const input = event.target as HTMLInputElement;
+    const value = input.value;
+
+    if (value.length > 10) {
+      // Limit the input to 6 digits
+      input.value = value.slice(0, 10);
+    }
+  }
+
   validateZipcodeLength(event: Event): void {
     const input = event.target as HTMLInputElement;
     const value = input.value;

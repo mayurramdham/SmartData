@@ -11,6 +11,7 @@ import {
 } from '@angular/forms';
 import { CommonModule, formatDate } from '@angular/common';
 import { ToaterService } from '../../../core/services/toater.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-profile',
@@ -27,6 +28,7 @@ export class ProfileComponent implements OnInit {
   changePasswordForm: FormGroup;
   jwtService = inject(JwtService);
   toasterService = inject(ToaterService);
+  private router = inject(Router);
   todayDate = new Date().toISOString().split('T')[0];
 
   constructor(
@@ -154,9 +156,10 @@ export class ProfileComponent implements OnInit {
     this.authService.changePassword(payload).subscribe(
       (response) => {
         if (response.status == 200) {
+          this.router.navigateByUrl('auth/sendOtp');
           this.toasterService.showSuccess('Password Change Successfully');
         } else {
-          this.toasterService.showError('Unable to chnage the password');
+          this.toasterService.showError('Invalid credentials');
         }
       },
       (error) => {

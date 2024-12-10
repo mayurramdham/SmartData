@@ -1,0 +1,8 @@
+<app-stripe-payment [pay]="payForBooking" [paymentData]="stripePaymentData">
+</app-stripe-payment>
+<button class="btn" (click)="Pay()">Pay</button>
+
+<div>
+  <input type="text" class="input" [(ngModel)]="paymentToken" name="paymentToken" placeholder="Add Payment token">
+  <!-- <button class="btn1" (click)="Refund()">Get Refund</button> -->
+</div>

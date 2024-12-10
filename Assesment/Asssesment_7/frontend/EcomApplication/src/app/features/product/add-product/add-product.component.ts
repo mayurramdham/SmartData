@@ -181,25 +181,7 @@ export class AddProductComponent implements OnInit {
     );
   }
 
-  //before adding the sweet alert
-  // deleteProduct2(id: number) {
-  //   if (confirm('Are you sure you want to delete this user?')) {
-  //     this.productService.deleteProducts(id).subscribe(
-  //       (response) => {
-  //         console.log('login response', response);
-  //         if (response.status == 200) {
-  //           this.toasterService.showSuccess('Product Delete Successfuuly');
-  //           this.getAllProducts();
-  //         } else {
-  //           this.toasterService.showError('Unable to delete');
-  //         }
-  //       },
-  //       (error) => {
-  //         this.toasterService.showError('Unable to get response');
-  //       }
-  //     );
-  //   }
-  // }
+
 
   deleteProduct(id: number): void {
     Swal.fire({

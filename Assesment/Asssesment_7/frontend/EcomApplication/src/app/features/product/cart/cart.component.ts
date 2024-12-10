@@ -37,13 +37,16 @@ export class CartComponent implements OnInit {
     private router: Router
   ) {
     this.paymentForm = this.fb.group({
-      cardNumber: ['', [Validators.required, Validators.pattern(/^\d{16}$/)]],
+      cardNumber: [
+        '1234567891234567',
+        [Validators.required, Validators.pattern(/^\d{16}$/)],
+      ],
       expiryDate: [
         '',
         [Validators.required], // MM/YY
       ],
       cvv: [
-        '',
+        '123',
         [Validators.required, Validators.pattern(/^\d{3}$/)], //
       ],
     });
