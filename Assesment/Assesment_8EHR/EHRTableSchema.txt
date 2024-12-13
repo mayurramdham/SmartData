@@ -1,0 +1,36 @@
+For User
+Id, 
+FirstName,
+LastName 
+DateOfBirth
+UserName, 
+Gender,
+BloodGroup, 
+Address, 
+City,
+State,
+Country,
+PinCode,
+User Type(Patient/Provider)
+-------*************----------
+For Provider
+Qualification
+Specialisation (Keep Master table for this with id- e.g Cardiologist, Oncologist,Ophthalmologist etc.)
+Registration number (varcher)
+Visiting Charge
+--------***********--------------
+
+For Spcialization Master
+Id
+spcialization Name
+
+--------***********--------------
+Appointment Table
+Id (Pk)
+Patient id(fk)
+Provider id
+Appointment Date
+Appointment time
+Chief complaint
+Appointment Status (value will be - Scheduled, Completed)
+Fee

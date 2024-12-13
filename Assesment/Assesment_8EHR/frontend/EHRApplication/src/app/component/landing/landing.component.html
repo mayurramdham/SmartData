@@ -1,0 +1,28 @@
+<div class="container d-flex align-items-center justify-content-center vh-100">
+  <div class="row text-center">
+    <div class="col-md-12">
+      <h1 class="display-4 text-primary mb-4">Welcome to Healthcare System</h1>
+      <p class="lead text-muted mb-5">Select your role to proceed</p>
+
+      <!-- Row with two buttons for Provider and Patient -->
+      <div class="row justify-content-center">
+        <div class="col-md-5 mb-4">
+          <button
+            class="btn btn-lg btn-success w-100"
+            (click)="navigateToProvider()"
+          >
+            <i class="fas fa-user-md"></i> Provider
+          </button>
+        </div>
+        <div class="col-md-5 mb-4">
+          <button
+            class="btn btn-lg btn-info w-100"
+            (click)="navigateToPatient()"
+          >
+            <i class="fas fa-user-injured"></i> Patient
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

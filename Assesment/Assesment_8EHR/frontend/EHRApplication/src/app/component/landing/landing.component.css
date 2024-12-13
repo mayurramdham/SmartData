@@ -1,0 +1,31 @@
+/* Center the content vertically and horizontally */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Custom background for healthcare theme */
+.container {
+  background-color: #f4f8fb;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  font-size: 18px;
+  padding: 15px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button i {
+  margin-right: 10px;
+}
