@@ -14,10 +14,17 @@ namespace Domain.Entity.Appointments
         [ForeignKey("User")]
         public int? PatientId { get; set; }
         public int? ProviderId { get; set; }
-        public User User { get; set; }
-        public DateOnly AppointmentDate { get; set; }
+        [ForeignKey("Specialisation")]
+        public int? SpecialisationId { get; set; }
+       
+        public DateTime AppointmentDate { get; set; }
         public TimeSpan AppointmentTime { get; set; }
         public string ChiefComplaint { get; set; }
+        
+
         public float Fees { get; set; }
+        public User User { get; set; }
+        public Specialisation Specialisation { get; set; }
+
     }
 }

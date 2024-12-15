@@ -15,4 +15,12 @@ export class CommonService {
       `https://localhost:7059/api/dropDown/GetStatesByCountry/${countryId}`
     );
   }
+  getAllSpecialisation(): Observable<any> {
+    return this.http.get('https://localhost:7059/api/Appointment');
+  }
+  getProviderBySpecialisation(specialisationId: any): Observable<any> {
+    return this.http.get(
+      `https://localhost:7059/api/Appointment/getSpecilisationById/${specialisationId}`
+    );
+  }
 }

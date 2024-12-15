@@ -30,8 +30,8 @@ namespace Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateOnly>("AppointmentDate")
-                        .HasColumnType("date");
+                    b.Property<DateTime>("AppointmentDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<TimeSpan>("AppointmentTime")
                         .HasColumnType("time");
@@ -49,9 +49,14 @@ namespace Infrastructure.Migrations
                     b.Property<int?>("ProviderId")
                         .HasColumnType("int");
 
+                    b.Property<int?>("SpecialisationId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("PatientId");
+
+                    b.HasIndex("SpecialisationId");
 
                     b.ToTable("Appointment");
                 });
@@ -273,6 +278,12 @@ namespace Infrastructure.Migrations
                     b.HasOne("Domain.Entity.AuthProcess.User", "User")
                         .WithMany()
                         .HasForeignKey("PatientId");
+
+                    b.HasOne("Domain.Entity.AuthProcess.Specialisation", "Specialisation")
+                        .WithMany()
+                        .HasForeignKey("SpecialisationId");
+
+                    b.Navigation("Specialisation");
 
                     b.Navigation("User");
                 });

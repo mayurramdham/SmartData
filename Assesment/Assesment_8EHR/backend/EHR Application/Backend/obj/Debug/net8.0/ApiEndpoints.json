@@ -1,5 +1,47 @@
 [
   {
+    "ContainingType": "Backend.Controllers.AppointmentController",
+    "Method": "getspecialisation",
+    "RelativePath": "api/Appointment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.AppointmentController",
+    "Method": "addAppointment",
+    "RelativePath": "api/Appointment/bookAppointment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appointments",
+        "Type": "Domain.Model.AuthProcessDto.AppointmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.AppointmentController",
+    "Method": "getProviderSpeciality",
+    "RelativePath": "api/Appointment/getSpecilisationById/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Backend.Controllers.dropDownController",
     "Method": "GetCountries",
     "RelativePath": "api/dropDown/GetCountries",
@@ -19,6 +61,38 @@
     "Parameters": [
       {
         "Name": "countryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.UserController",
+    "Method": "forgetPassword",
+    "RelativePath": "api/User/forgetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "Domain.Model.AuthProcessDto.EmailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.UserController",
+    "Method": "getUser",
+    "RelativePath": "api/User/getUserById/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
         "Type": "System.Int32",
         "IsRequired": true
       }

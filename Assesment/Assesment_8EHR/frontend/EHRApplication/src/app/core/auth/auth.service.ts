@@ -13,4 +13,26 @@ export class AuthService {
       patient
     );
   }
+  loginData(data: any): Observable<any> {
+    return this.http.post<any>('https://localhost:7059/api/User/login', data);
+  }
+
+  forgotPassword(useremail: object): Observable<any> {
+    return this.http.post<any>(
+      'https://localhost:7059/api/User/forgetPassword',
+      useremail
+    );
+  }
+
+  verfiOtp(data: any): Observable<any> {
+    return this.http.post<any>(
+      'https://localhost:7059/api/User/verifyotp',
+      data
+    );
+  }
+  getUserById(userId: Number): Observable<any> {
+    return this.http.get<any>(
+      `https://localhost:7059/api/User/getUserById/${userId}`
+    );
+  }
 }

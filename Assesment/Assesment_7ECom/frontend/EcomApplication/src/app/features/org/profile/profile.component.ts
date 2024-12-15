@@ -54,12 +54,7 @@ export class ProfileComponent implements OnInit {
       ?.setValue(
         userData.dob ? new Date(userData.dob).toISOString().split('T')[0] : ''
       );
-    // .this.productForm.get('purchaseDate')
-    // ?.setValue(
-    //   product.purchaseDate
-    //     ? new Date(product.purchaseDate).toISOString().split('T')[0]
-    //     : ''
-    // );
+
     console.log('updatefromvalue', userData);
     this.updateProfileForm.value.dob = formatDate(
       userData.dob,
@@ -198,16 +193,6 @@ export class ProfileComponent implements OnInit {
       }
     });
   }
-
-  // formatDate(dateString: string | undefined): string {
-  //   if (!dateString) return '';
-  //   const options: Intl.DateTimeFormatOptions = {
-  //     year: 'numeric',
-  //     month: 'long',
-  //     day: 'numeric',
-  //   };
-  //   return new Date(dateString).toLocaleDateString(undefined, options);
-  // }
 
   getUserType(userTypeId: number | undefined): string {
     if (userTypeId === 1) return 'Admin';

@@ -43,35 +43,6 @@ export class NavbarComponent implements OnInit {
   private toaster = inject(ToaterService);
   private cartService = inject(CartService);
 
-  // Swal.fire({
-  //   title: 'Are you sure?',
-  //   text: 'Are you sure you want to delete this product?',
-  //   icon: 'warning',
-  //   showCancelButton: true,
-  //   confirmButtonText: 'Yes, delete it!',
-  //   cancelButtonText: 'No, keep it',
-  // }).then((result) => {
-  //   if (result.isConfirmed) {
-  //     // Proceed with the deletion if confirmed
-  //     this.productService.deleteProducts(id).subscribe(
-  //       (response) => {
-  //         console.log('login response', response);
-  //         if (response.status == 200) {
-  //           this.toasterService.showSuccess('Product Deleted Successfully');
-  //           this.getAllProducts();
-  //         } else {
-  //           this.toasterService.showError('Unable to delete');
-  //         }
-  //       },
-  //       (error) => {
-  //         this.toasterService.showError('Unable to get response');
-  //       }
-  //     );
-  //   } else {
-  //     // If the user cancels, do nothing
-  //     console.log('Product deletion canceled');
-  //   }
-  // });
   logout() {
     Swal.fire({
       title: 'Are You Sure',
