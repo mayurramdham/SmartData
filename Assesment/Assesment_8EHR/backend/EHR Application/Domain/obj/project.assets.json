@@ -122,19 +122,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mayur Ramdham\\.nuget\\packages\\": {}
+    "C:\\Users\\mayurramdham\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\Mayur Ramdham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\obj\\",
+      "projectPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\mayurramdham\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mayur Ramdham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mayurramdham\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

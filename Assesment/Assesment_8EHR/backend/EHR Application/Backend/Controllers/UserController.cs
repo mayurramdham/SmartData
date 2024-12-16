@@ -50,6 +50,13 @@ namespace Backend.Controllers
             return Ok(getUser);
         }
 
+        [HttpPost("ChangePassword")]
+        public async Task<IActionResult> changePassword(ChangePasswordDto changePassword)
+        {
+            var changePass=await _mediator.Send(new  ChangePasswordCommand { ChangePassword = changePassword });
+            return Ok(changePass);
+        }
+
 
     }
 }

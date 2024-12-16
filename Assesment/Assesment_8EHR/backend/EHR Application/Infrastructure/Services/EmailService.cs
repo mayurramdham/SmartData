@@ -34,6 +34,12 @@ namespace Infrastructure.Services
             var response = await client.SendEmailAsync(msg);
 
 
+            
+            
+            
+            
+            
+            
             return true;
         }
     }

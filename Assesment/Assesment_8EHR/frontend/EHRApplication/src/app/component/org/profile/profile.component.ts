@@ -36,7 +36,7 @@ export class ProfileComponent {
   constructor(private fb: FormBuilder) {
     this.changePasswordForm = this.fb.group(
       {
-        username: ['', [Validators.required, Validators.minLength(3)]],
+        email: ['', [Validators.required, Validators.minLength(3)]],
         password: ['', [Validators.required, Validators.minLength(6)]],
         confirmPassword: ['', [Validators.required, Validators.minLength(6)]],
       },
@@ -46,26 +46,23 @@ export class ProfileComponent {
     );
   }
   onOpenupdateProfileModal(userData: any) {
-    this.updateProfileForm.patchValue(userData);
-    this.updateProfileForm
-      .get('dob')
-      ?.setValue(
-        userData.dob ? new Date(userData.dob).toISOString().split('T')[0] : ''
-      );
-
-    console.log('updatefromvalue', userData);
-    this.updateProfileForm.value.dob = formatDate(
-      userData.dob,
-      'dd-MM-yyyy',
-      'en'
-    );
-    console.log('updatefromvalue2', this.updateProfileForm.value.dob);
     const modal = document.getElementById('updateProfileModal');
     if (modal) {
       modal.style.display = 'block';
       modal.classList.add('show');
       modal.setAttribute('aria-hidden', 'false');
     }
+    this.updateProfileForm.patchValue(userData);
+    this.updateProfileForm
+      .get('dateOfBirth')
+      ?.setValue(
+        userData.dateOfBirth
+          ? new Date(userData.dateOfBirth).toISOString().split('T')[0]
+          : ''
+      );
+
+    console.log('updatefrompatchvalue', userData);
+    console.log('updatefromvalue2', this.updateProfileForm.value.dateOfBirth);
   }
 
   onCloseupdateProfileModal() {
@@ -142,25 +139,25 @@ export class ProfileComponent {
       return;
     }
     const payload = {
-      username: this.changePasswordForm.get('username')?.value,
+      email: this.changePasswordForm.get('email')?.value,
       password: this.changePasswordForm.get('password')?.value,
     };
     console.log('payload is', payload);
-    // this.authService.changePassword(payload).subscribe(
-    //   (response) => {
-    //     if (response.status == 200) {
-    //       this.router.navigateByUrl('auth/sendOtp');
-    //       this.toasterService.showSuccess('Password Change Successfully');
-    //     } else {
-    //       this.toasterService.showError('Invalid credentials');
-    //     }
-    //   },
-    //   (error) => {
-    //     this.toasterService.showError('unable to get response');
-    //   }
-    // );
-    // const { username, password } = this.changePasswordForm.value;
-    // console.log(`Password for ${username} changed to ${password}`);
+    this.authService.changePassword(payload).subscribe(
+      (response) => {
+        if (response.status == 200) {
+          this.router.navigateByUrl('auth/landing');
+          this.toasterService.showSuccess('Password Change Successfully');
+        } else {
+          this.toasterService.showError('Invalid credentials');
+        }
+      },
+      (error) => {
+        this.toasterService.showError('unable to get response');
+      }
+    );
+    const { email, password } = this.changePasswordForm.value;
+    console.log(`Password for ${email} changed to ${password}`);
   }
 
   ngOnInit(): void {
@@ -173,10 +170,10 @@ export class ProfileComponent {
       firstName: new FormControl('', Validators.required),
       lastName: new FormControl('', Validators.required),
       email: new FormControl('', [Validators.required, Validators.email]),
-      dob: new FormControl('', Validators.required),
+      dateOfBirth: new FormControl('', Validators.required),
       mobile: new FormControl('', Validators.required),
       address: new FormControl('', Validators.required),
-      zipcode: new FormControl('', Validators.required),
+      pinCode: new FormControl('', Validators.required),
     });
   }
 
@@ -187,9 +184,16 @@ export class ProfileComponent {
         this.StateName = response.state;
         this.countryName = response.country;
         this.specilization = response.specilizations;
-        console.log('User Data:', this.specilization);
+        console.log(
+          'User Data:',
+          response.data.specialisation.specialisationName
+        );
       }
     });
+  }
+
+  changeUserPassword() {
+    this.authService.changePassword;
   }
 
   getUserType(userTypeId: number | undefined): string {

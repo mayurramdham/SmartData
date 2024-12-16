@@ -27,6 +27,22 @@
   },
   {
     "ContainingType": "Backend.Controllers.AppointmentController",
+    "Method": "getProviderById",
+    "RelativePath": "api/Appointment/getProvider/{UserTypeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.AppointmentController",
     "Method": "getProviderSpeciality",
     "RelativePath": "api/Appointment/getSpecilisationById/{Id}",
     "HttpMethod": "GET",
@@ -62,6 +78,22 @@
       {
         "Name": "countryId",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.UserController",
+    "Method": "changePassword",
+    "RelativePath": "api/User/ChangePassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "changePassword",
+        "Type": "Domain.Model.AuthProcessDto.ChangePasswordDto",
         "IsRequired": true
       }
     ],

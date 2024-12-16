@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VDcAr/ElaycxMHebibyv8gX+38ITB4Sbp16rsbBe5WA=",
+  "Hash": "EGAHkKaKCDbEJWC2z9adqvjW8Uvz8d6TkwGntMDfx5Q=",
   "Source": "Backend",
   "BasePath": "_content/Backend",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Backend\\wwwroot",
       "Source": "Backend",
-      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
       "BasePath": "_content/Backend",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\0260b656-0bca-4e67-9934-76e4e71fbb21.jpg",
+      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\0260b656-0bca-4e67-9934-76e4e71fbb21.jpg",
       "SourceId": "Backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
       "BasePath": "_content/Backend",
       "RelativePath": "Images/0260b656-0bca-4e67-9934-76e4e71fbb21.jpg",
       "AssetKind": "All",
@@ -36,10 +36,29 @@
       "OriginalItemSpec": "wwwroot\\Images\\0260b656-0bca-4e67-9934-76e4e71fbb21.jpg"
     },
     {
-      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\11bcaf01-3991-4411-b766-a942306cca61.jpg",
+      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\0df18e86-6356-4e98-8957-fb2219f78c10.jpg",
       "SourceId": "Backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "RelativePath": "Images/0df18e86-6356-4e98-8957-fb2219f78c10.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\0df18e86-6356-4e98-8957-fb2219f78c10.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\11bcaf01-3991-4411-b766-a942306cca61.jpg",
+      "SourceId": "Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
       "BasePath": "_content/Backend",
       "RelativePath": "Images/11bcaf01-3991-4411-b766-a942306cca61.jpg",
       "AssetKind": "All",
@@ -55,10 +74,29 @@
       "OriginalItemSpec": "wwwroot\\Images\\11bcaf01-3991-4411-b766-a942306cca61.jpg"
     },
     {
-      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\20dc3a3b-6cce-41f6-b76d-3f1e989f29cb.jpg",
+      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\1657c440-9d61-4551-9f40-2aa60b360e58.jpg",
       "SourceId": "Backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "RelativePath": "Images/1657c440-9d61-4551-9f40-2aa60b360e58.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\1657c440-9d61-4551-9f40-2aa60b360e58.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\20dc3a3b-6cce-41f6-b76d-3f1e989f29cb.jpg",
+      "SourceId": "Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
       "BasePath": "_content/Backend",
       "RelativePath": "Images/20dc3a3b-6cce-41f6-b76d-3f1e989f29cb.jpg",
       "AssetKind": "All",
@@ -74,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\20dc3a3b-6cce-41f6-b76d-3f1e989f29cb.jpg"
     },
     {
-      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\31548e16-78b9-46ca-b725-66a8bd26dc87.jpg",
+      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\31548e16-78b9-46ca-b725-66a8bd26dc87.jpg",
       "SourceId": "Backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
       "BasePath": "_content/Backend",
       "RelativePath": "Images/31548e16-78b9-46ca-b725-66a8bd26dc87.jpg",
       "AssetKind": "All",
@@ -93,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\31548e16-78b9-46ca-b725-66a8bd26dc87.jpg"
     },
     {
-      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\3d862ff7-ef90-4a59-9711-e1cb6b8869a8.jpg",
+      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\3d862ff7-ef90-4a59-9711-e1cb6b8869a8.jpg",
       "SourceId": "Backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
       "BasePath": "_content/Backend",
       "RelativePath": "Images/3d862ff7-ef90-4a59-9711-e1cb6b8869a8.jpg",
       "AssetKind": "All",
@@ -112,10 +150,29 @@
       "OriginalItemSpec": "wwwroot\\Images\\3d862ff7-ef90-4a59-9711-e1cb6b8869a8.jpg"
     },
     {
-      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\46ad4c37-3a3c-411b-bb1e-abde7e34cd11.jpg",
+      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\41a622a8-4088-4e32-882b-4fc99dc4d2d3.jpg",
       "SourceId": "Backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "RelativePath": "Images/41a622a8-4088-4e32-882b-4fc99dc4d2d3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\41a622a8-4088-4e32-882b-4fc99dc4d2d3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\46ad4c37-3a3c-411b-bb1e-abde7e34cd11.jpg",
+      "SourceId": "Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
       "BasePath": "_content/Backend",
       "RelativePath": "Images/46ad4c37-3a3c-411b-bb1e-abde7e34cd11.jpg",
       "AssetKind": "All",
@@ -131,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\46ad4c37-3a3c-411b-bb1e-abde7e34cd11.jpg"
     },
     {
-      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\5f0f3be9-e33e-4d2a-8346-99cf85c8834b.jpg",
+      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\5f0f3be9-e33e-4d2a-8346-99cf85c8834b.jpg",
       "SourceId": "Backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
       "BasePath": "_content/Backend",
       "RelativePath": "Images/5f0f3be9-e33e-4d2a-8346-99cf85c8834b.jpg",
       "AssetKind": "All",
@@ -150,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\5f0f3be9-e33e-4d2a-8346-99cf85c8834b.jpg"
     },
     {
-      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\69d44927-7fa9-447f-a066-880086d2f2cd.jpg",
+      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\69d44927-7fa9-447f-a066-880086d2f2cd.jpg",
       "SourceId": "Backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
       "BasePath": "_content/Backend",
       "RelativePath": "Images/69d44927-7fa9-447f-a066-880086d2f2cd.jpg",
       "AssetKind": "All",
@@ -169,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\69d44927-7fa9-447f-a066-880086d2f2cd.jpg"
     },
     {
-      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\71767beb-7037-43cd-9da7-255eb709beba.jpg",
+      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\71767beb-7037-43cd-9da7-255eb709beba.jpg",
       "SourceId": "Backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
       "BasePath": "_content/Backend",
       "RelativePath": "Images/71767beb-7037-43cd-9da7-255eb709beba.jpg",
       "AssetKind": "All",
@@ -188,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\71767beb-7037-43cd-9da7-255eb709beba.jpg"
     },
     {
-      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\a51cc3d2-1169-449a-94fb-fdc0250c954f.jpg",
+      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\a51cc3d2-1169-449a-94fb-fdc0250c954f.jpg",
       "SourceId": "Backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
       "BasePath": "_content/Backend",
       "RelativePath": "Images/a51cc3d2-1169-449a-94fb-fdc0250c954f.jpg",
       "AssetKind": "All",
@@ -207,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\a51cc3d2-1169-449a-94fb-fdc0250c954f.jpg"
     },
     {
-      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\c380e0c0-f886-43cf-8fe3-9485280297b5.jpg",
+      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\c380e0c0-f886-43cf-8fe3-9485280297b5.jpg",
       "SourceId": "Backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
       "BasePath": "_content/Backend",
       "RelativePath": "Images/c380e0c0-f886-43cf-8fe3-9485280297b5.jpg",
       "AssetKind": "All",
@@ -226,10 +283,29 @@
       "OriginalItemSpec": "wwwroot\\Images\\c380e0c0-f886-43cf-8fe3-9485280297b5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\cf8cb64c-fd68-4206-a33d-6cf1ab9f55eb.jpg",
+      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\cca6f8ab-fc19-49c3-9f48-129166d60276.jpg",
       "SourceId": "Backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "RelativePath": "Images/cca6f8ab-fc19-49c3-9f48-129166d60276.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\cca6f8ab-fc19-49c3-9f48-129166d60276.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\cf8cb64c-fd68-4206-a33d-6cf1ab9f55eb.jpg",
+      "SourceId": "Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
       "BasePath": "_content/Backend",
       "RelativePath": "Images/cf8cb64c-fd68-4206-a33d-6cf1ab9f55eb.jpg",
       "AssetKind": "All",
@@ -245,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\cf8cb64c-fd68-4206-a33d-6cf1ab9f55eb.jpg"
     },
     {
-      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\e5e82608-3ad3-4d5a-b8b1-42686c6a14c6.jpg",
+      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\e5e82608-3ad3-4d5a-b8b1-42686c6a14c6.jpg",
       "SourceId": "Backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
       "BasePath": "_content/Backend",
       "RelativePath": "Images/e5e82608-3ad3-4d5a-b8b1-42686c6a14c6.jpg",
       "AssetKind": "All",
@@ -264,10 +340,29 @@
       "OriginalItemSpec": "wwwroot\\Images\\e5e82608-3ad3-4d5a-b8b1-42686c6a14c6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\f1408649-4c40-41f1-9ec7-41edb219f3db.jpg",
+      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\ebfa5ef4-6260-40b7-8f7b-6b622d872691.jpg",
       "SourceId": "Backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "RelativePath": "Images/ebfa5ef4-6260-40b7-8f7b-6b622d872691.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ebfa5ef4-6260-40b7-8f7b-6b622d872691.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\f1408649-4c40-41f1-9ec7-41edb219f3db.jpg",
+      "SourceId": "Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
       "BasePath": "_content/Backend",
       "RelativePath": "Images/f1408649-4c40-41f1-9ec7-41edb219f3db.jpg",
       "AssetKind": "All",
@@ -283,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\f1408649-4c40-41f1-9ec7-41edb219f3db.jpg"
     },
     {
-      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\f49831fe-73b9-4692-af0a-d3dfd64ae7da.jpg",
+      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\f49831fe-73b9-4692-af0a-d3dfd64ae7da.jpg",
       "SourceId": "Backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
       "BasePath": "_content/Backend",
       "RelativePath": "Images/f49831fe-73b9-4692-af0a-d3dfd64ae7da.jpg",
       "AssetKind": "All",
@@ -302,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\f49831fe-73b9-4692-af0a-d3dfd64ae7da.jpg"
     },
     {
-      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\fa4a830e-eb4e-48b9-a4d6-f4c30fc59ca1.jpg",
+      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\fa4a830e-eb4e-48b9-a4d6-f4c30fc59ca1.jpg",
       "SourceId": "Backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
       "BasePath": "_content/Backend",
       "RelativePath": "Images/fa4a830e-eb4e-48b9-a4d6-f4c30fc59ca1.jpg",
       "AssetKind": "All",
@@ -321,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\fa4a830e-eb4e-48b9-a4d6-f4c30fc59ca1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\fe1aa983-1df0-4a1b-8546-010971be3782.jpg",
+      "Identity": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\Images\\fe1aa983-1df0-4a1b-8546-010971be3782.jpg",
       "SourceId": "Backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mayur Ramdham\\Desktop\\SmartData\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Assesment\\Assesment_8EHR\\backend\\EHR Application\\Backend\\wwwroot\\",
       "BasePath": "_content/Backend",
       "RelativePath": "Images/fe1aa983-1df0-4a1b-8546-010971be3782.jpg",
       "AssetKind": "All",

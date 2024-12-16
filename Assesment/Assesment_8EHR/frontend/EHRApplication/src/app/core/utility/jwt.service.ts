@@ -20,6 +20,13 @@ export class JwtService {
       return decodedToken.UserId;
     }
   }
+  getUserTypeId() {
+    const accessToken = localStorage.getItem('accessToken');
+    if (accessToken) {
+      const decodedToken: any = jwtDecode(accessToken);
+      return decodedToken.userTypeId;
+    }
+  }
   getFirstName() {
     const accessToken = localStorage.getItem('accessToken');
     if (accessToken) {

@@ -44,7 +44,7 @@ export class PatientregistrationComponent implements OnInit {
       ],
       lastName: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
-      dob: ['', Validators.required],
+      dateOfBirth: ['', Validators.required],
       mobile: ['', [Validators.required, Validators.pattern(/^\d{10}$/)]],
       address: ['', Validators.required],
       city: ['', Validators.required],

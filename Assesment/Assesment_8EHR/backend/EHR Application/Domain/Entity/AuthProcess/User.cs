@@ -20,6 +20,7 @@ namespace Domain.Entity.AuthProcess
         public string? Password { get; set; }
 
         public string Email { get; set; }
+        public string Mobile { get; set; }
         public DateTime DateOfBirth { get; set; }
         public string ProfileImageUrl { get; set; }// comes from feature package
         public string Gender { get; set; }

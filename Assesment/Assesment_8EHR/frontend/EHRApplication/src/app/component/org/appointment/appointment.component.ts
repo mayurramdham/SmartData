@@ -11,6 +11,7 @@ import { HttpClient } from '@angular/common/http';
 import { CommonService } from '../../../core/utility/common.service';
 import { AppointmentService } from '../../../core/auth/appointment.service';
 import { ToasterService } from '../../../core/utility/toaster.service';
+import { JwtService } from '../../../core/utility/jwt.service';
 
 @Component({
   selector: 'app-appointment',
@@ -23,20 +24,25 @@ export class AppointmentComponent {
   appointmentForm!: FormGroup;
   specialities: any[] = [];
   providers: any[] = [];
+  userTypeData: any[] = [];
   appointmentFormValue = {};
+  currentUserType: number = 2;
   minTime: string = '00:00';
   today = new Date().toISOString().split('T')[0];
   private commonService = inject(CommonService);
   private appointmentService = inject(AppointmentService);
   private toasterService = inject(ToasterService);
+  private jwtService = inject(JwtService);
 
   constructor(private fb: FormBuilder, private http: HttpClient) {}
 
   ngOnInit() {
     const currentDate = new Date();
     this.today = currentDate.toISOString().slice(0, 10);
+
     this.appointmentForm = this.fb.group({
-      specialisationId: ['', Validators.required],
+      patientId: this.jwtService.getUserId(),
+      specialisationId: [],
       providerId: ['', Validators.required],
       appointmentDate: ['', Validators.required],
       appointmentTime: ['', Validators.required],
@@ -45,6 +51,7 @@ export class AppointmentComponent {
     });
 
     this.getSpecialities();
+    this.getAllProvider(this.currentUserType);
     this.appointmentForm
       .get('appointmentDate')
       ?.valueChanges.subscribe((selectedDate) => {
@@ -54,6 +61,19 @@ export class AppointmentComponent {
     const initialDate =
       this.appointmentForm.get('appointmentDate')?.value || this.today;
     this.updateMinTime(initialDate);
+  }
+
+  getAllProvider(currentUserType: any) {
+    console.log('usertype is', currentUserType);
+
+    this.appointmentService.getProviderList(currentUserType).subscribe({
+      next: (response) => {
+        if (response.status == 200) {
+          this.providers = response.data;
+          console.log('userTyepData', this.providers);
+        }
+      },
+    });
   }
 
   getSpecialities() {
@@ -71,6 +91,7 @@ export class AppointmentComponent {
 
   getProviders(event: any) {
     const selectedProviderId = +event.target.value;
+    this.providers = [];
     console.log('selectedproviderId', selectedProviderId);
     this.commonService
       .getProviderBySpecialisation(selectedProviderId)
@@ -88,25 +109,33 @@ export class AppointmentComponent {
   }
 
   onSubmit() {
+    console.log('outside of the submit');
     if (this.appointmentForm.valid) {
-      this.appointmentService
-        .addAppointment(this.appointmentForm.value)
-        .subscribe({
-          next: (response) => {
-            if (response.status == 200) {
-              this.toasterService.showSuccess(
-                'Appointment Booked Successfully'
-              );
-              this.resetForm();
-            } else {
-              this.toasterService.showError('response not handled properly');
-            }
-          },
-          error: (error) => {
-            this.toasterService.showError('unable to get response');
-            console.log(error);
-          },
-        });
+      const payload = {
+        patientId: this.jwtService.getUserId(),
+        specialisationId: 1,
+        providerId: this.appointmentForm.get('providerId')?.value,
+        appointmentDate: this.appointmentForm.get('appointmentDate')?.value,
+        appointmentTime: this.appointmentForm.get('appointmentTime')?.value,
+        chiefComplaint: this.appointmentForm.get('chiefComplaint')?.value,
+        fees: this.appointmentForm.get('fees')?.value,
+      };
+
+      console.log('inside of the submit', payload);
+      this.appointmentService.addAppointment(payload).subscribe({
+        next: (response) => {
+          if (response.status == 200) {
+            this.toasterService.showSuccess('Appointment Booked Successfully');
+            this.resetForm();
+          } else {
+            this.toasterService.showError('response not handled properly');
+          }
+        },
+        error: (error) => {
+          this.toasterService.showError('unable to get response');
+          console.log(error);
+        },
+      });
     }
   }
 

@@ -38,6 +38,13 @@ namespace Backend.Controllers
             return Ok(appointment);
         }
 
+        [HttpGet("getProvider/{UserTypeId}")]
+        public async Task<IActionResult> getProviderById(int UserTypeId)
+        {
+            var provider=await _mediator.Send(new GetAllProvider { UserTypeId = UserTypeId });
+            return Ok(provider);
+        }
+
 
     }
 }

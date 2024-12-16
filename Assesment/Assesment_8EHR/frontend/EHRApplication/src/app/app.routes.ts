@@ -10,6 +10,7 @@ import { HomeComponent } from './component/org/home/home.component';
 import { OrgComponent } from './component/org/org.component';
 import { ProfileComponent } from './component/org/profile/profile.component';
 import { AppointmentComponent } from './component/org/appointment/appointment.component';
+import { ProviderAppointmentComponent } from './component/org/provider-appointment/provider-appointment.component';
 
 export const routes: Routes = [
   {
@@ -62,6 +63,11 @@ export const routes: Routes = [
       {
         path: 'appointment',
         component: AppointmentComponent,
+      },
+
+      {
+        path: 'providerAppointment',
+        component: ProviderAppointmentComponent,
       },
     ],
   },

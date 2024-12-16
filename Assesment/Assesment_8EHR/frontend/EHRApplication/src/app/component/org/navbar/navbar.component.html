@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
   <div class="container-fluid">
-    <a class="navbar-brand fw-bold text-primary">ShopSavvy</a>
+    <a class="navbar-brand fw-bold text-primary">EHRApplication</a>
 
     <button
       class="navbar-toggler"
@@ -23,10 +23,18 @@
         </li>
         <li class="nav-item">
           <a
-            *ngIf="currentRole === 'User'"
+            *ngIf="currentRole === 'Provider'"
             class="nav-link text-dark fw-semibold"
-            routerLink="/org/users"
-            >MarketPlace</a
+            routerLink="/org/providerAppointment"
+            >ProviderAppointment</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            *ngIf="currentRole === 'Patient'"
+            class="nav-link text-dark fw-semibold"
+            routerLink="/org/appointment"
+            >PatientAppointment</a
           >
         </li>
         <li class="nav-item">

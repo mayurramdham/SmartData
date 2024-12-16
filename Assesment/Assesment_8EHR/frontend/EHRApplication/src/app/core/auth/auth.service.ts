@@ -35,4 +35,10 @@ export class AuthService {
       `https://localhost:7059/api/User/getUserById/${userId}`
     );
   }
+  changePassword(emailId: any): Observable<any> {
+    return this.http.post<any>(
+      'https://localhost:7059/api/User/ChangePassword',
+      emailId
+    );
+  }
 }

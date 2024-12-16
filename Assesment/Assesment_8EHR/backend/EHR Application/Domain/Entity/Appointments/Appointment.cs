@@ -16,6 +16,7 @@ namespace Domain.Entity.Appointments
         public int? ProviderId { get; set; }
         [ForeignKey("Specialisation")]
         public int? SpecialisationId { get; set; }
+        public string Status { get; set; }
        
         public DateTime AppointmentDate { get; set; }
         public TimeSpan AppointmentTime { get; set; }

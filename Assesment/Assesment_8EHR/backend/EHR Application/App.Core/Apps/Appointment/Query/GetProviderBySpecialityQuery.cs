@@ -31,8 +31,8 @@ namespace App.Core.Apps.DropDown
                     .Where(u => u.SpecialisationId == request.Id)
                     .Select(u => new
                     {
-                        ProviderId = u.Id, // Assuming `UserId` is the unique identifier for the provider
-                        ProviderName = u.FirstName // Replace `Name` with the actual property for the provider's name
+                        id = u.Id, // Assuming `UserId` is the unique identifier for the provider
+                        FirstName = u.FirstName // Replace `Name` with the actual property for the provider's name
                     })
                     .ToListAsync(cancellationToken);
 

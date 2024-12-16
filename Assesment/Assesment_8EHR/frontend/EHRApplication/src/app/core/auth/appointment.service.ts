@@ -13,4 +13,9 @@ export class AppointmentService {
       data
     );
   }
+  getProviderList(userTypeId: any): Observable<any> {
+    return this.http.get(
+      `https://localhost:7059/api/Appointment/getProvider/${userTypeId}`
+    );
+  }
 }

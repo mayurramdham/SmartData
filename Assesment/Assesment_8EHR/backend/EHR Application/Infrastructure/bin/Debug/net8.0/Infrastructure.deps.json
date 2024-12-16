@@ -1201,10 +1201,13 @@
       "App.Core/1.0.0": {
         "dependencies": {
           "BCrypt.Net-Next": "4.0.3",
+          "Dapper": "2.1.35",
           "Domain": "1.0.0",
           "Mapster": "7.4.0",
           "MediatR": "12.4.1",
-          "Microsoft.EntityFrameworkCore": "9.0.0"
+          "Microsoft.Data.SqlClient": "5.1.6",
+          "Microsoft.EntityFrameworkCore": "9.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.0"
         },
         "runtime": {
           "App.Core.dll": {

@@ -176,15 +176,15 @@
                         class="form-control"
                         id="dob"
                         placeholder="Enter DOB"
-                        name="dob"
+                        name="dateOfBirth"
                         [max]="todayDate"
-                        formControlName="dob"
+                        formControlName="dateOfBirth"
                         [class.is-invalid]="
-                          pateintRegisterForm.get('dob')?.invalid &&
-                          pateintRegisterForm.get('dob')?.touched
+                          pateintRegisterForm.get('dateOfBirth')?.invalid &&
+                          pateintRegisterForm.get('dateOfBirth')?.touched
                         "
                       />
-                      <label for="dob">Date of Birth</label>
+                      <label for="dateOfBirth">Date of Birth</label>
 
                       <div class="invalid-feedback">
                         Date of Birth is required.

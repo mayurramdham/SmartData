@@ -48,7 +48,7 @@ export class NavbarComponent {
         localStorage.removeItem('accessToken');
         localStorage.removeItem('userId');
         localStorage.removeItem('userName');
-        this.router.navigate(['/auth/sendOtp']); // Redirect to login page
+        this.router.navigate(['auth/landing']); // Redirect to login page
       }
     });
   }
