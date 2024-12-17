@@ -45,6 +45,35 @@ namespace Backend.Controllers
             return Ok(provider);
         }
 
+        [HttpGet("getAllPatient/{PatientId}")]
+        public async Task<IActionResult> getPatientByPatientId(int PatientId)
+        {
+            var patientInfo = await _mediator.Send(new GetAllPatientAppointment { PatientId = PatientId });
+            return Ok(patientInfo);
+        }
+
+        [HttpGet("getAllPatientByProvider/{PatientId}")]
+        public async Task<IActionResult> getPatientByProviderId(int PatientId)
+        {
+            var providerInfo = await _mediator.Send(new GetAllProviderAppointment { PatientId = PatientId });
+            return Ok(providerInfo);
+        }
+
+        [HttpDelete("DeleteAppointment/{AppointmentId}")]
+        public async Task<IActionResult> ChangeAppointmentStatus(int AppointmentId)
+        {
+            var apStatus = await _mediator.Send(new CancelAppointmentCommand { AppointmentId = AppointmentId });
+            return Ok(apStatus);
+        }
+
+        [HttpPut("UpdatePatientAppointment")]
+        public async Task<IActionResult> updatePatientAppointment(UpdateAppointmentDto updateAppointmentDto)
+        {
+            var updateAp = await _mediator.Send(new UpdatePatientAppointmentCommand { updateAppointmentDto = updateAppointmentDto });
+            return Ok(updateAp);
+        }
+        
+
 
     }
 }

@@ -17,6 +17,8 @@ export class JwtService {
     const accessToken = localStorage.getItem('accessToken');
     if (accessToken) {
       const decodedToken: any = jwtDecode(accessToken);
+      console.log('apUserid', decodedToken.UserId);
+
       return decodedToken.UserId;
     }
   }

@@ -27,6 +27,54 @@
   },
   {
     "ContainingType": "Backend.Controllers.AppointmentController",
+    "Method": "ChangeAppointmentStatus",
+    "RelativePath": "api/Appointment/DeleteAppointment/{AppointmentId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AppointmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.AppointmentController",
+    "Method": "getPatientByPatientId",
+    "RelativePath": "api/Appointment/getAllPatient/{PatientId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PatientId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.AppointmentController",
+    "Method": "getPatientByProviderId",
+    "RelativePath": "api/Appointment/getAllPatientByProvider/{PatientId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PatientId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.AppointmentController",
     "Method": "getProviderById",
     "RelativePath": "api/Appointment/getProvider/{UserTypeId}",
     "HttpMethod": "GET",
@@ -52,6 +100,22 @@
       {
         "Name": "Id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.AppointmentController",
+    "Method": "updatePatientAppointment",
+    "RelativePath": "api/Appointment/UpdatePatientAppointment",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateAppointmentDto",
+        "Type": "Domain.Model.AuthProcessDto.UpdateAppointmentDto",
         "IsRequired": true
       }
     ],

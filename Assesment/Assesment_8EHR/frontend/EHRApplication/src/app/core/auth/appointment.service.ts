@@ -18,4 +18,25 @@ export class AppointmentService {
       `https://localhost:7059/api/Appointment/getProvider/${userTypeId}`
     );
   }
+  getPatientAppointment(patientId: any): Observable<any> {
+    return this.http.get(
+      `https://localhost:7059/api/Appointment/getAllPatient/${patientId}`
+    );
+  }
+  getProviderAppointment(patientId: number): Observable<any> {
+    return this.http.get(
+      `https://localhost:7059/api/Appointment/getAllPatientByProvider/${patientId}`
+    );
+  }
+  cancelledAppointment(AppointmentId: number): Observable<any> {
+    return this.http.delete(
+      `https://localhost:7059/api/Appointment/DeleteAppointment/${AppointmentId}`
+    );
+  }
+  updatePatientAppointment(AppointmentId: any): Observable<any> {
+    return this.http.put(
+      `https://localhost:7059/api/Appointment/UpdatePatientAppointment`,
+      AppointmentId
+    );
+  }
 }

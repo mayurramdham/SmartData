@@ -9,5 +9,6 @@ namespace App.Core.Apps.User.Command
 {
     public class UpdateUserProfileCommandL:IRequest<object>
     {
+
     }
 }

@@ -22,6 +22,7 @@ import { JwtService } from '../../../core/utility/jwt.service';
 })
 export class AppointmentComponent {
   appointmentForm!: FormGroup;
+ 
   specialities: any[] = [];
   providers: any[] = [];
   userTypeData: any[] = [];
