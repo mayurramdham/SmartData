@@ -1,0 +1,1583 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\backend\\filter\\appexceptionfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:filter\\appexceptionfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\app.core\\apps\\movie\\query\\getallmoviequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\app.core\\apps\\user\\query\\userloginquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11372A5C-EC04-4207-9CA5-46A421AFDD93}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\infrastructure\\service\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\app.core\\interface\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\app.core\\apps\\user\\command\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\app.core\\apps\\movie\\query\\getallmoviedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\app.core\\apps\\movie\\command\\addmoviecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\app.core\\apps\\movie\\command\\deletemoviecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\app.core\\apps\\movie\\command\\updatemoviecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11372A5C-EC04-4207-9CA5-46A421AFDD93}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\infrastructure\\service\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\backend\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Infrastructure\\Migrations\\20250122090617_apikey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7462753-080F-409F-B5E8-56A2F8E0B465}|..\\Domain\\Domain.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\domain\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7462753-080F-409F-B5E8-56A2F8E0B465}|..\\Domain\\Domain.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\domain\\model\\updatemoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\app.core\\apps\\mappingprofile\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7462753-080F-409F-B5E8-56A2F8E0B465}|..\\Domain\\Domain.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\domain\\model\\validationdto\\moviedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7462753-080F-409F-B5E8-56A2F8E0B465}|..\\Domain\\Domain.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\domain\\model\\validationdto\\userdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF1B901-B7CF-483A-A385-918467052EEF}|..\\App.Core\\App.Core.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\app.core\\apps\\user\\query\\getalluserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\LoginDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\backend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\MovieDtoValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Model\\LoginDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\AddMovieCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Model\\MovieDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Migrations\\20250121103137_initial-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Migrations\\20250121092150_initial-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Migrations\\20250121092009_initial-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Migrations\\20250121064842_initial-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\LoginDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Apps\\Command\\CreateUserCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\DependancyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Migrations\\20241123091518_usermigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|c:\\users\\mayurramdham\\desktop\\moviefullstack\\backend\\movie_application\\backend\\backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{C2525D74-6AEF-4D20-A728-64FF7379C782}|Backend.csproj|solutionrelative:backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\Database\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\DependancyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\Interface\\IAppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\Apps\\Command\\CreateStudentCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\DependancyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Domain\\Domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\App.Core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\BackendStructure\\Infrastructure\\DependancyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\ValidationDTO\\LoginDtoValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\App.Core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Apps\\Query\\UserLoginQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Service\\JwtService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\UserDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\DependancyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Apps\\Query\\getAllUserQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Interface\\IJwtService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Entity\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Migrations\\20241123091715_usermigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Database\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\MappingProfile\\MappingProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\LoginDtoValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\App.Core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Interface\\IImageService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Service\\ResponseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Service\\JwtService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Service\\ImageService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\User\\Command\\CreateUserCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Entity\\Role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Entity\\Movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\DependancyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\User\\Query\\UserLoginQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Entity\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Model\\UserDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\User\\Query\\getAllUserQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Model\\ResponseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Database\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Interface\\IJwtService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\DependancyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Interface\\IAppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Infrastructure\\Migrations\\20250121180118_softdelete.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Infrastructure\\Service\\JwtService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\Movie\\Query\\GetAllMovieQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\MovieDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\User\\Query\\getAllUserQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\UpdateMovieCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\DeleteMovieCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Infrastructure\\Migrations\\20250121180118_softdelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Entity\\Movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\LoginDtoValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Entity\\Role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Entity\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\ResponseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\UpdateMovieDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\MovieDtoValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\AddMovieCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\MappingProfile\\MappingProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\UserDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppExceptionFilterAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Backend\\Filter\\AppExceptionFilterAttribute.cs",
+              "RelativeDocumentMoniker": "Filter\\AppExceptionFilterAttribute.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Backend\\Filter\\AppExceptionFilterAttribute.cs",
+              "RelativeToolTip": "Filter\\AppExceptionFilterAttribute.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T12:43:55.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Infrastructure\\Service\\JwtService.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Service\\JwtService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Infrastructure\\Service\\JwtService.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Service\\JwtService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAD4vycAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T10:07:28.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-15T04:39:58.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T04:26:00.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Backend.csproj",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Backend\\Backend.csproj",
+              "RelativeDocumentMoniker": "Backend.csproj",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Backend\\Backend.csproj",
+              "RelativeToolTip": "Backend.csproj",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-23T04:25:56.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetAllMovieQuery.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\App.Core\\Apps\\Movie\\Query\\GetAllMovieQuery.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\Movie\\Query\\GetAllMovieQuery.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\App.Core\\Apps\\Movie\\Query\\GetAllMovieQuery.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\Movie\\Query\\GetAllMovieQuery.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwCQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T06:38:20.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetAllMovieData.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\App.Core\\Apps\\Movie\\Query\\GetAllMovieData.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\Movie\\Query\\GetAllMovieData.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\App.Core\\Apps\\Movie\\Query\\GetAllMovieData.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\Movie\\Query\\GetAllMovieData.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T08:35:46.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Backend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Backend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwB0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T09:00:30.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\App.Core\\Interface\\IJwtService.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Interface\\IJwtService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\App.Core\\Interface\\IJwtService.cs",
+              "RelativeToolTip": "..\\App.Core\\Interface\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T10:08:22.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserLoginQuery.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\App.Core\\Apps\\User\\Query\\UserLoginQuery.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\User\\Query\\UserLoginQuery.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\App.Core\\Apps\\User\\Query\\UserLoginQuery.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\User\\Query\\UserLoginQuery.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAlwCQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T05:47:40.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\App.Core\\Apps\\User\\Command\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\User\\Command\\CreateUserCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\App.Core\\Apps\\User\\Command\\CreateUserCommand.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\User\\Command\\CreateUserCommand.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwDQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T04:42:21.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddMovieCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\AddMovieCommand.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\Movie\\Command\\AddMovieCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\AddMovieCommand.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\Movie\\Command\\AddMovieCommand.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T11:00:04.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DeleteMovieCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\DeleteMovieCommand.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\Movie\\Command\\DeleteMovieCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\DeleteMovieCommand.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\Movie\\Command\\DeleteMovieCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T11:00:02.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Backend\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Backend\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "Controllers\\MovieController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAhwE4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T11:36:12.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UpdateMovieCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\UpdateMovieCommand.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\Movie\\Command\\UpdateMovieCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\UpdateMovieCommand.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\Movie\\Command\\UpdateMovieCommand.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwBcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T07:21:29.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ImageService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Infrastructure\\Service\\ImageService.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Service\\ImageService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Infrastructure\\Service\\ImageService.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Service\\ImageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T10:00:34.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UpdateMovieDto.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Domain\\Model\\UpdateMovieDto.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Model\\UpdateMovieDto.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Domain\\Model\\UpdateMovieDto.cs",
+              "RelativeToolTip": "..\\Domain\\Model\\UpdateMovieDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T07:21:34.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Domain\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entity\\User.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Domain\\Entity\\User.cs",
+              "RelativeToolTip": "..\\Domain\\Entity\\User.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T09:05:08.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250122090617_apikey.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Infrastructure\\Migrations\\20250122090617_apikey.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20250122090617_apikey.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Infrastructure\\Migrations\\20250122090617_apikey.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Migrations\\20250122090617_apikey.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T09:06:17.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs",
+              "RelativeToolTip": "..\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T06:25:00.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MovieDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Domain\\Model\\ValidationDTO\\MovieDtoValidator.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Model\\ValidationDTO\\MovieDtoValidator.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Domain\\Model\\ValidationDTO\\MovieDtoValidator.cs",
+              "RelativeToolTip": "..\\Domain\\Model\\ValidationDTO\\MovieDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T06:38:46.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\App.Core\\Apps\\MappingProfile\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\MappingProfile\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\App.Core\\Apps\\MappingProfile\\MappingProfile.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\MappingProfile\\MappingProfile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T07:06:20.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "getAllUserQuery.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\App.Core\\Apps\\User\\Query\\getAllUserQuery.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Apps\\User\\Query\\getAllUserQuery.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\App.Core\\Apps\\User\\Query\\getAllUserQuery.cs",
+              "RelativeToolTip": "..\\App.Core\\Apps\\User\\Query\\getAllUserQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T05:47:38.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\LoginDTO.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\LoginDTO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:16:03.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "getAllUserQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\User\\Query\\getAllUserQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\User\\Query\\getAllUserQuery.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\User\\Query\\getAllUserQuery.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\User\\Query\\getAllUserQuery.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T18:28:11.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "MovieDto.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\MovieDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\MovieDto.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\MovieDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\MovieDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:13:48.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "GetAllMovieQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\Movie\\Query\\GetAllMovieQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\Movie\\Query\\GetAllMovieQuery.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\Movie\\Query\\GetAllMovieQuery.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\Movie\\Query\\GetAllMovieQuery.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T18:13:18.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Infrastructure\\Service\\JwtService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Infrastructure\\Service\\JwtService.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Infrastructure\\Service\\JwtService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Infrastructure\\Service\\JwtService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwBkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T19:06:01.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "20250121180118_softdelete.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Infrastructure\\Migrations\\20250121180118_softdelete.Designer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Infrastructure\\Migrations\\20250121180118_softdelete.Designer.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Infrastructure\\Migrations\\20250121180118_softdelete.Designer.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Infrastructure\\Migrations\\20250121180118_softdelete.Designer.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAiwA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T19:06:03.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "UserDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:23:13.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "UpdateMovieCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\UpdateMovieCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\UpdateMovieCommand.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\UpdateMovieCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\UpdateMovieCommand.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA/wA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:59:07.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "DeleteMovieCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\DeleteMovieCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\DeleteMovieCommand.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\DeleteMovieCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\DeleteMovieCommand.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T18:01:59.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "20250121180118_softdelete.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Infrastructure\\Migrations\\20250121180118_softdelete.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Infrastructure\\Migrations\\20250121180118_softdelete.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Infrastructure\\Migrations\\20250121180118_softdelete.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Infrastructure\\Migrations\\20250121180118_softdelete.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T18:01:18.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Entity\\Movie.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Entity\\Movie.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Entity\\Movie.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Entity\\Movie.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:14:58.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "LoginDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\LoginDtoValidator.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\LoginDtoValidator.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\LoginDtoValidator.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\LoginDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:55:03.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Entity\\Role.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Entity\\Role.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Entity\\Role.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Entity\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:55:11.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Entity\\User.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Entity\\User.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Entity\\User.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:55:23.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "ResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\ResponseDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\ResponseDto.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\ResponseDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\ResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:15:49.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "UpdateMovieDto.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\UpdateMovieDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\UpdateMovieDto.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\UpdateMovieDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\UpdateMovieDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:14:40.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "MovieDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\MovieDtoValidator.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\MovieDtoValidator.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\MovieDtoValidator.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\MovieDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:14:50.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Backend\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Backend\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T10:29:46.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "AddMovieCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\AddMovieCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\AddMovieCommand.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\AddMovieCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\AddMovieCommand.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:02:51.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\MappingProfile\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\MappingProfile\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\MappingProfile\\MappingProfile.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\MappingProfile\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:13:02.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\UserDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\UserDTO.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Mayur Ramdham\\Desktop\\Movie_Application\\Domain\\Model\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:15:56.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Model\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\Domain\\Model\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Model\\LoginDTO.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\Domain\\Model\\LoginDTO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T06:50:49.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MovieDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\MovieDtoValidator.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\Domain\\Model\\ValidationDTO\\MovieDtoValidator.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\MovieDtoValidator.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\Domain\\Model\\ValidationDTO\\MovieDtoValidator.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T12:35:26.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AddMovieCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\AddMovieCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\AddMovieCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\AddMovieCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\App.Core\\Apps\\Movie\\Command\\AddMovieCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T07:28:47.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MovieDto.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Model\\MovieDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\Domain\\Model\\MovieDto.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Model\\MovieDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\Domain\\Model\\MovieDto.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T10:37:59.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\MappingProfile\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\App.Core\\Apps\\MappingProfile\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\MappingProfile\\MappingProfile.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\App.Core\\Apps\\MappingProfile\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T12:23:45.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "LoginDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\LoginDtoValidator.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\Domain\\Model\\ValidationDTO\\LoginDtoValidator.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\LoginDtoValidator.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\Domain\\Model\\ValidationDTO\\LoginDtoValidator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T08:44:47.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "UserDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIAzwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T06:51:20.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "App.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\App.Core.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\App.Core\\App.Core.csproj",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\App.Core.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\App.Core\\App.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-21T07:23:55.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "IImageService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Interface\\IImageService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\App.Core\\Interface\\IImageService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Interface\\IImageService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\App.Core\\Interface\\IImageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T07:10:34.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Service\\ResponseDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\Infrastructure\\Service\\ResponseDto.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Service\\ResponseDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\Infrastructure\\Service\\ResponseDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T07:19:17.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Service\\JwtService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\Infrastructure\\Service\\JwtService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Service\\JwtService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\Infrastructure\\Service\\JwtService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowBMAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T06:21:32.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "ImageService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Service\\ImageService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\Infrastructure\\Service\\ImageService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Service\\ImageService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\Infrastructure\\Service\\ImageService.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAApwF4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T07:10:07.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\User\\Command\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\App.Core\\Apps\\User\\Command\\CreateUserCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\User\\Command\\CreateUserCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\App.Core\\Apps\\User\\Command\\CreateUserCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T06:21:49.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Entity\\Role.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\Domain\\Entity\\Role.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Entity\\Role.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\Domain\\Entity\\Role.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T08:36:48.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Entity\\Movie.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\Domain\\Entity\\Movie.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Entity\\Movie.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\Domain\\Entity\\Movie.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T07:31:37.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\Infrastructure\\DependancyInjection.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\DependancyInjection.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\Infrastructure\\DependancyInjection.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T11:38:21.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "UserLoginQuery.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\User\\Query\\UserLoginQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\App.Core\\Apps\\User\\Query\\UserLoginQuery.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\User\\Query\\UserLoginQuery.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\App.Core\\Apps\\User\\Query\\UserLoginQuery.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T06:23:23.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20250121103137_initial-migration.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Migrations\\20250121103137_initial-migration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\Infrastructure\\Migrations\\20250121103137_initial-migration.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Migrations\\20250121103137_initial-migration.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\Infrastructure\\Migrations\\20250121103137_initial-migration.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T10:31:38.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\Domain\\Entity\\User.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Entity\\User.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\Domain\\Entity\\User.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T06:41:40.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Model\\UserDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\Domain\\Model\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Model\\UserDTO.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\Domain\\Model\\UserDTO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T06:50:30.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "getAllUserQuery.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\User\\Query\\getAllUserQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\App.Core\\Apps\\User\\Query\\getAllUserQuery.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Apps\\User\\Query\\getAllUserQuery.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\App.Core\\Apps\\User\\Query\\getAllUserQuery.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwB8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T06:22:49.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "ResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Model\\ResponseDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\Domain\\Model\\ResponseDto.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Domain\\Model\\ResponseDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\Domain\\Model\\ResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T07:11:52.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20250121092150_initial-migration.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Migrations\\20250121092150_initial-migration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\Infrastructure\\Migrations\\20250121092150_initial-migration.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Migrations\\20250121092150_initial-migration.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\Infrastructure\\Migrations\\20250121092150_initial-migration.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAgwFIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T09:21:50.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250121092009_initial-migration.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Migrations\\20250121092009_initial-migration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\Infrastructure\\Migrations\\20250121092009_initial-migration.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Migrations\\20250121092009_initial-migration.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\Infrastructure\\Migrations\\20250121092009_initial-migration.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T09:20:09.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Database\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\Infrastructure\\Database\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Database\\AppDbContext.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\Infrastructure\\Database\\AppDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T06:40:34.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250121064842_initial-migration.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Migrations\\20250121064842_initial-migration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\Infrastructure\\Migrations\\20250121064842_initial-migration.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\Infrastructure\\Migrations\\20250121064842_initial-migration.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\Infrastructure\\Migrations\\20250121064842_initial-migration.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T06:48:42.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Interface\\IJwtService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\App.Core\\Interface\\IJwtService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Interface\\IJwtService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\App.Core\\Interface\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T06:25:21.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\App.Core\\DependancyInjection.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\DependancyInjection.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\App.Core\\DependancyInjection.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T06:25:17.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "LoginDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\ValidationDTO\\LoginDtoValidator.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\ValidationDTO\\LoginDtoValidator.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\ValidationDTO\\LoginDtoValidator.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\ValidationDTO\\LoginDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T12:50:30.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "IAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Interface\\IAppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Movie_Application\\App.Core\\Interface\\IAppDbContext.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Movie_Application\\App.Core\\Interface\\IAppDbContext.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Movie_Application\\App.Core\\Interface\\IAppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T06:25:19.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Apps\\Command\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Apps\\Command\\CreateUserCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Apps\\Command\\CreateUserCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Apps\\Command\\CreateUserCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T04:32:28.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\LoginDTO.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T10:07:20.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UserDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\ValidationDTO\\UserDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T11:52:05.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\DependancyInjection.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\DependancyInjection.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\DependancyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T08:47:48.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Domain.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-23T04:32:38.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "App.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\App.Core.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\App.Core.csproj",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\App.Core.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\App.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-23T04:32:44.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "UserLoginQuery.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Apps\\Query\\UserLoginQuery.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T10:00:18.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Service\\JwtService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Service\\JwtService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Service\\JwtService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Service\\JwtService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIBJwCoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T09:28:16.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\UserDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\UserDTO.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Model\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T08:46:35.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\DependancyInjection.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\DependancyInjection.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\DependancyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T04:29:43.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "getAllUserQuery.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Apps\\Query\\getAllUserQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Apps\\Query\\getAllUserQuery.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Apps\\Query\\getAllUserQuery.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Apps\\Query\\getAllUserQuery.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwB0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T11:13:48.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Interface\\IJwtService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Interface\\IJwtService.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Interface\\IJwtService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\App.Core\\Interface\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T09:25:30.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Entity\\User.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Entity\\User.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Domain\\Entity\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T08:44:27.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-23T04:32:36.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20241123091715_usermigration.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Migrations\\20241123091715_usermigration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Migrations\\20241123091715_usermigration.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Migrations\\20241123091715_usermigration.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Migrations\\20241123091715_usermigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T09:17:15.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20241123091518_usermigration.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Migrations\\20241123091518_usermigration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Migrations\\20241123091518_usermigration.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Migrations\\20241123091518_usermigration.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Migrations\\20241123091518_usermigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T09:15:18.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Database\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Database\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Database\\AppDbContext.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\Assesment_6\\Infrastructure\\Database\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T04:32:32.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Backend.http",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Backend\\Backend.http",
+              "RelativeDocumentMoniker": "Backend.http",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\MovieFullStack\\Backend\\Movie_Application\\Backend\\Backend.http",
+              "RelativeToolTip": "Backend.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-11-23T04:33:58.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\BackendStructure\\Infrastructure\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\BackendStructure\\Infrastructure\\DependancyInjection.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\BackendStructure\\Infrastructure\\DependancyInjection.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Common\\BackendStructure\\Infrastructure\\DependancyInjection.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T05:16:09.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\DependancyInjection.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\DependancyInjection.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\DependancyInjection.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T05:00:59.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\Interface\\IAppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\Interface\\IAppDbContext.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\Interface\\IAppDbContext.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\Interface\\IAppDbContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T04:49:17.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CreateStudentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\Apps\\Command\\CreateStudentCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\Apps\\Command\\CreateStudentCommand.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\Apps\\Command\\CreateStudentCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\Apps\\Command\\CreateStudentCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T04:48:11.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\Database\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\Database\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\Database\\AppDbContext.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\Database\\AppDbContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T04:39:46.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Infrastructure\\Infrastructure.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-15T04:39:13.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\DependancyInjection.cs",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\DependancyInjection.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\DependancyInjection.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T04:38:46.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Domain\\Domain.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\Domain\\Domain.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-15T04:21:36.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "App.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\App.Core.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\App.Core.csproj",
+              "ToolTip": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\App.Core.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\Mayur\\DotNetAssesmentMain\\Asssesment_2\\App.Core\\App.Core.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-15T04:20:43.356Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 751,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 751,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
