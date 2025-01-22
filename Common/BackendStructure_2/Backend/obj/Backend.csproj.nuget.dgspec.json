@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\BackendStructure_2\\Backend\\Backend.csproj": {}
+    "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Common\\BackendStructure_2\\Backend\\Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\BackendStructure_2\\Backend\\Backend.csproj": {
+    "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Common\\BackendStructure_2\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\BackendStructure_2\\Backend\\Backend.csproj",
+        "projectUniqueName": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Common\\BackendStructure_2\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\BackendStructure_2\\Backend\\Backend.csproj",
+        "projectPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Common\\BackendStructure_2\\Backend\\Backend.csproj",
         "packagesPath": "C:\\Users\\mayurramdham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\BackendStructure_2\\Backend\\obj\\",
+        "outputPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Common\\BackendStructure_2\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mayurramdham\\AppData\\Roaming\\NuGet\\NuGet.Config",

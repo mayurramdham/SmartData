@@ -4888,11 +4888,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\BackendStructure_2\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Common\\BackendStructure_2\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\BackendStructure_2\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Common\\BackendStructure_2\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\mayurramdham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\BackendStructure_2\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Common\\BackendStructure_2\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mayurramdham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4910,11 +4910,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\BackendStructure_2\\App.Core\\App.Core.csproj": {
-              "projectPath": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\BackendStructure_2\\App.Core\\App.Core.csproj"
+            "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Common\\BackendStructure_2\\App.Core\\App.Core.csproj": {
+              "projectPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Common\\BackendStructure_2\\App.Core\\App.Core.csproj"
             },
-            "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\BackendStructure_2\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\BackendStructure_2\\Domain\\Domain.csproj"
+            "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Common\\BackendStructure_2\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Common\\BackendStructure_2\\Domain\\Domain.csproj"
             }
           }
         }

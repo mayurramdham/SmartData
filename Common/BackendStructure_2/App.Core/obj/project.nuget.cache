@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xJs4OYn7ucE=",
+  "dgSpecHash": "0V+vzoGrdXg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mayurramdham\\Desktop\\Mayur\\DotNetAssesmentMain\\Common\\BackendStructure_2\\App.Core\\App.Core.csproj",
+  "projectFilePath": "C:\\Users\\mayurramdham\\Desktop\\SmartData\\Common\\BackendStructure_2\\App.Core\\App.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mayurramdham\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
     "C:\\Users\\mayurramdham\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
